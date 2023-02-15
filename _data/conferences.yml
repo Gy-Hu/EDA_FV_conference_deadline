@@ -26,3 +26,21 @@
   deadline: ["2023-05-08 23:59"]
   place: Ames, Iowa, USA
   tags: [EDA, FV]
+
+- name: NFM
+  year: 2023
+  date: May 16-18
+  description: NASA Formal Methods Symposium
+  link: https://conf.researchr.org/home/nfm-2023
+  deadline: ["2023-01-06 23:59"]
+  place: Houston, Texas, USA
+  tags: [FV]
+
+- name: ECAI
+  year: 2023
+  date: "September 30 - October 5"
+  description: European Conference on Artificial Intelligence
+  link: https://ecai2023.eu/
+  deadline: ["2023-05-02 23:59"]
+  place: Krakow, Poland
+  tags: [ML]
