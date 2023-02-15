@@ -20,7 +20,7 @@
 
 - name: FMCAD
   year: 2023
-  date: "October 23 - October 27"
+  date: "October 23 - 27"
   description: Formal Methods in Computer-Aided Design
   link: https://fmcad.org/FMCAD23/
   deadline: ["2023-05-08 23:59"]
