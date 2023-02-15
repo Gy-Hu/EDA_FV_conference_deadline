@@ -53,3 +53,12 @@
   deadline: ["2023-02-03 23:59"]
   place: Paris, France
   tags: [FV]
+
+- name: ITC
+  year: 2023
+  date: October 8-13
+  description: International Test Conference
+  link: http://www.itctestweek.org/
+  deadline: ["2023-03-20 23:59"]
+  place: Disneyland, CA, USA
+  tags: [TES]
