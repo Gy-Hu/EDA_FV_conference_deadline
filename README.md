@@ -13,14 +13,14 @@ Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
 Example record:
 
 ```
-- name: Euro S&P
-  description: IEEE European Symposium on Security and Privacy
-  year: 2018
-  link: http://www.ieee-security.org/TC/EuroSP2018/
-  deadline: "2017-08-15 23:59"
-  date: April 24-26
-  place: London, UK
-  tags: [SEC, PRIV]
+- name: ICCAD
+  year: 2023
+  date: "October 29 - November 2"
+  description: The International Conference on Computer-Aided Design
+  link: https://www.ieee-security.org/TC/SP2024
+  deadline: ["2023-05-15 23:59"]
+  place: San Francisco, California, USA
+  tags: [EDA]
 ```
 
 Descriptions of the fields:
