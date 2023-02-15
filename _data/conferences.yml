@@ -1,5 +1,4 @@
 ---
- # Electronic Design Automation
   
 - name: ICCAD
   year: 2023
@@ -15,6 +14,15 @@
   date: "September 10 - 13"
   description: Machine Learning for CAD
   link: https://mlcad-workshop.org/
-  deadline: ["2023-7-17 23:59"]
+  deadline: ["2023-07-17 23:59"]
   place: Snowbird, Utah, USA
   tags: [EDA, ML]
+
+- name: FMCAD
+  year: 2023
+  date: "October 23 - October 27"
+  description: Formal Methods in Computer-Aided Design
+  link: https://fmcad.org/FMCAD23/
+  deadline: ["2023-05-08 23:59"]
+  place: Ames, Iowa, USA
+  tags: [EDA, FV]
