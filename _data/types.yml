@@ -1,5 +1,7 @@
 ---
-- name: Security
+- name: Electronic Design Automation
   tag: EDA
+- name: Formal Verification
+  tag: FV
 
   
