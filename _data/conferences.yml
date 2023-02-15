@@ -11,7 +11,7 @@
 
 - name: MLCAD
   year: 2023
-  date: "September 10 - 13"
+  date: September 10-13
   description: Machine Learning for CAD
   link: https://mlcad-workshop.org/
   deadline: ["2023-07-17 23:59"]
@@ -20,7 +20,7 @@
 
 - name: FMCAD
   year: 2023
-  date: "October 23 - 27"
+  date: October 23-27
   description: Formal Methods in Computer-Aided Design
   link: https://fmcad.org/FMCAD23/
   deadline: ["2023-05-08 23:59"]
