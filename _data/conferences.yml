@@ -44,3 +44,12 @@
   deadline: ["2023-05-02 23:59"]
   place: Krakow, Poland
   tags: [ML]
+
+- name: CAV
+  year: 2023
+  date: July 17-22
+  description: International Conference on Computer Aided Verification
+  link: http://www.i-cav.org/2023/
+  deadline: ["2023-02-03 23:59"]
+  place:  Paris, France
+  tags: [FV]
