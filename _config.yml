@@ -3,7 +3,7 @@ description: Countdowns to top Formal Verification conference deadlines.
 author: Gary HU
 
 domain: "gy-hu.github.io"
-baseurl: "https://gy-hu.github.io/FV_conference_deadline"
+baseurl: "https://gy-hu.github.io/EDA_FV_conference_deadline"
 
 twitter_username: rdsspq_eax
 github_username: Gy-Hu
