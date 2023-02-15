@@ -1,14 +1,14 @@
-title: Security and Privacy Conference Deadlines
-description: Countdowns to top Security and Privacy conference deadlines.
-author: Bogdan Kulynych
+title: EDA and Formal Verification Conference Deadlines
+description: Countdowns to top Formal Verification conference deadlines.
+author: Gary HU
 
-domain: "sec-deadlines.github.io"
-baseurl: ""
+domain: "gy-hu.github.io"
+baseurl: "https://gy-hu.github.io/FV_conference_deadline"
 
-twitter_username: hiddenmarkov
-github_username: sec-deadlines
-github_repo: sec-deadlines
-ga_id: UA-104921371-1
+twitter_username: rdsspq_eax
+github_username: Gy-Hu
+github_repo: FV_conference_deadline
+#ga_id: UA-104921371-1
 
 markdown: kramdown
 
