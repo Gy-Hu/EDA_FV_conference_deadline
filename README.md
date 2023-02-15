@@ -1,4 +1,4 @@
-# Security and Privacy deadlines countdown
+# EDA and Formal Verification deadlines countdown
 
 Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
 
