@@ -62,3 +62,12 @@
   deadline: ["2023-03-20 23:59"]
   place: Disneyland, Anaheim, CA
   tags: [EDA, TES]
+
+- name: ASP-DAC
+  year: 2024
+  date: January 22-25
+  description: Asia and South Pacific Design Automation Conference
+  link: https://www.aspdac.com/aspdac2024/call_for_papers/
+  deadline: ["2023-07-23 23:59"]
+  place: Incheon Songdo Convensia, South Korea
+  tags: [EDA]
