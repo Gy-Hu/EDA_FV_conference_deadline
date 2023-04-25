@@ -17,7 +17,7 @@ Example record:
   year: 2023
   date: "October 29 - November 2"
   description: The International Conference on Computer-Aided Design
-  link: https://www.ieee-security.org/TC/SP2024
+  link: https://iccad.com/
   deadline: ["2023-05-15 23:59"]
   place: San Francisco, California, USA
   tags: [EDA]
