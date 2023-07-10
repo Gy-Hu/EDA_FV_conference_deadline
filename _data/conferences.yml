@@ -1,5 +1,13 @@
 ---
-  
+- name: VMCAI
+  year: 2024
+  date: "January 15 - 16"
+  description:  The International Conference on Verification, Model Checking, and Abstract Interpretation
+  link: https://popl24.sigplan.org/home/VMCAI-2024
+  deadline: ["2023-08-31 23:59"]
+  place: London, United Kingdom
+  tags: [FV]
+
 - name: ICCAD
   year: 2023
   date: "October 29 - November 2"
