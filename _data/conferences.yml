@@ -19,7 +19,7 @@
 
 - name: DATE
   year: 2024
-  date: "March 25-27"
+  date: March 25-27
   description: Design, Automation and Test in Europe Conference
   link: https://www.date-conference.com/date-2024-call-papers
   deadline: ["2023-09-09 23:59"]
