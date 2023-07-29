@@ -160,3 +160,12 @@
   deadline: ["2023-06-04 23:59"]
   place: Thessaloniki, Greece
   tags: [FV]
+
+- name: ICFEM
+  year: 2023
+  date: November 21-24
+  description: International Conference on Formal Engineering Methods
+  link: https://formal-analysis.com/icfem/2023/
+  deadline: ["2023-05-21 23:59"]
+  place: Brisbane, Australia
+  tags: [FV]
