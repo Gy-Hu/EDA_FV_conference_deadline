@@ -8,6 +8,42 @@
   place: London, United Kingdom
   tags: [FV]
 
+- name: FM
+  year: 2024
+  date: "September 9 - 13"
+  description:  The International Symposium on Formal Methods
+  link: https://www.fm24.polimi.it/
+  deadline: ["2024-04-05 23:59"]
+  place: Milan, Italy
+  tags: [FV]
+
+- name: CDC
+  year: 2024
+  date: "December 17 - 19"
+  description:  Conference on Decision and Control
+  link: https://cdc2024.ieeecss.org/
+  deadline: ["2024-03-01 23:59"]
+  place: Milan, Italy
+  tags: [CS]
+
+- name: TACAS
+  year: 2024
+  date: "April 8 - 11"
+  description:  International Conference on Tools and Algorithms for the Construction and Analysis of Systems
+  link: https://etaps.org/2024/conferences/tacas/
+  deadline: ["2023-10-12 23:59"]
+  place: Luxembourg City, Luxembourg
+  tags: [FV]
+
+- name: NFM
+  year: 2023
+  date: "May 16 - 18"
+  description:  NASA Formal Methods 
+  link: https://conf.researchr.org/home/nfm-2023
+  deadline: ["2023-01-06 23:59"]
+  place: Houston, Texas, United States
+  tags: [FV]
+
 - name: ICCAD
   year: 2023
   date: "October 29 - November 2"
