@@ -178,3 +178,21 @@
   deadline: ["2023-06-25 23:59"]
   place: Lima, Peru
   tags: [FV]
+
+- name: TASE
+  year: 2023
+  date: July 4-6
+  description: International Symposium on Theoretical Aspects of Software Engineering
+  link: https://plrg-bristol.github.io/tase2023/cfp.html
+  deadline: ["2023-02-17 23:59"]
+  place: Bristol, United Kingdom
+  tags: [FV]
+
+- name: CONCUR
+  year: 2023
+  date: September 19-22
+  description: International Conference on Concurrency Theory
+  link: https://www.uantwerpen.be/en/conferences/confest-2023/concur/call/
+  deadline: ["2023-04-24 23:59"]
+  place: University of Antwerp, Belgium
+  tags: [FV]
