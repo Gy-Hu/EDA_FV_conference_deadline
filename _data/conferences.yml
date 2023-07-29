@@ -169,3 +169,12 @@
   deadline: ["2023-05-21 23:59"]
   place: Brisbane, Australia
   tags: [FV]
+
+- name: ICTAC
+  year: 2023
+  date: December 4-8
+  description: International Colloquium on Theoretical Aspects of Computing
+  link: https://ictac2023.compsust.utec.edu.pe/
+  deadline: ["2023-06-25 23:59"]
+  place: Lima, Peru
+  tags: [FV]
