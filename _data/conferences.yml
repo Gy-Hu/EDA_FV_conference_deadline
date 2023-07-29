@@ -124,3 +124,12 @@
   deadline: ["2023-11-30 23:59"]
   place: Banff, Alberta, Canada
   tags: [PG]
+
+- name: DAC
+  year: 2024
+  date: June 23-27
+  description: The 61th Design Automation Conference
+  link: https://www.dac.com/
+  deadline: ["2023-11-21 23:59"]
+  place: San Francisco, CA
+  tags: [EDA]
