@@ -133,3 +133,21 @@
   deadline: ["2023-11-21 23:59"]
   place: San Francisco, CA
   tags: [EDA]
+
+- name: ATVA
+  year: 2023
+  date: October 24-27
+  description: International Symposium on Automated Technology for Verification and Analysis
+  link: https://atva-conference.org/2023/?page_id=32
+  deadline: ["2023-05-11 23:59"]
+  place: Singapore
+  tags: [FV]
+
+- name: SETTA
+  year: 2023
+  date: November 27-29
+  description: Symposium on Dependable Software Engineering - Theories, Tools and Applications
+  link: http://www.ios.ac.cn/setta2023/index.php
+  deadline: ["2023-08-17 23:59"]
+  place: Nanjing, China
+  tags: [FV]
