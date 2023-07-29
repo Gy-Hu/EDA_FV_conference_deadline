@@ -124,3 +124,12 @@
   deadline: ["2023-07-23 23:59"]
   place: Incheon Songdo Convensia, South Korea
   tags: [EDA]
+
+- name: ICAPS
+  year: 2024
+  date: June 1-6
+  description: The 34th International Conference on Automated Planning and Scheduling
+  link: https://icaps24.icaps-conference.org/home/
+  deadline: ["2023-11-30 23:59"]
+  place: Banff, Alberta, Canada
+  tags: [PG]
