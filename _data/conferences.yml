@@ -196,3 +196,22 @@
   deadline: ["2023-04-24 23:59"]
   place: University of Antwerp, Belgium
   tags: [FV]
+
+
+- name: FCCM
+  year: 2023
+  date: May 8-11
+  description: IEEE International Symposium On Field-Programmable Custom Computing Machines
+  link: https://www.fccm.org/
+  deadline: ["2023-02-28 23:59"]
+  place: Marina Del Rey, CA, US
+  tags: [EDA]
+
+- name: FCCM
+  year: 2023
+  date: June 5-6
+  description: International Workshop on Logic & Synthesis
+  link: https://www.iwls.org/iwls2023/
+  deadline: ["2023-05-31 23:59"]
+  place: EPFL, Lausanne, Switzerland
+  tags: [EDA]
