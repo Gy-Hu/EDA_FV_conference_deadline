@@ -215,3 +215,21 @@
   deadline: ["2023-04-10 23:59"]
   place: EPFL, Lausanne, Switzerland
   tags: [EDA]
+
+- name: ICCD
+  year: 2023
+  date: November 6-8
+  description: 41st IEEE International Conference on Computer Design 
+  link: https://www.iccd-conf.com/Home.html
+  deadline: ["2023-06-25 23:59"]
+  place: Washington DC, USA
+  tags: [EDA]
+
+- name: FPGA
+  year: 2024
+  date: March 3-5
+  description: International Symposium on Field-Programmable Gate Arrays
+  link: https://www.isfpga.org/
+  deadline: ["2023-10-06 23:59"]
+  place: Monterey, CA, USA
+  tags: [EDA]
