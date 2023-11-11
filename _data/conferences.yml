@@ -251,3 +251,12 @@
   deadline: ["2024-04-01 23:59"]
   place: Pasadena, California, United States
   tags: [PL]
+
+- name: ITC-Asia
+  year: 2023
+  date: September 12-14
+  description: The IEEE International Test Conference in Asia
+  link: https://www.itc-asia.info.hiroshima-cu.ac.jp/2023/
+  deadline: ["2023-05-12 23:59"]
+  place: Kunibiki Messe, Matsue, Shimane, Japan
+  tags: [TES]
