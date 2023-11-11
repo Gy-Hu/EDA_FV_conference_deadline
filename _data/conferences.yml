@@ -233,3 +233,21 @@
   deadline: ["2023-10-06 23:59"]
   place: Monterey, CA, USA
   tags: [EDA]
+
+- name: ASPLOS
+  year: 2024
+  date: "April 27 - May 01"
+  description: International Conference on Architectural Support for Programming Languages and Operating Systems
+  link: https://www.asplos-conference.org/
+  deadline: ["2023-11-23 23:59"]
+  place: San Diego, CA, USA
+  tags: [PL]
+
+- name: OOPSLA
+  year: 2024
+  date: October 20-25
+  description: The Object-Oriented Programming, Systems, Languages, and Applications
+  link: https://2024.splashcon.org/track/splash-2024-oopsla#Call-for-Papers
+  deadline: ["2024-04-01 23:59"]
+  place: Pasadena, California, United States
+  tags: [PL]
