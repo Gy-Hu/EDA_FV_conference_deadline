@@ -260,3 +260,12 @@
   deadline: ["2023-05-12 23:59"]
   place: Kunibiki Messe, Matsue, Shimane, Japan
   tags: [TES]
+
+- name: IJCNN
+  year: 2023
+  date: June 18-22
+  description: International Joint Conference on Neural Network
+  link: https://2023.ijcnn.org/
+  deadline: ["2023-01-15 23:59"]
+  place: Queensland, Australia
+  tags: [ML]
