@@ -278,3 +278,12 @@
   deadline: ["2023-02-27 23:59"]
   place: Knoxville, TN, USA
   tags: [EDA]
+
+- name: ISVLSI
+  year: 2023
+  date: June 20-23
+  description: IEEE Computer Society Annual Symposium on VLSI
+  link: https://www.ufrgs.br/isvlsi2023/
+  deadline: ["2023-03-30 23:59"]
+  place: Iguazu Falls, Brazil
+  tags: [EDA]
