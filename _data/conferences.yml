@@ -296,3 +296,12 @@
   deadline: ["2024-02-10 23:59"]
   place: Xian, China
   tags: [EDA]
+
+- name: ISLPED
+  year: 2023
+  date: August 7-9
+  description: ACM/IEEE International Symposium on Low Power Electronics and Design
+  link: https://www.islped.org/2023/
+  deadline: ["2023-05-24 23:59"]
+  place: TU Wien, Vienna, Austria
+  tags: [EDA]
