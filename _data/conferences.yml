@@ -72,30 +72,30 @@
   tags: [EDA, FV]
 
 - name: NFM
-  year: 2023
-  date: May 16-18
+  year: 2024
+  date: June 4-6
   description: NASA Formal Methods Symposium
-  link: https://conf.researchr.org/home/nfm-2023
-  deadline: ["2023-01-06 23:59"]
-  place: Houston, Texas, USA
+  link: https://conf.researchr.org/home/nfm-2024
+  deadline: ["2023-12-08 23:59"]
+  place: Moffett Field, CA 94035, United States
   tags: [FV]
 
 - name: ECAI
-  year: 2023
-  date: "September 30 - October 5"
+  year: 2024
+  date: October 19-24
   description: European Conference on Artificial Intelligence
-  link: https://ecai2023.eu/
-  deadline: ["2023-05-02 23:59"]
-  place: Krakow, Poland
+  link: https://www.ecai2024.eu/
+  deadline: ["2024-04-19 23:59"]
+  place: Santiago de Compostela, Spain
   tags: [ML]
 
 - name: CAV
-  year: 2023
-  date: July 17-22
+  year: 2024
+  date: July 22-27
   description: International Conference on Computer Aided Verification
-  link: http://www.i-cav.org/2023/
-  deadline: ["2023-02-03 23:59"]
-  place: Paris, France
+  link: http://www.i-cav.org/2024/
+  deadline: ["2024-01-19 23:59"]
+  place: Montreal, Canada
   tags: [FV]
 
 - name: ITC
@@ -180,12 +180,12 @@
   tags: [FV]
 
 - name: TASE
-  year: 2023
-  date: July 4-6
+  year: 2024
+  date: "July 29 - August 01"
   description: International Symposium on Theoretical Aspects of Software Engineering
-  link: https://plrg-bristol.github.io/tase2023/cfp.html
-  deadline: ["2023-02-17 23:59"]
-  place: Bristol, United Kingdom
+  link: https://tase2024.github.io/
+  deadline: ["2024-02-17 23:59"]
+  place: Guiyang, China
   tags: [FV]
 
 - name: CONCUR
@@ -199,20 +199,20 @@
 
 
 - name: FCCM
-  year: 2023
-  date: May 8-11
+  year: 2024
+  date: May 5-8
   description: IEEE International Symposium On Field-Programmable Custom Computing Machines
   link: https://www.fccm.org/
-  deadline: ["2023-02-28 23:59"]
-  place: Marina Del Rey, CA, US
+  deadline: ["2024-01-09 23:59"]
+  place: Orlando, FL, USA
   tags: [EDA]
 
 - name: IWLS
-  year: 2023
-  date: June 5-6
+  year: 2024
+  date: June 6-7
   description: International Workshop on Logic & Synthesis
-  link: https://www.iwls.org/iwls2023/
-  deadline: ["2023-04-10 23:59"]
+  link: https://www.iwls.org/iwls2024/
+  deadline: ["2024-03-29 23:59"]
   place: EPFL, Lausanne, Switzerland
   tags: [EDA]
 
@@ -262,12 +262,12 @@
   tags: [TES]
 
 - name: IJCNN
-  year: 2023
-  date: June 18-22
+  year: 2024
+  date: "June 30 - July 05"
   description: International Joint Conference on Neural Network
-  link: https://2023.ijcnn.org/
+  link: https://2024.ieeewcci.org/
   deadline: ["2023-01-15 23:59"]
-  place: Queensland, Australia
+  place: YOKOHAMA, JAPAN
   tags: [ML]
 
 - name: GLSVLSI
@@ -305,3 +305,12 @@
   deadline: ["2023-05-24 23:59"]
   place: TU Wien, Vienna, Austria
   tags: [EDA]
+
+- name: VSTTE
+  year: 2023
+  date: October 23-24
+  description: International Conference on Verified Software - Theories, Tools, and Experiments
+  link: https://homepage.cs.uiowa.edu/~ajreynol/VSTTE2023/
+  deadline: ["2023-07-21 23:59"]
+  place: Ames, Iowa, USA
+  tags: [PL]
