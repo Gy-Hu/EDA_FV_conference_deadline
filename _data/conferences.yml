@@ -314,3 +314,12 @@
   deadline: ["2023-07-21 23:59"]
   place: Ames, Iowa, USA
   tags: [PL]
+
+- name: ICECCS
+  year: 2024
+  date: June 19-21
+  description: International Conference on Engineering of Complex Computer Systems
+  link: https://cyprusconferences.org/iceccs2024/
+  deadline: ["2023-12-08 23:59"]
+  place: Limassol, Cyprus
+  tags: [FV]
