@@ -323,3 +323,12 @@
   deadline: ["2023-12-08 23:59"]
   place: Limassol, Cyprus
   tags: [FV]
+
+- name: LICS
+  year: 2024
+  date: July 8-12
+  description: ACM/IEEE Symposium on Logic in Computer Science 
+  link: https://lics.siglog.org/lics24/
+  deadline: ["2024-01-21 23:59"]
+  place: Tallinn, Estonia
+  tags: [FV]
