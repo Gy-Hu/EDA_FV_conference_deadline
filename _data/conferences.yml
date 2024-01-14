@@ -332,3 +332,12 @@
   deadline: ["2024-01-21 23:59"]
   place: Tallinn, Estonia
   tags: [FV]
+
+- name: LAD
+  year: 2024
+  date: June 28-29
+  description: IEEE International Workshop on LLM-Aided Design  
+  link: https://www.islad.org/call-for-papers
+  deadline: ["2024-04-01 23:59"]
+  place: San Jose, CA, USA
+  tags: [EDA]
