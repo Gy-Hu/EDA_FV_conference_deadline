@@ -54,11 +54,11 @@
   tags: [EDA]
 
 - name: MLCAD
-  year: 2023
-  date: September 10-13
+  year: 2024
+  date: September 9-11
   description: Machine Learning for CAD
-  link: https://mlcad-workshop.org/
-  deadline: ["2023-07-17 23:59"]
+  link: https://mlcad.org/symposium/
+  deadline: ["2023-05-18 23:59"]
   place: Snowbird, Utah, USA
   tags: [EDA, ML]
 
@@ -349,4 +349,22 @@
   link: https://cfwosh2024.github.io/
   deadline: ["2024-03-03 23:59"]
   place:  Ischia, Italy
+  tags: [EDA]
+
+- name: Internetware
+  year: 2024
+  date: July 24-26
+  description: Asia-Pacific Symposium on Internetware
+  link: https://conf.researchr.org/home/internetware-2024
+  deadline: ["2024-04-02 23:59"]
+  place:  Macau, China
+  tags: [FV]
+
+- name: OSDA
+  year: 2024
+  date: March 25-26
+  description: Workshop on Open-Source Design Automation
+  link: https://osda.ws/
+  deadline: ["2024-02-15 23:59"]
+  place:  Valencia, Spain
   tags: [EDA]
