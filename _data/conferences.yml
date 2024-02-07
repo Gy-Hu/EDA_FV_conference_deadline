@@ -368,3 +368,12 @@
   deadline: ["2024-02-15 23:59"]
   place:  Valencia, Spain
   tags: [EDA]
+
+- name: ISCAS
+  year: 2024
+  date: May 19-22
+  description: International Symposium on Circuits and Systems
+  link: https://2024.ieee-iscas.org/
+  deadline: ["2023-11-07 23:59"]
+  place:  Singapore
+  tags: [EDA]
