@@ -36,12 +36,12 @@
   tags: [FV]
 
 - name: ICCAD
-  year: 2023
+  year: 2024
   date: "October 29 - November 2"
   description: The International Conference on Computer-Aided Design
   link: https://iccad.com/
-  deadline: ["2023-05-15 23:59"]
-  place: San Francisco, California, USA
+  deadline: ["2024-04-28 23:59"]
+  place: New York, Metropolitan Area, USA
   tags: [EDA]
 
 - name: DATE
