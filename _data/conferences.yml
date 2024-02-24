@@ -377,3 +377,21 @@
   deadline: ["2023-11-07 23:59"]
   place:  Singapore
   tags: [EDA]
+
+- name: DVCon
+  year: 2024
+  date: March 4-7
+  description: Design And Verification Conference And Exhibition
+  link: https://2024.dvcon.org/
+  deadline: ["2023-09-15 23:59"]
+  place:  San Jose, CA, USA
+  tags: [EDA]
+
+- name: JUG
+  year: 2023
+  date: October 18-19
+  description: Jasper User Group
+  link: https://www.cvent.com/c/abstracts/4a26a759-45c2-4305-bfb0-ecef9b699518
+  deadline: ["2023-08-23 23:59"]
+  place:  SSan Jose, CA, USA
+  tags: [EDA]
