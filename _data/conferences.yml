@@ -395,3 +395,12 @@
   deadline: ["2023-08-23 23:59"]
   place:  SSan Jose, CA, USA
   tags: [EDA]
+
+- name: EGRAPH
+  year: 2024
+  date: June 24-28
+  description: EGRAPHS workshop
+  link: https://pldi24.sigplan.org/home/egraphs-2024
+  deadline: ["2023-04-05 23:59"]
+  place:   Copenhagen, Denmark
+  tags: [PL]
