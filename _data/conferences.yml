@@ -413,3 +413,12 @@
   deadline: ["2023-11-16 23:59"]
   place:   Copenhagen, Denmark
   tags: [PL]
+
+- name: ISPD
+  year: 2024
+  date: March 12-15
+  description: International Symposium on Physical Design
+  link: https://ispd.cc/ispd2024/index.php?page=callforpapers
+  deadline: ["2023-09-24 23:59"]
+  place:   Taipei, Taiwan
+  tags: [EDA]
