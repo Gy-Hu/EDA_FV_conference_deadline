@@ -431,3 +431,14 @@
   deadline: ["2024-03-24 23:59"]
   place:   Raleigh, NC, USA
   tags: [EDA]
+
+- name: LOPSTR
+  year: 2024
+  date: September 9-11
+  description: International Symposium on Logic-Based Program Synthesis and Transformation
+  link: https://lopstr.github.io/2024/
+  deadline: ["2024-05-06 23:59"]
+  place:   Milan, Italy
+  tags: [EDA]
+
+  
