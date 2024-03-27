@@ -441,4 +441,11 @@
   place:   Milan, Italy
   tags: [EDA]
 
-  
+- name: POPL
+  year: 2024
+  date: January 19 - 25
+  description:  SIGPLAN Symposium on Principles of Programming Languages
+  link: https://conf.researchr.org/home/POPL-2025
+  deadline: ["2024-07-11 23:59"]
+  place: Denver Colorado, USA
+  tags: [FV]
