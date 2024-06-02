@@ -432,6 +432,15 @@
   place:   Raleigh, NC, USA
   tags: [EDA]
 
+- name: MEMOCODE
+  year: 2024
+  date: "October 03 - October 04"
+  description: ACM-IEEE International Symposium on Formal Methods and Models for System Design
+  link: https://memocode2024.github.io/
+  deadline: ["2024-05-27 23:59"]
+  place:   Raleigh, NC, USA
+  tags: [FV]
+
 - name: LOPSTR
   year: 2024
   date: September 9-11
