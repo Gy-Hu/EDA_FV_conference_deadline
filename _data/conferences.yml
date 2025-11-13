@@ -468,9 +468,18 @@
 
 - name: SASIMI
   year: 2027
-  date: "March 15-16, 2027"
+  date: "March 15-16"
   description: The 27th Workshop on Synthesis and System Integration of Mixed Information technologies
   link: http://sasimi.jp/
   deadline: ["2026-10-16 23:59"]
   place: Miyazaki Kanko Hotel, Miyazaki, Japan
   tags: [EDA]
+
+- name: APSEC
+  year: 2025
+  date: "December 1 - 5"
+  description: The Asia-Pacific Software Engineering Conference
+  link: https://conf.researchr.org/home/apsec-2025
+  deadline: ["2025-07-19 23:59"]
+  place: Macau, China
+  tags: [SE]
