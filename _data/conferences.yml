@@ -492,3 +492,12 @@
   deadline: ["2025-05-30 23:59"]
   place: Paris, France
   tags: [FV]
+
+- name: FormaliSE
+  year: 2026
+  date: "April 12 - 13"
+  description: International Conference on Formal Methods in Software Engineering
+  link: https://conf.researchr.org/home/formalise-2025
+  deadline: ["2025-11-06 23:59"]
+  place: Lisbon, Portugal
+  tags: [FV]
