@@ -483,3 +483,12 @@
   deadline: ["2025-07-19 23:59"]
   place: Macau, China
   tags: [FV]
+
+- name: iFM
+  year: 2025
+  date: "November 19 - 21"
+  description: 20th International Conference on Integrated Formal Methods
+  link: https://ifm2025.lip6.fr/
+  deadline: ["2025-05-30 23:59"]
+  place: Paris, France
+  tags: [FV]
