@@ -75,11 +75,11 @@
 
 - name: NFM
   year: 2025
-  date: "June 11 - 13"
+  date: "May 5 - 7"
   description: NASA Formal Methods Symposium
-  link: https://shemesh.larc.nasa.gov/nfm2025/
-  deadline: ["2024-12-22 23:59"]
-  place: Williamsburg, Virginia, USA
+  link: https://nfm2026.github.io/
+  deadline: ["2025-01-10 23:59"]
+  place: University of Southern California, Los Angeles, California, USA
   tags: [FV]
 
 - name: ECAI
