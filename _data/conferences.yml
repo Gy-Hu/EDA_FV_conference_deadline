@@ -74,11 +74,11 @@
   tags: [EDA, FV]
 
 - name: NFM
-  year: 2025
+  year: 2026
   date: "May 5 - 7"
   description: NASA Formal Methods Symposium
   link: https://nfm2026.github.io/
-  deadline: ["2025-01-10 23:59"]
+  deadline: ["2026-01-10 23:59"]
   place: University of Southern California, Los Angeles, California, USA
   tags: [FV]
 
