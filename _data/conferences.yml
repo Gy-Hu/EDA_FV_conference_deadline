@@ -244,7 +244,7 @@
   description: International Conference on Architectural Support for Programming Languages
     and Operating Systems
   link: https://www.asplos-conference.org/asplos2026/
-  deadline: ["2025-03-12 23:59", "2025-08-20 23:59"]
+  deadline: ["2025-08-20 23:59"]
   place: Pittsburgh, USA
   tags: [PL]
 
