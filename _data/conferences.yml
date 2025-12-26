@@ -510,3 +510,12 @@
   deadline: ["2026-02-06 23:59"]
   place: Lisbon, Portugal
   tags: [FV]
+
+- name: SAIV
+  year: 2026
+  date: "July 24 - 25"
+  description: Symposium on AI Verification
+  link: https://aiverification.org/2026/
+  deadline: ["2026-04-23 23:59"]
+  place: Lisbon, Portugal
+  tags: [FV, ML]
