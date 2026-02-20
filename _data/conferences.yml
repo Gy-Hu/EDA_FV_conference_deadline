@@ -519,3 +519,12 @@
   deadline: ["2026-04-23 23:59"]
   place: Lisbon, Portugal
   tags: [FV, ML]
+
+- name: ICTAI
+  year: 2025
+  date: "November 3 - 5"
+  description: International Conference on Tools with Artificial Intelligence
+  link: https://ictai.computer.org/
+  deadline: ["2025-07-15 23:59"]
+  place: Athens, Greece
+  tags: [ML]
