@@ -100,6 +100,15 @@
   place: Lisbon, Portugal
   tags: [FV]
 
+- name: QEST+FORMATS
+  year: 2026
+  date: "September 2 - 4"
+  description: Joint International Conference on Quantitative Evaluation of Systems and Formal Modeling and Analysis of Timed Systems
+  link: https://www.qest-formats.org/
+  deadline: ["2026-04-10 23:59"]
+  place: Liverpool, United Kingdom
+  tags: [FV]
+
 - name: ITC
   year: 2025
   date: "September 21 - 26"
