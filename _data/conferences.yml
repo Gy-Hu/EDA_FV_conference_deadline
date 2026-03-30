@@ -304,7 +304,7 @@
 
 - name: ISLPED
   year: 2026
-  date: "August 6 - 8"
+  date: "August 5 - 7"
   description: ACM/IEEE International Symposium on Low Power Electronics and Design
   link: https://www.islped.org/2026/
   deadline: ["2026-03-18 23:59"]
