@@ -19,12 +19,12 @@
   tags: [FV]
 
 - name: CDC
-  year: 2025
-  date: "December 10 - 12"
+  year: 2026
+  date: "December 15 - 18"
   description: Conference on Decision and Control
-  link: https://cdc2025.ieeecss.org/
-  deadline: ["2025-09-03 23:59"]
-  place: Rio de Janeiro, Brazil
+  link: https://cdc2026.ieeecss.org/
+  deadline: ["2026-03-31 23:59"]
+  place: Honolulu, Hawaii, USA
   tags: [CS]
 
 - name: TACAS
@@ -38,12 +38,12 @@
   tags: [FV]
 
 - name: ICCAD
-  year: 2025
-  date: "October 26 - 30"
+  year: 2026
+  date: "November 8 - 12"
   description: The International Conference on Computer-Aided Design
-  link: https://2025.iccad.com/
-  deadline: ["2025-04-21 23:59"]
-  place: Munich, Germany
+  link: https://iccad.com/2026
+  deadline: ["2026-04-14 23:59"]
+  place: San Jose, California, USA
   tags: [EDA]
 
 - name: DATE
@@ -56,21 +56,21 @@
   tags: [EDA]
 
 - name: MLCAD
-  year: 2025
-  date: "September 8 - 10"
+  year: 2026
+  date: "September 7 - 9"
   description: Machine Learning for CAD
-  link: https://mlcad.org/symposium/2025/
-  deadline: ["2025-05-30 23:59"]
-  place: Santa Cruz, California, USA
+  link: https://mlcad.org/symposium/2026/
+  deadline: ["2026-05-23 23:59"]
+  place: Seogwipo, Jeju, South Korea
   tags: [EDA, ML]
 
 - name: FMCAD
-  year: 2025
-  date: "October 6 - 10"
+  year: 2026
+  date: "September 14 - 18"
   description: Formal Methods in Computer-Aided Design
-  link: https://fmcad.org/FMCAD25/
-  deadline: ["2025-05-05 23:59"]
-  place: Menlo Park, California, USA
+  link: https://fmcad.org/FMCAD26/
+  deadline: ["2026-05-03 23:59"]
+  place: Graz, Austria
   tags: [EDA, FV]
 
 - name: NFM
@@ -78,26 +78,26 @@
   date: "May 5 - 7"
   description: NASA Formal Methods Symposium
   link: https://nfm2026.github.io/
-  deadline: ["2026-01-10 23:59"]
+  deadline: ["2026-01-24 23:59"]
   place: University of Southern California, Los Angeles, California, USA
   tags: [FV]
 
 - name: ECAI
-  year: 2025
-  date: "October 25 - 30"
+  year: 2026
+  date: "August 15 - 21"
   description: European Conference on Artificial Intelligence
-  link: https://ecai2025.org/
-  deadline: ["2025-05-06 23:59"]
-  place: Bologna, Italy
+  link: https://2026.ijcai.org/
+  deadline: ["2026-01-19 23:59"]
+  place: Bremen, Germany
   tags: [ML]
 
 - name: CAV
-  year: 2025
-  date: "July 21 - 25"
+  year: 2026
+  date: "July 26 - 29"
   description: International Conference on Computer Aided Verification
-  link: https://i-cav.github.io/2025/
-  deadline: ["2025-01-31 23:59"]
-  place: Zagreb, Croatia
+  link: https://conferences.i-cav.org/2026/
+  deadline: ["2026-01-28 23:59"]
+  place: Lisbon, Portugal
   tags: [FV]
 
 - name: ITC
@@ -157,21 +157,21 @@
   tags: [FV]
 
 - name: RV
-  year: 2025
-  date: "September 15 - 19"
+  year: 2026
+  date: "October 6 - 9"
   description: International Conference on Runtime Verification
-  link: https://rv25.isec.tugraz.at
-  deadline: ["2025-05-30 23:59"]
-  place: Graz, Austria
+  link: https://rv2026.smithengineering.queensu.ca/
+  deadline: ["2026-05-31 23:59"]
+  place: Kingston, Ontario, Canada
   tags: [FV]
 
 - name: ICFEM
-  year: 2025
-  date: "November 10 - 13"
+  year: 2026
+  date: "November 17 - 20"
   description: International Conference on Formal Engineering Methods
-  link: https://icfem2025.github.io/
-  deadline: ["2025-06-15 23:59"]
-  place: Hangzhou, China
+  link: https://icfem2026.github.io/
+  deadline: ["2026-06-08 23:59"]
+  place: Southampton, United Kingdom
   tags: [FV]
 
 - name: ICTAC
@@ -221,12 +221,12 @@
   tags: [EDA]
 
 - name: ICCD
-  year: 2025
-  date: "November 10 - 12"
+  year: 2026
+  date: "November 16 - 18"
   description: 41st IEEE International Conference on Computer Design
-  link: http://www.iccd-conf.com/
-  deadline: ["2025-05-12 23:59"]
-  place: Dallas, USA
+  link: https://www.iccd-conf.com/2026/
+  deadline: ["2026-05-22 23:59"]
+  place: Hong Kong SAR, China
   tags: [EDA]
 
 - name: FPGA
@@ -239,22 +239,22 @@
   tags: [EDA]
 
 - name: ASPLOS
-  year: 2026
-  date: "March 22 - 26"
+  year: 2027
+  date: "TBA"
   description: International Conference on Architectural Support for Programming Languages
     and Operating Systems
-  link: https://www.asplos-conference.org/asplos2026/
-  deadline: ["2025-08-20 23:59"]
-  place: Pittsburgh, USA
+  link: https://www.asplos-conference.org/asplos2027/
+  deadline: ["2026-04-15 23:59", "2026-09-09 23:59"]
+  place: Crete, Greece
   tags: [PL]
 
 - name: OOPSLA
-  year: 2025
-  date: "October 12 - 18"
+  year: 2026
+  date: "October 3 - 9"
   description: The Object-Oriented Programming, Systems, Languages, and Applications
-  link: https://2025.splashcon.org/track/OOPSLA
-  deadline: ["2025-03-25 23:59"]
-  place: Singapore
+  link: https://2026.splashcon.org/track/OOPSLA-2026
+  deadline: ["2025-10-10 23:59", "2026-03-17 23:59"]
+  place: Oakland, California, United States
   tags: [PL]
 
 - name: ITC-Asia
@@ -267,30 +267,30 @@
   tags: [TES]
 
 - name: IJCNN
-  year: 2025
-  date: "June 30 - July 5"
+  year: 2026
+  date: "June 22 - 26"
   description: International Joint Conference on Neural Network
-  link: https://2025.ijcnn.org/
-  deadline: ["2025-01-30 23:59"]
-  place: Rome, Italy
+  link: https://attend.ieee.org/wcci-2026/
+  deadline: ["2026-01-31 23:59"]
+  place: Maastricht, Netherlands
   tags: [ML]
 
 - name: GLSVLSI
-  year: 2025
-  date: "June 30 - July 2"
+  year: 2026
+  date: "June 22 - 24"
   description: Great Lakes Symposium on VLSI
   link: https://www.glsvlsi.org/
-  deadline: ["2025-03-17 23:59"]
-  place: New Orleans, LA, USA
+  deadline: ["2026-03-23 23:59"]
+  place: Finger Lakes, New York, USA
   tags: [EDA]
 
 - name: ISVLSI
-  year: 2025
-  date: "July 6 - 9"
+  year: 2026
+  date: "July 7 - 10"
   description: IEEE Computer Society Annual Symposium on VLSI
-  link: https://www.computer.org/conferences/isvlsi-cfp
-  deadline: ["2025-02-10 23:59"]
-  place: Kalamata, Greece
+  link: https://ieee-isvlsi.github.io/ISVLSI_2026_Website/
+  deadline: ["2026-03-15 23:59"]
+  place: Kolkata, India
   tags: [EDA]
 
 - name: ISEDA
@@ -298,17 +298,17 @@
   date: "May 8 - 10"
   description: International Symposium of Electronics Design Automation
   link: https://www.eda2.com/iseda/index.html
-  deadline: ["2026-02-10 23:59"]
+  deadline: ["2026-02-28 23:59"]
   place: Singapore
   tags: [EDA]
 
 - name: ISLPED
-  year: 2025
+  year: 2026
   date: "August 6 - 8"
   description: ACM/IEEE International Symposium on Low Power Electronics and Design
-  link: https://www.islped.org/2025/
-  deadline: ["2025-03-17 23:59"]
-  place: Reykjavik, Iceland
+  link: https://www.islped.org/2026/
+  deadline: ["2026-03-18 23:59"]
+  place: Evanston, Illinois, USA
   tags: [EDA]
 
 - name: VSTTE
@@ -331,12 +331,12 @@
   tags: [FV]
 
 - name: LICS
-  year: 2025
-  date: "June 23 - 26"
+  year: 2026
+  date: "July 20 - 23"
   description: ACM/IEEE Symposium on Logic in Computer Science
-  link: https://lics.siglog.org/lics25/
-  deadline: ["2025-01-23 23:59"]
-  place: Singapore
+  link: https://lics.siglog.org/lics26/
+  deadline: ["2026-01-22 23:59"]
+  place: Lisbon, Portugal
   tags: [FV]
 
 - name: LAD
@@ -358,12 +358,12 @@
   tags: [EDA]
 
 - name: Internetware
-  year: 2025
-  date: "June 20 - 22"
+  year: 2026
+  date: "July 18 - 20"
   description: Asia-Pacific Symposium on Internetware
-  link: https://conf.researchr.org/home/internetware-2025
-  deadline: ["2025-03-31 23:59"]
-  place: Trondheim, Norway
+  link: https://conf.researchr.org/home/internetware-2026
+  deadline: ["2026-04-04 23:59"]
+  place: Gold Coast, Australia
   tags: [FV]
 
 - name: OSDA
@@ -412,12 +412,12 @@
   tags: [PL]
 
 - name: PLDI
-  year: 2025
-  date: "June 16 - 20"
+  year: 2026
+  date: "June 15 - 19"
   description: Programming Language Design and Implementation
-  link: https://pldi25.sigplan.org/
-  deadline: ["2024-11-14 23:59"]
-  place: Seoul, South Korea
+  link: https://pldi26.sigplan.org/
+  deadline: ["2025-11-13 23:59"]
+  place: Boulder, Colorado, United States
   tags: [PL]
 
 - name: ISPD
@@ -458,12 +458,12 @@
   tags: [EDA]
   
 - name: POPL
-  year: 2025
-  date: "January 19 - 25"
+  year: 2026
+  date: "January 11 - 17"
   description: SIGPLAN Symposium on Principles of Programming Languages
-  link: https://popl25.sigplan.org/
-  deadline: ["2024-07-11 23:59"]
-  place: Denver, Colorado, United States
+  link: https://popl26.sigplan.org/
+  deadline: ["2025-07-10 23:59"]
+  place: Rennes, France
   tags: [FV]
 
 - name: SASIMI
@@ -476,12 +476,12 @@
   tags: [EDA]
 
 - name: APSEC
-  year: 2025
-  date: "December 1 - 5"
+  year: 2026
+  date: "December 7 - 10"
   description: The Asia-Pacific Software Engineering Conference
-  link: https://conf.researchr.org/home/apsec-2025
-  deadline: ["2025-07-19 23:59"]
-  place: Macau, China
+  link: https://conf.researchr.org/home/apsec-2026
+  deadline: ["2026-07-13 23:59"]
+  place: Bali, Indonesia
   tags: [FV]
 
 - name: iFM
@@ -497,9 +497,9 @@
   year: 2026
   date: "April 12 - 13"
   description: International Conference on Formal Methods in Software Engineering
-  link: https://conf.researchr.org/home/formalise-2025
+  link: https://conf.researchr.org/home/formalise-2026
   deadline: ["2025-11-06 23:59"]
-  place: Lisbon, Portugal
+  place: Rio de Janeiro, Brazil
   tags: [FV]
 
 - name: IJCAR
@@ -521,10 +521,10 @@
   tags: [FV, ML]
 
 - name: ICTAI
-  year: 2025
-  date: "November 3 - 5"
+  year: 2026
+  date: "November 2 - 4"
   description: International Conference on Tools with Artificial Intelligence
-  link: https://ictai.computer.org/
-  deadline: ["2025-07-15 23:59"]
-  place: Athens, Greece
+  link: https://ictai.computer.org/2026/
+  deadline: ["2026-06-30 23:59"]
+  place: Boca Raton, Florida, USA
   tags: [ML]
