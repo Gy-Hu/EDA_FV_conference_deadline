@@ -2,6 +2,26 @@
 
 Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
 
+## Local development
+
+Install dependencies:
+
+```bash
+bundle install
+```
+
+Build the site locally:
+
+```bash
+bundle exec jekyll build
+```
+
+Serve the site locally:
+
+```bash
+bundle exec jekyll serve
+```
+
 ## Adding/updating a conference
 
 * Read the data format description below. **Note that the timezone format sign is inverted** (e.g., UTC+7 is written as `Etc/GMT-7`). It's [not a bug][0]. I hate this format too. I'd be happy to move to a different timezone JavaScript library that uses a friendlier format, but I don't have time for that.
@@ -78,4 +98,3 @@ The timezone is specified in [tz format][1]. Unlike abbreviations (e.g. EST), th
 [0]: https://momentjs.com/timezone/docs/#/zone-object/offset/
 [1]: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 [2]: https://www.timeanddate.com/time/zones/aoe
-

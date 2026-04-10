@@ -109,6 +109,15 @@
   place: Liverpool, United Kingdom
   tags: [FV]
 
+- name: BlockSys
+  year: 2026
+  date: "July 29 - 31"
+  description: International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems
+  link: https://blocksys.info/2026/
+  deadline: ["2026-04-20 23:59"]
+  place: Chengdu, China
+  tags: [FV, ML]
+
 - name: ITC
   year: 2025
   date: "September 21 - 26"
