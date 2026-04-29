@@ -293,6 +293,15 @@
   place: Maastricht, Netherlands
   tags: [ML]
 
+- name: ICASSP
+  year: 2026
+  date: "May 4 - 8"
+  description: IEEE International Conference on Acoustics, Speech, and Signal Processing
+  link: https://2026.ieeeicassp.org/
+  deadline: ["2025-09-17 23:59"]
+  place: Barcelona, Spain
+  tags: [SP, ML]
+
 - name: GLSVLSI
   year: 2026
   date: "June 22 - 24"

@@ -5,6 +5,8 @@
   tag: FV
 - name: Machine Learning
   tag: ML
+- name: Signal Processing
+  tag: SP
 - name: Testing
   tag: TES
 - name: Control Systems
