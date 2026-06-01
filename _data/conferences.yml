@@ -132,7 +132,7 @@
   date: "January 25 - 28"
   description: Asia and South Pacific Design Automation Conference
   link: https://www.aspdac.com/aspdac2027/cfp/
-  deadline: ["2026-07-11 17:00", "2026-07-18 17:00"]
+  deadline: ["2026-07-11 17:00"]
   place: Hitotsubashi Hall, Tokyo, Japan
   tags: [EDA]
 
