@@ -132,8 +132,7 @@
   date: "January 25 - 28"
   description: Asia and South Pacific Design Automation Conference
   link: https://www.aspdac.com/aspdac2027/cfp/
-  deadline: ["2026-07-11 17:00"]
-  timezone: Pacific/AoE
+  deadline: ["2026-07-11 17:00", "2026-07-18 17:00"]
   place: Hitotsubashi Hall, Tokyo, Japan
   tags: [EDA]
 
@@ -296,12 +295,12 @@
   tags: [ML]
 
 - name: ICASSP
-  year: 2026
-  date: "May 4 - 8"
+  year: 2027
+  date: "May 16 - 21"
   description: IEEE International Conference on Acoustics, Speech, and Signal Processing
-  link: https://2026.ieeeicassp.org/
-  deadline: ["2025-09-17 23:59"]
-  place: Barcelona, Spain
+  link: https://2027.ieeeicassp.org/
+  deadline: ["2026-09-16 23:59"]
+  place: Toronto, Canada
   tags: [SP, ML]
 
 - name: GLSVLSI
@@ -405,20 +404,21 @@
   tags: [EDA]
 
 - name: ISCAS
-  year: 2026
-  date: "May 24 - 27"
+  year: 2027
+  date: "June 6 - 9"
   description: International Symposium on Circuits and Systems
-  link: https://2026.ieee-iscas.org/index.html
-  deadline: ["2025-10-26 23:59"]
-  place: Shanghai, China
+  link: https://2027.ieee-iscas.org/
+  deadline: ["2026-10-13 23:59"]
+  place: Bordeaux, France
   tags: [EDA]
 
 - name: DVCon
-  year: 2026
-  date: "March 2 - 5"
+  year: 2027
+  date: "March 1 - 4"
   description: Design And Verification Conference And Exhibition
   link: https://dvcon.org/
-  deadline: ["2025-09-07 23:59"]
+  deadline: ["2026-09-07 23:59"]
+  timezone: America/Los_Angeles
   place: Santa Clara, CA, USA
   tags: [EDA]
 
@@ -492,7 +492,6 @@
   description: SIGPLAN Symposium on Principles of Programming Languages
   link: https://popl27.sigplan.org/
   deadline: ["2026-07-09 23:59"]
-  timezone: Pacific/AoE
   place: Mexico City, Mexico
   tags: [FV]
 
