@@ -128,15 +128,6 @@
   tags: [EDA, TES]
 
 - name: ASP-DAC
-  year: 2026
-  date: "January 19 - 22"
-  description: Asia and South Pacific Design Automation Conference
-  link: https://www.aspdac.com/aspdac2026/
-  deadline: ["2025-07-11 23:59"]
-  place: Hong Kong Disneyland, Hong Kong
-  tags: [EDA]
-
-- name: ASP-DAC
   year: 2027
   date: "January 25 - 28"
   description: Asia and South Pacific Design Automation Conference
@@ -495,15 +486,6 @@
   place: Singapore
   tags: [EDA]
   
-- name: POPL
-  year: 2026
-  date: "January 11 - 17"
-  description: SIGPLAN Symposium on Principles of Programming Languages
-  link: https://popl26.sigplan.org/
-  deadline: ["2025-07-10 23:59"]
-  place: Rennes, France
-  tags: [FV]
-
 - name: POPL
   year: 2027
   date: "January 10 - 16"
