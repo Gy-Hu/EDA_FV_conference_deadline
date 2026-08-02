@@ -1,12 +1,12 @@
 ---
 - name: VMCAI
-  year: 2026
-  date: "January 12 - 13"
+  year: 2027
+  date: "January 11 - 12"
   description: The International Conference on Verification, Model Checking, and Abstract
     Interpretation
-  link: https://conf.researchr.org/home/VMCAI-2026
-  deadline: ["2025-09-15 23:59"]
-  place: Rennes, France
+  link: https://conf.researchr.org/home/VMCAI-2027
+  deadline: ["2026-09-16 23:59"]
+  place: Mexico City, Mexico
   tags: [FV]
 
 - name: FM
@@ -14,7 +14,7 @@
   date: "May 18 - 22"
   description: The International Symposium on Formal Methods
   link: https://conf.researchr.org/home/fm-2026
-  deadline: ["2025-12-02 23:59"]
+  deadline: ["2025-11-25 23:59"]
   place: Tokyo, Japan
   tags: [FV]
 
@@ -50,8 +50,8 @@
   year: 2027
   date: "March 22 - 24"
   description: Design, Automation and Test in Europe Conference
-  link: https://www.date-conference.com/date-2027-call-papers
-  deadline: ["2026-09-20 23:59"]
+  link: https://date27.date-conference.com/call-for-papers
+  deadline: ["2026-09-13 23:59"]
   place: Dresden, Germany
   tags: [EDA]
 
@@ -60,7 +60,7 @@
   date: "September 7 - 9"
   description: Machine Learning for CAD
   link: https://mlcad.org/symposium/2026/
-  deadline: ["2026-05-23 23:59"]
+  deadline: ["2026-05-29 23:59"]
   place: Seogwipo, Jeju, South Korea
   tags: [EDA, ML]
 
@@ -69,7 +69,7 @@
   date: "September 14 - 18"
   description: Formal Methods in Computer-Aided Design
   link: https://fmcad.org/FMCAD26/
-  deadline: ["2026-05-03 23:59"]
+  deadline: ["2026-05-04 23:59"]
   place: Graz, Austria
   tags: [EDA, FV]
 
@@ -82,12 +82,13 @@
   place: University of Southern California, Los Angeles, California, USA
   tags: [FV]
 
-- name: ECAI
+- name: IJCAI-ECAI
   year: 2026
   date: "August 15 - 21"
-  description: European Conference on Artificial Intelligence
+  description: International Joint Conference on Artificial Intelligence and European
+    Conference on Artificial Intelligence
   link: https://2026.ijcai.org/
-  deadline: ["2026-01-19 23:59"]
+  deadline: ["2026-01-12 23:59"]
   place: Bremen, Germany
   tags: [ML]
 
@@ -136,21 +137,39 @@
   place: Hitotsubashi Hall, Tokyo, Japan
   tags: [EDA]
 
+- name: AAAI
+  year: 2027
+  date: "February 16 - 23"
+  description: AAAI Conference on Artificial Intelligence
+  link: https://aaai.org/conference/aaai/aaai-27/
+  deadline: ["2026-07-21 23:59"]
+  place: Montreal, Quebec, Canada
+  tags: [ML]
+
+- name: ICLR
+  year: 2027
+  date: "April 26 - 30"
+  description: International Conference on Learning Representations
+  link: https://iclr.cc/Conferences/2027
+  deadline: ["2026-09-18 23:59"]
+  place: San Francisco, California, USA
+  tags: [ML]
+
 - name: ICAPS
   year: 2026
   date: "June 27 - July 2"
-  description: The 34th International Conference on Automated Planning and Scheduling
+  description: The 36th International Conference on Automated Planning and Scheduling
   link: https://icaps26.icaps-conference.org/
-  deadline: ["2025-12-08 23:59"]
+  deadline: ["2025-12-02 23:59"]
   place: Dublin, Ireland
   tags: [PG]
 
 - name: DAC
   year: 2026
   date: "July 26 - 29"
-  description: The 61th Design Automation Conference
+  description: Design Automation Conference
   link: https://dac.com/
-  deadline: ["2025-11-19 17:00"]
+  deadline: ["2025-11-11 17:00"]
   timezone: America/Los_Angeles
   place: Long Beach, CA, USA
   tags: [EDA]
@@ -161,7 +180,7 @@
   description: International Symposium on Automated Technology for Verification and
     Analysis
   link: https://conf.researchr.org/track/aplas-atva-2026/atva-2026
-  deadline: ["2026-05-21 23:59"]
+  deadline: ["2026-05-19 23:59"]
   place: Hong Kong SAR, China
   tags: [FV]
 
@@ -259,12 +278,12 @@
 
 - name: ASPLOS
   year: 2027
-  date: "March 22 - 26"
+  date: "April 11 - 15"
   description: International Conference on Architectural Support for Programming Languages
     and Operating Systems
   link: https://www.asplos-conference.org/asplos2027/
-  deadline: ["2026-04-15 23:59"]
-  place: Crete, Greece
+  deadline: ["2026-09-09 23:59"]
+  place: Heraklion, Crete, Greece
   tags: [PL]
 
 - name: OOPSLA
@@ -272,7 +291,7 @@
   date: "October 3 - 9"
   description: The Object-Oriented Programming, Systems, Languages, and Applications
   link: https://2026.splashcon.org/track/OOPSLA-2026
-  deadline: ["2025-10-10 23:59", "2026-03-17 23:59"]
+  deadline: ["2026-03-17 23:59"]
   place: Oakland, California, United States
   tags: [PL]
 
@@ -450,12 +469,12 @@
   tags: [PL]
 
 - name: ISPD
-  year: 2026
-  date: "March 15 - 18"
+  year: 2027
+  date: "March 30 - April 2"
   description: International Symposium on Physical Design
-  link: https://ispd.cc/ispd2026/
-  deadline: ["2025-09-28 23:59"]
-  place: Bonn, Germany
+  link: https://ispd.cc/ispd2027/
+  deadline: ["2026-09-21 23:59"]
+  place: Taipei, Taiwan
   tags: [EDA]
 
 - name: CODES+ISSS
@@ -463,7 +482,7 @@
   date: "October 4 - 9"
   description: International Conference on Hardware/Software Codesign and System Synthesis
   link: https://esweek.org/codes-isss/
-  deadline: ["2026-03-30 23:59"]
+  deadline: ["2026-03-23 23:59"]
   place: Barcelona, Spain
   tags: [EDA]
 

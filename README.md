@@ -51,7 +51,7 @@ Descriptions of the fields:
 | `year`\*      | Year the conference is happening                            |
 | `description` | Description, or long name                                   |
 | `link`\*      | URL to the conference home page                             |
-| `deadline`\*  | A list of deadlines. (Gory details below)                   |
+| `deadline`\*  | One-item list: abstract deadline, or submission deadline if no separate abstract deadline exists |
 | `timezone`    | Timezone in [tz][1] format. By default is UTC-12 ([AoE][2]) |
 | `date`        | When the conference is happening                            |
 | `place`       | Where the conference is happening                           |
@@ -62,21 +62,14 @@ Fields marked with asterisk (\*) are required.
 
 ### Deadline format
 
-The *deadline* field can contain:
+The *deadline* field contains exactly one deadline. Use the abstract deadline when
+the conference has one; otherwise use its single paper submission deadline:
 
 1. The simplest option: a date and time in ISO format. Example: `["2017-08-19 23:59"]` (Note that you need to wrap even a single deadline in a list).
 2. If a deadline is rolling, you can use a template date, just substitute the
    year with `%y` and the year before the conference with `%Y`. Example:
    `["%y-01-15 23:59"]` means there is a deadline on the 15th January in the
    same year as the conference.
-2. A list of (1) or (2). Example of two rolling deadlines, with one in the end
-   of October in the year prior to the conference year, and the second in the
-   end of February in the same year as the conference:
-  ```
-  - "%Y-10-31 23:59"
-  - "%y-02-28 23:59"
-  ```
-
 On the page, all deadlines are displayed in viewer's local time (that's a feature).
 
 *Note:* If the deadline hour is `{h}:00`, it will be automatically translated into `{h-1}:59:59` to avoid pain and confusion when it happens to be midnight in local time.
