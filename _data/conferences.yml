@@ -92,6 +92,24 @@
   place: Bremen, Germany
   tags: [ML]
 
+- name: PRICAI
+  year: 2026
+  date: "November 17 - 20"
+  description: Pacific Rim International Conference on Artificial Intelligence
+  link: https://2026.pricai.org/
+  deadline: ["2026-06-27 23:59"]
+  place: South China Normal University, Guangzhou, China
+  tags: [ML]
+
+- name: ICONIP
+  year: 2026
+  date: "November 23 - 27"
+  description: International Conference on Neural Information Processing
+  link: https://iconip2026.org/call-for-papers
+  deadline: ["2026-05-31 23:59"]
+  place: Melbourne, Australia
+  tags: [ML]
+
 - name: CAV
   year: 2027
   date: "July 19 - 23"
