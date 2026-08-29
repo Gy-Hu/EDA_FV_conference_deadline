@@ -642,3 +642,60 @@
   deadline: ["2026-07-21 23:59"]
   place: Boca Raton, Florida, USA
   tags: [ML]
+
+- name: CSCWD
+  year: 2026
+  date: "May 13 - 15"
+  description: IEEE International Conference on Computer Supported Cooperative Work
+    in Design
+  link: https://fyust.edu.cn/gjhyqk/cscwd2026/
+  deadline: ["2025-11-30 23:59"]
+  place: Fuzhou, China
+  tags: [ML]
+
+- name: ICME
+  year: 2026
+  date: "July 5 - 9"
+  description: IEEE International Conference on Multimedia and Expo
+  link: https://2026.ieeeicme.org/
+  deadline: ["2025-12-31 23:59"]
+  place: Bangkok, Thailand
+  tags: [SP, ML]
+
+- name: ICIC
+  year: 2026
+  date: "July 22 - 26"
+  description: International Conference on Intelligent Computing
+  link: http://www.ic-icc.cn/2026/
+  deadline: ["2026-04-04 12:00"]
+  timezone: Asia/Shanghai
+  place: Toronto, Canada
+  tags: [ML]
+
+- name: SMC
+  year: 2026
+  date: "October 4 - 7"
+  description: IEEE International Conference on Systems, Man, and Cybernetics
+  link: https://www.ieeesmc2026.org/
+  deadline: ["2026-07-12 23:59"]
+  place: Bellevue, Washington, USA
+  tags: [CS, ML]
+
+- name: ICPADS
+  year: 2026
+  date: "November 22 - 26"
+  description: IEEE International Conference on Parallel and Distributed Systems
+  link: https://www.cloud-conf.net/icpads2026/
+  deadline: ["2026-08-15 23:59"]
+  place: Tokyo, Japan
+  tags: [PL]
+
+- name: ICA3PP
+  year: 2026
+  date: "October 26 - 28"
+  description: International Conference on Algorithms and Architectures for Parallel
+    Processing
+  link: https://hpcn.exeter.ac.uk/ica3pp2026/
+  deadline: ["2026-07-25 23:59"]
+  place: Exeter, England, UK
+  tags: [PL]
