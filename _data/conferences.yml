@@ -110,6 +110,53 @@
   place: Melbourne, Australia
   tags: [ML]
 
+- name: AACL-IJCNLP
+  year: 2026
+  date: "November 6 - 10"
+  description: Asia-Pacific Chapter of the Association for Computational Linguistics
+    and International Joint Conference on Natural Language Processing
+  link: https://2026.aaclnet.org/
+  deadline: ["2026-05-25 23:59"]
+  place: Hengqin, China
+  tags: [ML]
+
+- name: COLING
+  year: 2027
+  date: "May 9 - 14"
+  description: International Conference on Computational Linguistics
+  link: https://2027.coling-iccl.org/
+  deadline: ["2026-10-12 23:59"]
+  place: Macau, China
+  tags: [ML]
+
+- name: ICML
+  year: 2026
+  date: "July 6 - 11"
+  description: International Conference on Machine Learning
+  link: https://icml.cc/Conferences/2026
+  deadline: ["2026-01-23 23:59"]
+  place: Seoul, South Korea
+  tags: [ML]
+
+- name: ACL
+  year: 2027
+  date: "August 17 - 22"
+  description: Annual Meeting of the Association for Computational Linguistics
+  link: https://2027.aclweb.org/
+  deadline: ["2026-01-05 23:59"]
+  place: Kyoto, Japan
+  tags: [ML]
+
+- name: NAACL
+  year: 2027
+  date: "June 1 - 5"
+  description: Annual Conference of the Nations of the Americas Chapter of the
+    Association for Computational Linguistics
+  link: https://2027.naacl.org/
+  deadline: ["2026-10-12 23:59"]
+  place: San Francisco, California, USA
+  tags: [ML]
+
 - name: CAV
   year: 2027
   date: "July 19 - 23"
