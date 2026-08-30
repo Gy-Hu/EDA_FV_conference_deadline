@@ -293,7 +293,7 @@
   link: https://tase2026.github.io/index.html
   deadline: ["2026-03-01 23:59"]
   place: Shanghai, China
-  tags: [FV]
+  tags: [FV, SE]
 
 - name: CONCUR
   year: 2026
@@ -735,3 +735,12 @@
   deadline: ["2027-01-08 23:59"]
   place: Singapore
   tags: [SE]
+
+- name: SPIN
+  year: 2026
+  date: "April 15 - 16"
+  description: International Symposium on Model Checking of Software
+  link: https://spin-web.github.io/SPIN2026/
+  deadline: ["2026-01-22 23:59"]
+  place: Torino, Italy
+  tags: [FV, SE]
