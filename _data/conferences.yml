@@ -699,3 +699,39 @@
   deadline: ["2026-07-25 23:59"]
   place: Exeter, England, UK
   tags: [PL]
+
+- name: FSE
+  year: 2027
+  date: "July 12 - 16"
+  description: ACM International Conference on the Foundations of Software Engineering
+  link: https://conf.researchr.org/home/fse-2027
+  deadline: ["2026-10-02 23:59"]
+  place: Shenzhen, China
+  tags: [SE]
+
+- name: ICSE
+  year: 2027
+  date: "April 25 - May 1"
+  description: IEEE/ACM International Conference on Software Engineering
+  link: https://conf.researchr.org/home/icse-2027
+  deadline: ["2026-06-23 23:59"]
+  place: Dublin, Ireland
+  tags: [SE]
+
+- name: ASE
+  year: 2026
+  date: "October 12 - 16"
+  description: IEEE/ACM International Conference on Automated Software Engineering
+  link: https://conf.researchr.org/home/ase-2026
+  deadline: ["2026-03-26 23:59"]
+  place: Munich, Germany
+  tags: [SE]
+
+- name: ISSTA
+  year: 2027
+  date: "September 7 - 10"
+  description: ACM SIGSOFT International Symposium on Software Testing and Analysis
+  link: https://conf.researchr.org/home/issta-2027
+  deadline: ["2027-01-08 23:59"]
+  place: Singapore
+  tags: [SE]
