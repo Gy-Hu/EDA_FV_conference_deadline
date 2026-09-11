@@ -5,7 +5,7 @@
   description: The International Conference on Verification, Model Checking, and Abstract
     Interpretation
   link: https://conf.researchr.org/home/VMCAI-2027
-  deadline: ["2026-09-16 23:59"]
+  deadline: ["2026-09-23 23:59"]
   place: Mexico City, Mexico
   tags: [FV]
 
@@ -216,27 +216,27 @@
   date: "April 26 - 30"
   description: International Conference on Learning Representations
   link: https://iclr.cc/Conferences/2027
-  deadline: ["2026-09-11 23:59"]
-  place: San Francisco, California, USA
+  deadline: ["2026-09-18 23:59"]
+  place: California, USA
   tags: [ML]
 
 - name: ICAPS
-  year: 2026
+  year: 2027
   date: "June 27 - July 2"
-  description: The 36th International Conference on Automated Planning and Scheduling
-  link: https://icaps26.icaps-conference.org/
-  deadline: ["2025-12-02 23:59"]
-  place: Dublin, Ireland
+  description: The 37th International Conference on Automated Planning and Scheduling
+  link: https://icaps27.icaps-conference.org/
+  deadline: ["2026-12-07 23:59"]
+  place: Columbia, South Carolina, USA
   tags: [PG]
 
 - name: DAC
-  year: 2026
-  date: "July 26 - 29"
+  year: 2027
+  date: "July 11 - 14"
   description: Design Automation Conference
-  link: https://dac.com/
-  deadline: ["2025-11-11 17:00"]
+  link: https://dac.com/2027
+  deadline: ["2026-11-18 17:00"]
   timezone: America/Los_Angeles
-  place: Long Beach, CA, USA
+  place: San Jose, California, USA
   tags: [EDA]
 
 - name: ATVA
@@ -315,12 +315,12 @@
   tags: [EDA]
 
 - name: IWLS
-  year: 2026
-  date: "May 29 - 31"
-  description: International Workshop on Logic & Synthesis (IWLS 2026)
-  link: https://www.iwls.org/
-  deadline: ["2026-03-27 23:59"]
-  place: Hong Kong, China
+  year: 2027
+  date: "May 17 - 19"
+  description: International Workshop on Logic & Synthesis (IWLS 2027)
+  link: https://www.iwls.org/iwls2027/
+  deadline: ["2027-02-08 23:59"]
+  place: Shanghai, China
   tags: [EDA]
 
 - name: ICCD
@@ -328,7 +328,7 @@
   date: "November 16 - 18"
   description: 44th IEEE International Conference on Computer Design
   link: https://www.iccd-conf.com/2026/
-  deadline: ["2026-05-15 23:59"]
+  deadline: ["2026-06-03 23:59"]
   place: Hong Kong SAR, China
   tags: [EDA]
 
@@ -352,12 +352,12 @@
   tags: [PL]
 
 - name: OOPSLA
-  year: 2026
-  date: "October 3 - 9"
+  year: 2027
+  date: "October 10 - 15"
   description: The Object-Oriented Programming, Systems, Languages, and Applications
-  link: https://2026.splashcon.org/track/OOPSLA-2026
-  deadline: ["2026-03-17 23:59"]
-  place: Oakland, California, United States
+  link: https://conf.researchr.org/track/splash-2027/splashoopsla2027
+  deadline: ["2026-10-14 23:59"]
+  place: Prague, Czechia
   tags: [PL]
 
 - name: ITC-Asia
