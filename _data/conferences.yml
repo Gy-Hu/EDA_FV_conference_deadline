@@ -129,6 +129,16 @@
   place: Macau, China
   tags: [ML]
 
+- name: ACML
+  year: 2026
+  date: "December 1 - 4"
+  description: Asian Conference on Machine Learning
+  link: https://www.acml-conf.org/2026/
+  deadline: ["2026-07-05 23:59"]
+  timezone: Etc/GMT+12
+  place: Melbourne, Australia
+  tags: [ML]
+
 - name: ICML
   year: 2026
   date: "July 6 - 11"
