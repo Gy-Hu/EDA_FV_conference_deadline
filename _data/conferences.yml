@@ -120,6 +120,19 @@
   place: Hengqin, China
   tags: [ML]
 
+- name: NLPCC
+  year: 2026
+  date: "November 3 - 5"
+  description: CCF International Conference on Natural Language Processing and Chinese
+    Computing
+  link: http://tcci.ccf.org.cn/conference/2026/
+  # Extended paper deadline; all deadlines are 23:59 Beijing Time.
+  # Source: http://tcci.ccf.org.cn/conference/2026/important-dates/
+  deadline: ["2026-06-20 23:59"]
+  timezone: Asia/Shanghai
+  place: Macau, China
+  tags: [ML]
+
 - name: COLING
   year: 2027
   date: "May 9 - 14"
