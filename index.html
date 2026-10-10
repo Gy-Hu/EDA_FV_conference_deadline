@@ -81,7 +81,7 @@
                 <span class="timer"></span>
                 <div class="deadline">
                   <div>
-                      Abstract deadline:
+                      {{ conf.deadline_label | default: 'Abstract deadline' }}:
                     <span class="deadline-time">
                       {{ deadline }}
                     </span>

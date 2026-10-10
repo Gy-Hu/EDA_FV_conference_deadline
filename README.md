@@ -52,6 +52,7 @@ Descriptions of the fields:
 | `description` | Description, or long name                                   |
 | `link`\*      | URL to the conference home page                             |
 | `deadline`\*  | One-item list: abstract deadline, or submission deadline if no separate abstract deadline exists |
+| `deadline_label` | Optional display label; defaults to `Abstract deadline`. Use `Paper deadline` or `Paper registration deadline` as appropriate. |
 | `timezone`    | Timezone in [tz][1] format. By default is UTC-12 ([AoE][2]) |
 | `date`        | When the conference is happening                            |
 | `place`       | Where the conference is happening                           |
@@ -71,6 +72,13 @@ the conference has one; otherwise use its single paper submission deadline:
    `["%y-01-15 23:59"]` means there is a deadline on the 15th January in the
    same year as the conference.
 On the page, all deadlines are displayed in viewer's local time (that's a feature).
+
+When the next edition has no published submission deadline, retain the previous
+edition's complete record (year, dates, location, URL, and deadline) instead of
+using `TBA` or projecting its deadline into the next year.
+For conferences with multiple submission cycles, use the next
+open cycle and identify it in `comment`. If a published date has no time or time
+zone, explicitly disclose any assumed end-of-day AoE time in `comment`.
 
 *Note:* If the deadline hour is `{h}:00`, it will be automatically translated into `{h-1}:59:59` to avoid pain and confusion when it happens to be midnight in local time.
 
