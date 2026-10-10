@@ -18,6 +18,18 @@
   place: Tokyo, Japan
   tags: [FV]
 
+- name: SEFM
+  year: 2026
+  date: "November 23 - 27"
+  description: International Conference on Software Engineering and Formal Methods
+  link: https://sefm-conference.github.io/2026/
+  # Extended abstract deadline, AoE (UTC-12).
+  # Source: https://sefm-conference.github.io/2026/callforpapers/
+  deadline: ["2026-06-23 23:59"]
+  timezone: Etc/GMT+12
+  place: Malta
+  tags: [FV, SE]
+
 - name: CDC
   year: 2026
   date: "December 15 - 18"
