@@ -15,7 +15,14 @@
   function chip(definition, entry) {
     var source = typeof entry.source === 'string' && /^https?:\/\//i.test(entry.source) ? entry.source : null;
     var badge = element(source ? 'a' : 'span', 'tag-chip tag-color-' + model.color(definition, entry), model.text(definition, entry));
+    var palette = model.palette(entry.tone);
+    if (palette) {
+      badge.style.setProperty('--tag-bg', palette.background);
+      badge.style.setProperty('--tag-ink', palette.ink);
+      badge.style.setProperty('--tag-border', palette.border);
+    }
     var detail = [definition.description];
+    if (entry.category_name) detail.push('Submission category: ' + entry.category_name);
     if (entry.note) detail.push(entry.note);
     if (source) {
       badge.href = source;

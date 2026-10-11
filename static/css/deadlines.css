@@ -120,6 +120,8 @@ a.tag-chip:focus-visible { outline: 2px solid #2c67b8; outline-offset: 3px; }
 .tag-color-key { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; padding-top: 18px; border-top: 1px solid #e2e7ed; }
 .tag-color-key > span:first-child { margin-right: 5px; font-weight: 600; }
 .tag-legend .tag-legend-note { margin: 12px 0 0; font-size: 13px; }
+.tag-gradient-key { display: flex; align-items: center; gap: 10px; margin-top: 16px; color: #526071; font-size: 12px; }
+.tag-gradient { flex: 1; min-width: 40px; max-width: 240px; height: 12px; border-radius: 6px; background: linear-gradient(90deg, hsl(130,65%,35%), hsl(97.5,65%,38%), hsl(65,75%,42%), hsl(32.5,75%,48%), hsl(0,75%,48%)); }
 @media (max-width: 600px) {
   .tag-legend { padding: 18px; }
   .tag-legend-grid { grid-template-columns: 1fr; gap: 18px; }

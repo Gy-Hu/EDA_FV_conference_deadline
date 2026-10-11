@@ -4,11 +4,11 @@
   label: Remote / Optional Attendance
   kind: boolean
   color: blue
-  description: Authors may present remotely or are not required to attend. Track-specific conditions may apply.
+  description: At least one paper track allows remote or optional attendance, including arrangements requiring organizer approval. Conditions may vary by track.
 - key: registration_fee
   label: Registration Fee
   kind: fee
-  description: Registration fees applicable to regular authors. Lower fees are greener; higher fees are redder. Student-only discounts are excluded.
+  description: Registration fees available to non-student authors, including ordinary academic rates. Lower fees are greener; higher fees are redder. Eligibility and early or online rates may apply.
   # Independent display ranges, NOT exchange rates or a claim of affordability.
   # Unsupported currencies display in neutral gray until a range is configured.
   scales:
@@ -31,20 +31,25 @@
   label: Acceptance Rate
   kind: number
   unit: '%'
-  description: Acceptance rate for the indicated year and scope. Lower rates are redder (more selective); higher rates are greener.
-  scale: {min: 0, max: 100, reverse: true}
+  description: Acceptance rate for the indicated year and scope, excluding Findings. Verified overall totals are preferred; track-specific or committed-paper counts may be used when necessary. Lower rates are redder; higher rates are greener.
+  scale: {min: 0, max: 100, reverse: true, bands: 21}
 - key: tool_paper
   label: Tool paper · Proceedings
   kind: boolean
   color: purple
   requires_proceedings: true
-  description: Tool papers with archival proceedings. Demonstrations without an archival paper do not qualify.
+  requires_main_proceedings: true
+  allowed_submission_types: [tool_paper, system_description, demo_paper, competition_tool_paper]
+  description: An explicitly defined tool paper, system description or demo paper submission category with archival proceedings. Regular research merely welcoming tool-related work does not qualify. Competition entries may have eligibility restrictions.
 - key: short_paper
   label: Short paper · Proceedings
   kind: boolean
   color: amber
   requires_proceedings: true
-  description: Short papers with archival proceedings. Non-archival abstracts do not qualify.
+  requires_main_proceedings: true
+  requires_direct_submission: true
+  compact_page_limits: {two_column: 4, one_column: 8}
+  description: Direct submissions with verified proceedings qualify if they are a short/brief paper category or use at most four two-column content pages or eight single-column content pages, even without a separate Short track. Reference-only extra pages are noted in the source details. Downgrade-only short papers and non-archival abstracts do not qualify.
 - key: core_ranking
   label: CORE
   kind: ranking

@@ -19,6 +19,9 @@
       note: Tool papers are explicitly accepted; all accepted papers appear in Springer
         LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool Papers (12 pages)
     core_ranking:
       value: B
       year: 2026
@@ -36,7 +39,7 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-15700-3
     acceptance_rate:
-      tone: orange
+      tone: heat-13
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-15700-3
 
@@ -57,6 +60,9 @@
       note: The Research Track includes long tool papers, short papers and tool demos;
         all conference papers appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Long tool papers / Tool demonstration papers
     short_paper:
       value: true
       year: 2026
@@ -64,6 +70,8 @@
       note: The Research Track includes long tool papers, short papers and tool demos;
         all conference papers appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     core_ranking:
       value: B
       year: 2026
@@ -85,7 +93,7 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-26204-2
     acceptance_rate:
-      tone: orange
+      tone: heat-16
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-26204-2
 
@@ -108,6 +116,9 @@
       note: Separate tool and short paper categories are confirmed; all accepted papers
         appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool papers (mandatory artifact evaluation)
     short_paper:
       value: true
       year: 2026
@@ -115,6 +126,8 @@
       note: Separate tool and short paper categories are confirmed; all accepted papers
         appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     core_ranking:
       value: B
       year: 2026
@@ -130,7 +143,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-10444-1
     acceptance_rate:
-      tone: orange
+      tone: heat-12
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-10444-1
 
@@ -158,11 +171,14 @@
     tool_paper:
       value: true
       year: 2027
-      source: https://etaps.org/2027/cfp/
+      source: https://etaps.org/2027/conferences/tacas/
       note: The current joint call includes tool and short categories. TACAS short papers
         are tool demonstrations; iFS also has separate short paper categories. Papers
         appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Regular Tool Papers / Tool-Demonstration Papers
     short_paper:
       value: true
       year: 2027
@@ -171,6 +187,8 @@
         are tool demonstrations; iFS also has separate short paper categories. Papers
         appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     core_ranking:
       value: A
       year: 2026
@@ -182,7 +200,7 @@
       year: 2026
       source: https://etaps.org/files/2026/tacas-ii-2026.pdf
     acceptance_rate:
-      tone: orange
+      tone: heat-14
       year: 2026
       source: https://etaps.org/files/2026/tacas-ii-2026.pdf
 
@@ -217,7 +235,7 @@
       year: 2026
       source: https://iccad2026.hotcrp.com/u/0/
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://iccad2026.hotcrp.com/u/0/
 
@@ -248,7 +266,7 @@
       year: 2026
       source: https://www.linkedin.com/posts/date-conference_author-notification-for-d-a-t-and-e-tracks-activity-7391795205781499904-JE32
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://www.linkedin.com/posts/date-conference_author-notification-for-d-a-t-and-e-tracks-activity-7391795205781499904-JE32
 
@@ -285,6 +303,9 @@
         Publication is confirmed by the current TU Wien proceedings linked from the
         conference website.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool & Case Study papers
     short_paper:
       value: true
       year: 2026
@@ -293,6 +314,8 @@
         Publication is confirmed by the current TU Wien proceedings linked from the
         conference website.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     core_ranking:
       value: B
       year: 2026
@@ -313,7 +336,7 @@
       year: 2026
       source: https://fmcad.org/FMCAD26/
     acceptance_rate:
-      tone: orange
+      tone: heat-14
       year: 2026
       source: https://fmcad.org/FMCAD26/
 
@@ -334,6 +357,8 @@
       note: The call explicitly accepts short papers, and the 2026 proceedings confirm
         their inclusion.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: green
       year: 2026
@@ -343,7 +368,7 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-28079-4
     acceptance_rate:
-      tone: amber
+      tone: heat-12
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-28079-4
 
@@ -365,6 +390,26 @@
       note: The Demonstrations Track has archival conference proceedings and requires
         an on-site demonstration.
       proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Demonstrations Track
+    short_paper:
+      value: true
+      year: 2026
+      source: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-demos/
+      note: Direct demonstration papers have three pages of main text plus references
+        and are published in the IJCAI-ECAI conference proceedings.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+    no_in_person:
+      value: true
+      year: 2026
+      source: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-demos/
+      note: The demo CFP permits an exception to in-person presentation when exceptional
+        circumstances are notified and approved in advance. The registration page otherwise
+        states no virtual/hybrid option; approval is essential, not guaranteed online
+        participation.
     registration_fee:
       tone: red
       year: 2026
@@ -374,7 +419,7 @@
       year: 2026
       source: https://2026.ijcai.org/press/
     acceptance_rate:
-      tone: red
+      tone: heat-17
       year: 2026
       source: https://2026.ijcai.org/press/
 
@@ -407,6 +452,8 @@
       note: Short papers are 6–11 pages and long papers are 12–16 pages; both appear
         in Springer LNAI.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: orange
       year: 2026
@@ -416,7 +463,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-7072-0
     acceptance_rate:
-      tone: amber
+      tone: heat-12
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-7072-0
 
@@ -475,12 +522,8 @@
       note: Both long and short papers are archived in the proceedings and require a
         presentation.
       proceedings: true
-    tool_paper:
-      value: true
-      year: 2026
-      source: https://2026.aaclnet.org/calls/demos/
-      note: System Demonstrations explicitly provides archival publication.
-      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: amber
       year: 2026
@@ -509,19 +552,16 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=59
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
-    tool_paper:
-      value: true
-      year: 2026
-      source: http://tcci.ccf.org.cn/conference/2026/calls/
-      note: Applications/tools is an explicit submission category. Papers use the 12-page
-        LNCS format and appear in Springer LNAI; this is not a presentation-only demo.
-      proceedings: true
     registration_fee:
       tone: orange
       year: 2026
       source: http://tcci.ccf.org.cn/conference/2026/registration/
     submissions:
       tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-3352-7
+    acceptance_rate:
+      tone: heat-13
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-3352-7
 
@@ -558,7 +598,7 @@
       year: 2025
       source: https://aclanthology.org/anthology-files/pdf/coling/2025.coling-main.0.pdf
     acceptance_rate:
-      tone: orange
+      tone: heat-14
       year: 2025
       source: https://aclanthology.org/anthology-files/pdf/coling/2025.coling-main.0.pdf
 
@@ -593,7 +633,7 @@
       year: 2024
       source: https://proceedings.mlr.press/v260/nguyen25a.html
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2024
       source: https://proceedings.mlr.press/v260/nguyen25a.html
 
@@ -634,7 +674,7 @@
       year: 2026
       source: https://www.linkedin.com/posts/icmlconf_decision-notifications-are-being-released-activity-7455685189479055361-PXq3
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://www.linkedin.com/posts/icmlconf_decision-notifications-are-being-released-activity-7455685189479055361-PXq3
 
@@ -676,15 +716,10 @@
       note: Short papers are explicitly accepted and distinguished from long papers
         in the proceedings.
       proceedings: true
-    tool_paper:
-      value: true
-      source: https://2026.emnlp.org/calls/demos/
-      year: 2026
-      note: System Demonstrations has separate archival proceedings and requires a live
-        on-site demo.
-      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
-      tone: orange
+      tone: amber
       year: 2026
       source: https://2026.emnlp.org/registration/
     submissions:
@@ -692,7 +727,7 @@
       year: 2025
       source: https://aclanthology.org/2025.emnlp-main.0.pdf
     acceptance_rate:
-      tone: orange
+      tone: heat-16
       year: 2025
       source: https://aclanthology.org/2025.emnlp-main.0.pdf
 
@@ -752,6 +787,20 @@
       year: 2027
       note: Authors may give online talks and online poster presentations; this is not
         merely access to a livestream.
+    short_paper:
+      value: true
+      year: 2027
+      source: https://www.esann.org/author_guidelines
+      note: Regular submissions use the official single-column ESANN template and are
+        at most six pages including figures and references. Accepted papers are printed
+        in the conference proceedings and published online. This compact regular-paper
+        format qualifies without a separate Short track.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+      short_basis: compact_format
+      page_layout: one_column
+      content_page_limit: 6
     registration_fee:
       tone: amber
       year: 2027
@@ -790,12 +839,14 @@
       source: https://2027.aclweb.org/calls/main/
       note: Short papers are explicitly included in the proceedings.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     submissions:
       tone: red
       year: 2026
       source: https://aclanthology.org/2026.acl-long.0.pdf
     acceptance_rate:
-      tone: red
+      tone: heat-16
       year: 2026
       source: https://aclanthology.org/2026.acl-long.0.pdf
 
@@ -834,20 +885,14 @@
       source: https://2027.naacl.org/calls/main_conference_papers/
       note: Short papers are explicitly included in the proceedings.
       proceedings: true
-    tool_paper:
-      value: true
-      year: 2027
-      source: https://2027.naacl.org/calls/system_demonstration/
-      note: System Demonstrations appears in the companion proceedings and requires
-        a live on-site demo. The main-track remote option does not automatically apply
-        to demos.
-      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     submissions:
       tone: red
       year: 2025
       source: https://aclanthology.org/2025.findings-naacl.0.pdf
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2025
       source: https://aclanthology.org/2025.findings-naacl.0.pdf
 
@@ -879,12 +924,15 @@
       note: Tool papers appear in Springer LNCS and require artifact evaluation. Older
         tool-paper page limits are not assumed to apply.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool Papers (mandatory artifact evaluation)
     submissions:
       tone: lime
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-32519-8
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-32519-8
 
@@ -905,6 +953,9 @@
       note: Research, case-study and tool papers may be regular or short; all are archived
         in LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool papers (regular or short)
     short_paper:
       value: true
       year: 2026
@@ -912,6 +963,8 @@
       note: Research, case-study and tool papers may be regular or short; all are archived
         in LNCS.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: orange
       year: 2026
@@ -921,7 +974,7 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-35298-9
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-35298-9
 
@@ -946,7 +999,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-3477-7
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-3477-7
 
@@ -978,6 +1031,8 @@
       note: 2026 Short Industrial Practices Papers are 3–5 pages and follow the IEEE
         Xplore publication process after acceptance.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
 
 - name: ASP-DAC
   year: 2027
@@ -1006,7 +1061,7 @@
       year: 2026
       source: https://www.aspdac.com/aspdac2026/pdf/ASP-DAC_2026_Full_Program.pdf
     acceptance_rate:
-      tone: orange
+      tone: heat-14
       year: 2026
       source: https://www.aspdac.com/aspdac2026/pdf/ASP-DAC_2026_Full_Program.pdf
 
@@ -1040,6 +1095,9 @@
         The short-paper tag applies to demos, not to a general main-track short-paper
         category.
       proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Demonstrations Program with proceedings short paper
     short_paper:
       value: true
       year: 2027
@@ -1048,6 +1106,8 @@
         The short-paper tag applies to demos, not to a general main-track short-paper
         category.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: red
       year: 2027
@@ -1057,7 +1117,7 @@
       year: 2026
       source: https://aaai.org/wp-content/uploads/2026/01/AAAI-26-Opening-Ceremony.pdf
     acceptance_rate:
-      tone: red
+      tone: heat-17
       year: 2026
       source: https://aaai.org/wp-content/uploads/2026/01/AAAI-26-Opening-Ceremony.pdf
 
@@ -1088,7 +1148,7 @@
       year: 2026
       source: https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/
 
@@ -1121,6 +1181,9 @@
       note: Tool papers are an explicit contribution type and may be long or short.
         All accepted papers appear in the proceedings.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool papers, explicitly listed as a contribution category
     short_paper:
       value: true
       year: 2027
@@ -1128,12 +1191,14 @@
       note: Tool papers are an explicit contribution type and may be long or short.
         All accepted papers appear in the proceedings.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     submissions:
       tone: lime
       year: 2024
       source: https://www.icaps-conference.org/wp-content/uploads/2025/12/MinutesICAPS2024CouncilMeeting_v2.pdf
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2024
       source: https://www.icaps-conference.org/wp-content/uploads/2025/12/MinutesICAPS2024CouncilMeeting_v2.pdf
 
@@ -1159,6 +1224,20 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=5
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+      year: 2026
+      target_year: 2027
+      reference_only: true
+      reference_exception_approved: true
+      source: https://dac.com/2026/late-breaking-results
+      note: Direct two-page Late Breaking Results (LBR) submissions, including references,
+        are published in the official DAC proceedings and archived in ACM DL / IEEE
+        Xplore after registration and presentation. This tag uses verified DAC 2026
+        evidence as requested; the 2027 LBR announcement has not yet been confirmed.
 
 - name: ATVA
   year: 2026
@@ -1188,7 +1267,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-08707-2
     acceptance_rate:
-      tone: orange
+      tone: heat-13
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-08707-2
 
@@ -1214,7 +1293,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-7826-9
     acceptance_rate:
-      tone: orange
+      tone: heat-12
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-7826-9
     registration_fee:
@@ -1244,7 +1323,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-7826-9
     acceptance_rate:
-      tone: orange
+      tone: heat-12
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-7826-9
     registration_fee:
@@ -1281,6 +1360,9 @@
       note: Separate categories are stated in the call and confirmed in the 2026 LNCS
         proceedings.
       proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Tool Demonstration Papers
     short_paper:
       value: true
       year: 2026
@@ -1288,6 +1370,8 @@
       note: Separate categories are stated in the call and confirmed in the 2026 LNCS
         proceedings.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: amber
       year: 2026
@@ -1328,7 +1412,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-4213-0
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-4213-0
 
@@ -1361,6 +1445,9 @@
       note: The current call explicitly lists category B (short) and category C (tool);
         categories A–C appear in LNCS proceedings.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: 'Category C: tool papers'
     short_paper:
       value: true
       year: 2026
@@ -1368,6 +1455,8 @@
       note: The current call explicitly lists category B (short) and category C (tool);
         categories A–C appear in LNCS proceedings.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: orange
       year: 2026
@@ -1377,7 +1466,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-11176-0
     acceptance_rate:
-      tone: orange
+      tone: heat-13
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-11176-0
 
@@ -1403,6 +1492,8 @@
       source: https://tase2026.github.io/c_cfp.html
       note: Six-page short papers are explicitly accepted and appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: amber
       year: 2026
@@ -1412,7 +1503,7 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-30693-7
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-30693-7
 
@@ -1447,7 +1538,7 @@
       year: 2026
       source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2026.0
     acceptance_rate:
-      tone: orange
+      tone: heat-12
       year: 2026
       source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2026.0
 
@@ -1475,6 +1566,8 @@
       note: Four-page short papers, excluding references, appear in IEEE Xplore after
         acceptance and an in-person presentation.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: red
       year: 2026
@@ -1512,13 +1605,6 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=6
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
-    short_paper:
-      value: true
-      year: 2026
-      source: https://www.iccd-conf.com/2026/Call_for_papers.html
-      note: The program committee may accept a full-paper submission as a four-page
-        short paper in the proceedings. Direct short-paper submissions are not accepted.
-      proceedings: true
     registration_fee:
       tone: red
       year: 2026
@@ -1553,12 +1639,14 @@
       note: The 2027 call explicitly includes short papers. All accepted papers appear
         in the conference proceedings and ACM Digital Library.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     submissions:
       tone: green
       year: 2026
       source: https://fpga26.hotcrp.com/
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://fpga26.hotcrp.com/
 
@@ -1585,12 +1673,19 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=5
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://www.asplos-conference.org/asplos2027/cfp/
+      note: In-person attendance is normally expected, but exceptions exist when all
+        authors face serious travel barriers such as visa restrictions, care-giving
+        responsibilities or disability. Coordinate the arrangement with the organizers.
     submissions:
       tone: red
       year: 2026
       source: https://doi.org/10.1145/237090
     acceptance_rate:
-      tone: red
+      tone: heat-17
       year: 2026
       source: https://doi.org/10.1145/237090
 
@@ -1617,12 +1712,19 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=5
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://www.asplos-conference.org/asplos2027/cfp/
+      note: In-person attendance is normally expected, but exceptions exist when all
+        authors face serious travel barriers such as visa restrictions, care-giving
+        responsibilities or disability. Coordinate the arrangement with the organizers.
     submissions:
       tone: red
       year: 2026
       source: https://doi.org/10.1145/237090
     acceptance_rate:
-      tone: red
+      tone: heat-17
       year: 2026
       source: https://doi.org/10.1145/237090
 
@@ -1720,7 +1822,7 @@
       year: 2025
       source: https://arxiv.org/abs/2603.19244
     acceptance_rate:
-      tone: orange
+      tone: heat-12
       year: 2025
       source: https://arxiv.org/abs/2603.19244
 
@@ -1740,6 +1842,20 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=48
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+      year: 2027
+      source: https://cmsworkshops.com/ICASSP2027/papers/paper_kit.php
+      note: Regular papers use four two-column technical-content pages. An optional
+        fifth page is reserved for references, funding acknowledgements and an ethics
+        statement. Accepted presented papers enter the official IEEE Xplore proceedings.
+        This tag qualifies by page limit.
+      short_basis: compact_format
+      page_layout: two_column
+      content_page_limit: 4
     registration_fee:
       tone: red
       year: 2027
@@ -1840,14 +1956,6 @@
   place: Graz, Austria
   tags: [PL]
   labels:
-    tool_paper:
-      value: true
-      year: 2026
-      source: https://fmcad.org/FMCAD26/vstte/
-      note: System descriptions and short submissions are accepted. Accepted regular-track
-        papers appear in post-conference Springer LNCS proceedings; WIP presentations
-        are excluded.
-      proceedings: true
     short_paper:
       value: true
       year: 2026
@@ -1856,6 +1964,8 @@
         papers appear in post-conference Springer LNCS proceedings; WIP presentations
         are excluded.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: green
       year: 2026
@@ -1865,7 +1975,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-27340-6
     acceptance_rate:
-      tone: orange
+      tone: heat-12
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-27340-6
 
@@ -1897,6 +2007,8 @@
       source: https://formal-analysis.com/iceccs/2026/
       note: Short papers explicitly appear in the LNCS conference proceedings.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: amber
       year: 2026
@@ -1906,7 +2018,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-00828-2
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-032-00828-2
 
@@ -1947,7 +2059,7 @@
       year: 2026
       source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.0
     acceptance_rate:
-      tone: orange
+      tone: heat-14
       year: 2026
       source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.0
 
@@ -1976,6 +2088,21 @@
   place: Catania, Sicily, Italy
   tags: [EDA]
   labels:
+    short_paper:
+      value: true
+      proceedings: true
+      proceedings_scope: workshop
+      direct_submission: true
+      year: 2026
+      source: https://cfwosh2026.github.io/
+      note: 'All workshop submissions use at most four double-column pages and are formally
+        published in ACM DL. No separate Short track is required under the maintainer''s
+        page-limit rule. The publication is Computing Frontiers: Workshops and Special
+        Sessions, separate from the parent conference''s main volume.'
+      short_basis: compact_format
+      page_layout: two_column
+      content_page_limit: 4
+      scope_exception_approved: true
     registration_fee:
       tone: orange
       year: 2026
@@ -2005,6 +2132,18 @@
         registration policy confirms publication of registered accepted papers in the
         proceedings.
       proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Tool Demonstration Track
+    short_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/internetware-2026/internetware-2026-new-idea
+      note: Direct four-page New Idea papers qualify as shorter archival submissions;
+        accepted registered papers appear in the conference proceedings.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: red
       year: 2026
@@ -2014,7 +2153,7 @@
       year: 2025
       source: https://internetware2025.hotcrp.com/
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2025
       source: https://internetware2025.hotcrp.com/
 
@@ -2042,6 +2181,18 @@
         registration policy confirms publication of registered accepted papers in the
         proceedings.
       proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Tool Demonstration Track
+    short_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/internetware-2026/internetware-2026-new-idea
+      note: Direct four-page New Idea papers qualify as shorter archival submissions;
+        accepted registered papers appear in the conference proceedings.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: red
       year: 2026
@@ -2051,7 +2202,7 @@
       year: 2025
       source: https://internetware2025.hotcrp.com/
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2025
       source: https://internetware2025.hotcrp.com/
 
@@ -2097,12 +2248,26 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=7
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+      year: 2027
+      source: https://epapers2.org/iscas2027/ESR/authorinfo1.php
+      note: Regular papers use four two-column technical-content pages, with an optional
+        fifth page for references only. Accepted presented papers are included in the
+        ISCAS 2027 proceedings and submitted to IEEE Xplore. This tag qualifies by page
+        limit, without requiring a separate Short track.
+      short_basis: compact_format
+      page_layout: two_column
+      content_page_limit: 4
     submissions:
       tone: red
       year: 2026
       source: https://2026.ieee-iscas.org/assets/ISCAS_2026_Program.pdf#page=5
     acceptance_rate:
-      tone: amber
+      tone: heat-9
       year: 2026
       source: https://2026.ieee-iscas.org/assets/ISCAS_2026_Program.pdf#page=5
 
@@ -2158,7 +2323,7 @@
       year: 2026
       source: https://egraphs2026.hotcrp.com/
     acceptance_rate:
-      tone: lime
+      tone: heat-5
       year: 2026
       source: https://egraphs2026.hotcrp.com/
 
@@ -2184,6 +2349,13 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://pldi27.sigplan.org/track/pldi-2027-papers
+      note: PACMPL authors are explicitly invited, but not required, to present at PLDI.
+        The conference does not offer ordinary remote talks, but conference presentation
+        itself is optional.
 
 - name: ISPD
   year: 2027
@@ -2206,7 +2378,7 @@
       year: 2026
       source: https://doi.org/10.1145/3764386.3779590
     acceptance_rate:
-      tone: orange
+      tone: heat-13
       year: 2026
       source: https://doi.org/10.1145/3764386.3779590
 
@@ -2260,6 +2432,18 @@
       source: https://memocode2026.github.io/callforpapers.html
       note: Separate tool papers are accepted and archived in IEEE proceedings.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool Papers with separate submission requirements
+    short_paper:
+      value: true
+      year: 2026
+      source: https://memocode2026.github.io/callforpapers.html
+      note: Direct four-page WIP/late-breaking submissions are included in the same
+        IEEE proceedings as regular and tool papers.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: amber
       year: 2026
@@ -2294,6 +2478,9 @@
       note: The 2026 event is the joint LOPSTR+PPDP symposium. System descriptions and
         short papers are explicitly accepted into Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: system_description
+      category_name: System Descriptions (must be marked as such)
     short_paper:
       value: true
       year: 2026
@@ -2301,6 +2488,8 @@
       note: The 2026 event is the joint LOPSTR+PPDP symposium. System descriptions and
         short papers are explicitly accepted into Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     no_in_person:
       value: true
       year: 2026
@@ -2313,7 +2502,7 @@
       year: 2025
       source: https://link.springer.com/content/pdf/bfm:978-3-032-04848-6/1#page=5
     acceptance_rate:
-      tone: amber
+      tone: heat-9
       year: 2025
       source: https://link.springer.com/content/pdf/bfm:978-3-032-04848-6/1#page=5
     registration_fee:
@@ -2354,7 +2543,7 @@
       year: 2026
       source: https://popl26.hotcrp.com/
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://popl26.hotcrp.com/
 
@@ -2375,6 +2564,8 @@
       note: Two-page short papers are accepted in 2027. All accepted papers enter the
         electronic proceedings, with an optional official website archive.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
 
 - name: APSEC
   year: 2026
@@ -2405,6 +2596,9 @@
       note: Accepted Tool Demonstration papers enter the APSEC 2026 proceedings and
         IEEE Digital Library, subject to registration and presentation.
       proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Tool Demonstration Track
     short_paper:
       value: true
       year: 2026
@@ -2412,6 +2606,8 @@
       note: The ERA track accepts two-page short papers presented as posters and included
         in the conference proceedings in the IEEE CS Digital Library.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: orange
       year: 2026
@@ -2431,11 +2627,14 @@
     tool_paper:
       value: true
       year: 2027
-      source: https://etaps.org/2027/cfp/
+      source: https://etaps.org/2027/conferences/ifs/
       note: The current joint call includes tool and short categories. TACAS short papers
         are tool demonstrations; iFS also has separate short paper categories. Papers
         appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tools, their foundations and demonstrations
     short_paper:
       value: true
       year: 2027
@@ -2444,6 +2643,8 @@
         are tool demonstrations; iFS also has separate short paper categories. Papers
         appear in Springer LNCS.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
 
 - name: FormaliSE
   year: 2027
@@ -2462,12 +2663,24 @@
       note: Tool demo papers are explicitly archived; posters are explicitly excluded
         from the proceedings.
       proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Tool demo papers (four pages)
+    short_paper:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/track/Formalise-2027/Formalise-2027-papers
+      note: Direct four-page Research Ideas, five-page Vision and four-page Tool Demo
+        papers are archival conference submissions. Non-archival posters are excluded.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     submissions:
       tone: green
       year: 2026
       source: https://www.fmeurope.org/2026/05/13/formalise-2026-report/
     acceptance_rate:
-      tone: amber
+      tone: heat-8
       year: 2026
       source: https://www.fmeurope.org/2026/05/13/formalise-2026-report/
 
@@ -2494,6 +2707,9 @@
       note: Short papers may describe implemented systems. The official site links the
         LNCS proceedings; the tool tag refers to this system-description category.
       proceedings: true
+      proceedings_scope: main
+      submission_type: system_description
+      category_name: Short papers describing implemented systems
     short_paper:
       value: true
       year: 2026
@@ -2501,6 +2717,8 @@
       note: Short papers may describe implemented systems. The official site links the
         LNCS proceedings; the tool tag refers to this system-description category.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: orange
       year: 2026
@@ -2510,7 +2728,7 @@
       year: 2026
       source: https://ijcar.org/conferences
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2026
       source: https://ijcar.org/conferences
 
@@ -2527,10 +2745,13 @@
     tool_paper:
       value: true
       year: 2026
-      source: https://aiverification.org/2026/call/
+      source: https://vnn-comp.github.io/cfp26.html
       note: Original papers may be short. The tool category is limited to VNN-COMP competition
         contributions. Both appear in SAIV LNCS; presentation-only submissions are excluded.
       proceedings: true
+      proceedings_scope: main
+      submission_type: competition_tool_paper
+      category_name: 'VNN-COMP Competition Contribution: Tool Papers (participants only)'
     short_paper:
       value: true
       year: 2026
@@ -2538,6 +2759,8 @@
       note: Original papers may be short. The tool category is limited to VNN-COMP competition
         contributions. Both appear in SAIV LNCS; presentation-only submissions are excluded.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     submissions:
       tone: green
       year: 2026
@@ -2546,6 +2769,10 @@
       tone: lime
       year: 2026
       source: https://www.floc26.org/registration
+    acceptance_rate:
+      tone: heat-8
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-32357-6
 
 - name: ICTAI
   year: 2026
@@ -2610,7 +2837,7 @@
       year: 2026
       source: https://fyust.edu.cn/gjhyqk/cscwd2026/program.pdf
     acceptance_rate:
-      tone: lime
+      tone: heat-6
       year: 2026
       source: https://fyust.edu.cn/gjhyqk/cscwd2026/program.pdf
 
@@ -2636,13 +2863,6 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=48
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
-    tool_paper:
-      value: true
-      year: 2026
-      source: https://2026.ieeeicme.org/call-for-demonstrations/
-      note: Standalone two-page demonstration papers enter the conference proceedings
-        and IEEE Xplore after acceptance, registration and presentation.
-      proceedings: true
     registration_fee:
       tone: red
       year: 2026
@@ -2704,6 +2924,14 @@
         contributions. Accepted, registered and presented papers enter the IEEE Xplore
         proceedings.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+    no_in_person:
+      value: true
+      year: 2026
+      source: https://www.ieeesmc2026.org/Content/3031827.html
+      note: Authors affected by travel, visa or health restrictions may request approval
+        for a virtual presentation. Organizer approval is required.
 
 - name: ICPADS
   year: 2026
@@ -2758,10 +2986,13 @@
     short_paper:
       value: true
       year: 2026
-      source: https://hpcn.exeter.ac.uk/ica3pp2026/Camera-Ready-Paper-Instructions.html
-      note: The official camera-ready instructions list regular and short/workshop papers
-        for the confirmed LNCS post-proceedings.
+      source: https://hpcn.exeter.ac.uk/ica3pp2026/call4paper.php
+      note: The CFP explicitly permits direct short-paper submissions (minimum six pages);
+        conference papers enter the confirmed LNCS post-proceedings. Workshop-only and
+        downgrade-only routes do not establish this tag.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: orange
       year: 2026
@@ -2771,7 +3002,7 @@
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-8408-6
     acceptance_rate:
-      tone: amber
+      tone: heat-9
       year: 2025
       source: https://link.springer.com/book/10.1007/978-981-95-8408-6
 
@@ -2803,15 +3034,36 @@
       value: true
       year: 2027
       source: https://conf.researchr.org/track/fse-2027/fse-2027-industry-papers
-      note: The Industry Track accepts 5+1-page short papers in the conference companion
-        proceedings.
+      note: Industry Track short papers (5+1 pages) are directly submittable and published
+        in the FSE Companion Proceedings in the ACM Digital Library. This is a companion
+        volume, not the Research Track publication.
       proceedings: true
+      proceedings_scope: companion
+      scope_exception_approved: true
+      direct_submission: true
+    tool_paper:
+      value: true
+      year: 2026
+      target_year: 2027
+      reference_only: true
+      reference_exception_approved: true
+      source: https://conf.researchr.org/track/fse-2026/fse-2026-demonstrations#call-Call-for-Tool-Demonstrations
+      note: '2026 evidence only; the 2027 Tool Demonstrations call is not yet confirmed.
+        FSE 2026 explicitly accepted four-page Tool Demonstration papers plus references,
+        archived in ACM DL. The published conference volume is DOI 10.1145/3803437;
+        example tool paper: 10.1145/3803437.3806402. This does not assert that the 2027
+        track is open.'
+      proceedings: true
+      proceedings_scope: conference
+      scope_exception_approved: true
+      submission_type: demo_paper
+      category_name: Tool Demonstrations (2026 reference; 2027 unconfirmed)
     submissions:
       tone: red
       year: 2026
       source: https://www.shinhwei.com/FSE-Sponsorship-Information.pdf#page=3
     acceptance_rate:
-      tone: orange
+      tone: heat-16
       year: 2025
       source: https://www.shinhwei.com/FSE-Sponsorship-Information.pdf#page=3
 
@@ -2837,19 +3089,12 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
-    tool_paper:
-      value: true
-      year: 2027
-      source: https://conf.researchr.org/track/icse-2027/icse-2027-demonstrations
-      note: Tool Demonstration and Data Showcase papers are four pages, follow ACM publication
-        and ORCID procedures, and use the IEEE proceedings format.
-      proceedings: true
     submissions:
       tone: red
       year: 2026
       source: https://icse2026.hotcrp.com/
     acceptance_rate:
-      tone: orange
+      tone: heat-16
       year: 2026
       source: https://icse2026.hotcrp.com/
 
@@ -2874,20 +3119,6 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
-    tool_paper:
-      value: true
-      year: 2026
-      source: https://conf.researchr.org/track/ase-2026/ase-2026-submission-instructions-and-policies
-      note: Tools and Datasets papers are five pages; accepted papers appear in the
-        ACM proceedings.
-      proceedings: true
-    short_paper:
-      value: true
-      year: 2026
-      source: https://conf.researchr.org/track/ase-2026/ase-2026-submission-instructions-and-policies
-      note: The Industry Showcase explicitly accepts 6+1-page short papers in the ACM
-        proceedings.
-      proceedings: true
     no_in_person:
       value: true
       year: 2026
@@ -2895,6 +3126,27 @@
       note: The official Not-in-Person Presentations option permits videos, single-slide
         presentations or organizer-printed posters for authors unable to attend. Paper
         registration requirements still apply.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/ase-2026/ase-2026-tools-and-data-sets
+      note: The explicit Tools and Datasets category is published in the same ASE 2026
+        main proceedings as Research Papers (ACM DOI 10.1145/3832783). Confirmed using
+        the published MergeSE paper, DOI 10.1145/3832783.3834630.
+      proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Tools and Datasets
+    short_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/ase-2026/ase-2026-industry-showcase
+      note: Direct Industry Short submissions and short tool papers appear in the same
+        ASE 2026 main proceedings as Research Papers. RiskScope is explicitly identified
+        as an Industry Short Paper and published under DOI 10.1145/3832783.3834510.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: red
       year: 2026
@@ -2927,7 +3179,7 @@
       year: 2026
       source: https://www.linkedin.com/posts/marcelboehme1_issta-issta-issta-activity-7477276219525386240-Tt3s
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://www.linkedin.com/posts/marcelboehme1_issta-issta-issta-activity-7477276219525386240-Tt3s
 
@@ -2953,18 +3205,23 @@
       source: https://spin-web.github.io/SPIN2026/cfp
       note: Full tool papers and short papers are accepted and archived in LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Full Tool Papers with mandatory artifact
     short_paper:
       value: true
       year: 2026
       source: https://spin-web.github.io/SPIN2026/cfp
       note: Full tool papers and short papers are accepted and archived in LNCS.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     submissions:
       tone: green
       year: 2026
       source: https://link.springer.com/book/9783032356376
     acceptance_rate:
-      tone: amber
+      tone: heat-12
       year: 2026
       source: https://link.springer.com/book/9783032356376
     registration_fee:
@@ -2997,6 +3254,19 @@
       note: 2026 Tool Papers are 6+1 pages and belong to the IEEE Xplore proceedings
         category, separate from non-archival WIP contributions.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool Papers with explicit submission notice
+    short_paper:
+      value: true
+      year: 2026
+      source: https://www.fdl-conference.com/submission.html
+      note: Direct Wild-and-Crazy-Idea papers use four pages plus references and are
+        included in the IEEE proceedings categories. Non-archival WIP/PhD abstracts
+        are excluded.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
 
 - name: SAT
   year: 2026
@@ -3029,6 +3299,9 @@
       note: Long, short and tool papers are explicit categories; all accepted papers
         appear in LIPIcs.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool papers (eight pages)
     short_paper:
       value: true
       year: 2026
@@ -3036,6 +3309,8 @@
       note: Long, short and tool papers are explicit categories; all accepted papers
         appear in LIPIcs.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: orange
       year: 2026
@@ -3045,7 +3320,7 @@
       year: 2026
       source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2026.0
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2026
       source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2026.0
 
@@ -3072,6 +3347,8 @@
       source: https://itp-conference-2026.github.io/cfp.html
       note: Short papers explicitly appear in the main LIPIcs proceedings.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: orange
       year: 2026
@@ -3081,7 +3358,7 @@
       year: 2026
       source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2026.0
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2026.0
 
@@ -3103,14 +3380,6 @@
       source: https://portal.core.edu.au/conf-ranks/?search=DSD&by=all&source=ICORE2026&sort=atitle&page=1
       note: 'ICORE 2026. Official directory name: Euromicro Conference Series on Digital
         System Design'
-    short_paper:
-      value: true
-      year: 2026
-      source: https://dsd-seaa.com/wip/
-      note: The joint WiP special session accepts short papers in separate WiP DSD-SEAA
-        proceedings. These do not enter IEEE Xplore and are distinct from the main conference
-        proceedings.
-      proceedings: true
     registration_fee:
       tone: orange
       year: 2026
@@ -3143,7 +3412,7 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-36849-2
     acceptance_rate:
-      tone: orange
+      tone: heat-15
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-36849-2
 
@@ -3175,7 +3444,7 @@
       year: 2025
       source: https://ches.iacr.org/statistics.php
     acceptance_rate:
-      tone: orange
+      tone: heat-13
       year: 2025
       source: https://ches.iacr.org/statistics.php
 
@@ -3207,7 +3476,7 @@
       year: 2025
       source: https://ches.iacr.org/statistics.php
     acceptance_rate:
-      tone: orange
+      tone: heat-13
       year: 2025
       source: https://ches.iacr.org/statistics.php
 
@@ -3239,7 +3508,7 @@
       year: 2025
       source: https://ches.iacr.org/statistics.php
     acceptance_rate:
-      tone: orange
+      tone: heat-13
       year: 2025
       source: https://ches.iacr.org/statistics.php
 
@@ -3271,7 +3540,7 @@
       year: 2025
       source: https://ches.iacr.org/statistics.php
     acceptance_rate:
-      tone: orange
+      tone: heat-13
       year: 2025
       source: https://ches.iacr.org/statistics.php
 
@@ -3304,7 +3573,7 @@
       year: 2024
       source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
     acceptance_rate:
-      tone: orange
+      tone: heat-16
       year: 2024
       source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
 
@@ -3337,7 +3606,7 @@
       year: 2024
       source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
     acceptance_rate:
-      tone: orange
+      tone: heat-16
       year: 2024
       source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
 
@@ -3370,7 +3639,7 @@
       year: 2024
       source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
     acceptance_rate:
-      tone: orange
+      tone: heat-16
       year: 2024
       source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
 
@@ -3422,6 +3691,9 @@
       note: The short-paper category includes system descriptions; all papers appear
         in LIPIcs.
       proceedings: true
+      proceedings_scope: main
+      submission_type: system_description
+      category_name: Short-paper category explicitly including system descriptions
     short_paper:
       value: true
       year: 2027
@@ -3429,12 +3701,14 @@
       note: The short-paper category includes system descriptions; all papers appear
         in LIPIcs.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     submissions:
       tone: green
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-031-99984-0
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2025
       source: https://link.springer.com/book/10.1007/978-3-031-99984-0
 
@@ -3468,6 +3742,9 @@
       note: The NEAT category explicitly includes tool papers, following the same page
         limits as regular papers and published in LNCS.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: 'NEAT category: Tool papers; NEAT title required'
     registration_fee:
       tone: red
       year: 2026
@@ -3477,7 +3754,7 @@
       year: 2026
       source: https://link.springer.com/book/9783032403735
     acceptance_rate:
-      tone: amber
+      tone: heat-11
       year: 2026
       source: https://link.springer.com/book/9783032403735
 
@@ -3512,6 +3789,9 @@
       note: The current call has separate tool and short categories, confirmed in the
         2026 LNCS proceedings.
       proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Tool papers with mandatory artifact
     short_paper:
       value: true
       year: 2026
@@ -3519,6 +3799,8 @@
       note: The current call has separate tool and short categories, confirmed in the
         2026 LNCS proceedings.
       proceedings: true
+      proceedings_scope: main
+      direct_submission: true
     registration_fee:
       tone: amber
       year: 2026
@@ -3528,7 +3810,7 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-28187-6
     acceptance_rate:
-      tone: amber
+      tone: heat-9
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-28187-6
 
