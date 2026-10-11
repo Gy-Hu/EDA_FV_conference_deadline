@@ -52,7 +52,6 @@ Descriptions of the fields:
 | `description` | Description, or long name                                   |
 | `link`\*      | URL to the conference home page                             |
 | `deadline`\*  | One-item list: abstract deadline, or submission deadline if no separate abstract deadline exists |
-| `deadline_label` | Optional display label; defaults to `Abstract deadline`. Use `Paper deadline` or `Paper registration deadline` as appropriate. |
 | `timezone`    | Timezone in [tz][1] format. By default is UTC-12 ([AoE][2]) |
 | `date`        | When the conference is happening                            |
 | `place`       | Where the conference is happening                           |
@@ -64,21 +63,37 @@ Fields marked with asterisk (\*) are required.
 ### Deadline format
 
 The *deadline* field contains exactly one deadline. Use the abstract deadline when
-the conference has one; otherwise use its single paper submission deadline:
+the conference has one; otherwise use its single paper submission deadline.
+Always display this date as `Abstract deadline`, including when the underlying
+date is a paper submission, ARR submission, or mandatory paper registration
+deadline. Do not add per-conference display labels.
+Check each deadline against that edition's official CFP, date page, or submission
+system. Use the latest extension for the same submission stage. Do not substitute
+an independent extended-abstract, demo, workshop, camera-ready, or author
+registration deadline for the main research-paper abstract deadline.
+
+Supported formats:
 
 1. The simplest option: a date and time in ISO format. Example: `["2017-08-19 23:59"]` (Note that you need to wrap even a single deadline in a list).
 2. If a deadline is rolling, you can use a template date, just substitute the
    year with `%y` and the year before the conference with `%Y`. Example:
    `["%y-01-15 23:59"]` means there is a deadline on the 15th January in the
    same year as the conference.
-On the page, all deadlines are displayed in viewer's local time (that's a feature).
+On the page, all deadlines are displayed in the viewer's local time.
 
 When the next edition has no published submission deadline, retain the previous
 edition's complete record (year, dates, location, URL, and deadline) instead of
 using `TBA` or projecting its deadline into the next year.
-For conferences with multiple submission cycles, use the next
-open cycle and identify it in `comment`. If a published date has no time or time
-zone, explicitly disclose any assumed end-of-day AoE time in `comment`.
+For conferences with multiple submission cycles, use the next confirmed open
+cycle; if all cycles have closed, retain the latest cycle as a reference.
+If the latest edition has no published submission date, retain the previous
+edition as a reference; do not invent a date or project last year's date forward.
+A published calendar date is sufficient to keep the current edition. Missing
+hours or time zones alone are not a reason to roll back the edition; use the
+existing 23:59 AoE default unless an official source specifies otherwise.
+Keep the edition's year, dates, location, URL, and deadline together. Do not add attendance policies, registration details, or
+speculative-deadline explanations to conference cards. Keep source citations in
+YAML comments instead.
 
 *Note:* If the deadline hour is `{h}:00`, it will be automatically translated into `{h-1}:59:59` to avoid pain and confusion when it happens to be midnight in local time.
 

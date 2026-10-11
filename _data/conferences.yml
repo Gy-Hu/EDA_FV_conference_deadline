@@ -5,6 +5,7 @@
   description: The International Conference on Verification, Model Checking, and Abstract
     Interpretation
   link: https://conf.researchr.org/home/VMCAI-2027
+  # Source: https://conf.researchr.org/home/VMCAI-2027
   deadline: ["2026-09-23 23:59"]
   place: Mexico City, Mexico
   tags: [FV]
@@ -14,6 +15,7 @@
   date: "May 18 - 22"
   description: The International Symposium on Formal Methods
   link: https://conf.researchr.org/home/fm-2026
+  # Source: https://conf.researchr.org/track/fm-2026/fm-2026-research-paper
   deadline: ["2025-11-25 23:59"]
   place: Tokyo, Japan
   tags: [FV]
@@ -35,6 +37,7 @@
   date: "December 15 - 18"
   description: Conference on Decision and Control
   link: https://cdc2026.ieeecss.org/
+  # Source: https://cdc2026.ieeecss.org/about/call-for-papers
   deadline: ["2026-03-31 23:59"]
   place: Honolulu, Hawaii, USA
   tags: [CS]
@@ -45,6 +48,7 @@
   description: International Conference on Tools and Algorithms for the Construction
     and Analysis of Systems
   link: https://etaps.org/2027/conferences/tacas/
+  # Source: https://etaps.org/2027/cfp/
   deadline: ["2026-10-15 23:59"]
   place: Copenhagen, Denmark
   tags: [FV]
@@ -54,6 +58,7 @@
   date: "November 8 - 12"
   description: The International Conference on Computer-Aided Design
   link: https://iccad.com/2026
+  # Source: https://iccad.com/2026/authors/call-for-papers
   deadline: ["2026-04-07 23:59"]
   place: San Jose, California, USA
   tags: [EDA]
@@ -63,6 +68,7 @@
   date: "March 22 - 24"
   description: Design, Automation and Test in Europe Conference
   link: https://date27.date-conference.com/call-for-papers
+  # Source: https://date27.date-conference.com/call-for-papers
   deadline: ["2026-09-13 23:59"]
   place: Dresden, Germany
   tags: [EDA]
@@ -72,6 +78,7 @@
   date: "September 7 - 9"
   description: Machine Learning for CAD
   link: https://mlcad.org/symposium/2026/
+  # Source: https://mlcad.org/symposium/2026/
   deadline: ["2026-05-29 23:59"]
   place: Seogwipo, Jeju, South Korea
   tags: [EDA, ML]
@@ -81,6 +88,7 @@
   date: "September 14 - 18"
   description: Formal Methods in Computer-Aided Design
   link: https://fmcad.org/FMCAD26/
+  # Source: https://fmcad.org/FMCAD26/important_dates/
   deadline: ["2026-05-04 23:59"]
   place: Graz, Austria
   tags: [EDA, FV]
@@ -90,6 +98,7 @@
   date: "May 5 - 7"
   description: NASA Formal Methods Symposium
   link: https://nfm2026.github.io/
+  # Source: https://nfm2026.github.io/
   deadline: ["2026-01-24 23:59"]
   place: University of Southern California, Los Angeles, California, USA
   tags: [FV]
@@ -100,15 +109,17 @@
   description: International Joint Conference on Artificial Intelligence and European
     Conference on Artificial Intelligence
   link: https://2026.ijcai.org/
+  # Source: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
   deadline: ["2026-01-12 23:59"]
   place: Bremen, Germany
   tags: [ML]
 
 - name: PRICAI
   year: 2026
-  date: "November 17 - 20"
+  date: "November 16 - 20"
   description: Pacific Rim International Conference on Artificial Intelligence
   link: https://2026.pricai.org/
+  # Source: https://2026.pricai.org/calls/call-for-papers
   deadline: ["2026-06-27 23:59"]
   place: South China Normal University, Guangzhou, China
   tags: [ML]
@@ -118,6 +129,7 @@
   date: "November 23 - 27"
   description: International Conference on Neural Information Processing
   link: https://iconip2026.org/call-for-papers
+  # Source: https://mailman.srv.cs.cmu.edu/pipermail/connectionists/2026-May/044461.html
   deadline: ["2026-05-31 23:59"]
   place: Melbourne, Australia
   tags: [ML]
@@ -128,6 +140,7 @@
   description: Asia-Pacific Chapter of the Association for Computational Linguistics
     and International Joint Conference on Natural Language Processing
   link: https://2026.aaclnet.org/
+  # Source: https://2026.aaclnet.org/calls/main_conference_papers/
   deadline: ["2026-05-25 23:59"]
   place: Hengqin, China
   tags: [ML]
@@ -150,6 +163,7 @@
   date: "May 9 - 14"
   description: International Conference on Computational Linguistics
   link: https://2027.coling-iccl.org/
+  # Source: https://2027.coling-iccl.org/calls/main_conference_papers/
   deadline: ["2026-10-12 23:59"]
   place: Macau, China
   tags: [ML]
@@ -159,6 +173,7 @@
   date: "December 1 - 4"
   description: Asian Conference on Machine Learning
   link: https://www.acml-conf.org/2026/
+  # Source: https://www.acml-conf.org/2026/calls/papers/
   deadline: ["2026-07-05 23:59"]
   timezone: Etc/GMT+12
   place: Melbourne, Australia
@@ -169,8 +184,43 @@
   date: "July 6 - 11"
   description: International Conference on Machine Learning
   link: https://icml.cc/Conferences/2026
+  # Source: https://icml.cc/Conferences/2026/CallForPapers
   deadline: ["2026-01-23 23:59"]
   place: Seoul, South Korea
+  tags: [ML]
+
+- name: EMNLP
+  year: 2026
+  date: "October 24 - 29"
+  description: Conference on Empirical Methods in Natural Language Processing
+  link: https://2026.emnlp.org/
+  # Latest eligible ARR submission cycle, not the later commitment deadline.
+  # Source: https://2026.emnlp.org/calls/main_conference_papers/
+  deadline: ["2026-05-25 23:59"]
+  timezone: Etc/GMT+12
+  place: Budapest, Hungary
+  tags: [ML]
+
+- name: UAI
+  year: 2026
+  date: "August 17 - 21"
+  description: Conference on Uncertainty in Artificial Intelligence
+  link: https://www.auai.org/uai2026/
+  # Single paper submission deadline; no separate abstract deadline.
+  # Source: https://www.auai.org/uai2026/important_dates
+  deadline: ["2026-02-25 23:59"]
+  timezone: Etc/GMT+12
+  place: Amsterdam, Netherlands
+  tags: [ML]
+
+- name: ESANN
+  year: 2027
+  date: "April 21 - 23"
+  description: European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning
+  link: https://www.esann.org/
+  # Source: https://www.esann.org/node/3
+  deadline: ["2026-11-18 23:59"]
+  place: Bruges, Belgium
   tags: [ML]
 
 - name: ACL
@@ -178,7 +228,8 @@
   date: "August 17 - 22"
   description: Annual Meeting of the Association for Computational Linguistics
   link: https://2027.aclweb.org/
-  deadline: ["2026-01-05 23:59"]
+  # Source: https://2027.aclweb.org/calls/main/
+  deadline: ["2027-01-04 23:59"]
   place: Kyoto, Japan
   tags: [ML]
 
@@ -188,6 +239,7 @@
   description: Annual Conference of the Nations of the Americas Chapter of the
     Association for Computational Linguistics
   link: https://2027.naacl.org/
+  # Source: https://2027.naacl.org/calls/main_conference_papers/
   deadline: ["2026-10-12 23:59"]
   place: San Francisco, California, USA
   tags: [ML]
@@ -197,6 +249,7 @@
   date: "July 19 - 23"
   description: International Conference on Computer Aided Verification
   link: https://conferences.i-cav.org/2027/
+  # Source: https://conferences.i-cav.org/2027/cfp/
   deadline: ["2027-01-20 23:59"]
   place: Amsterdam, The Netherlands
   tags: [FV]
@@ -206,6 +259,7 @@
   date: "September 2 - 4"
   description: Joint International Conference on Quantitative Evaluation of Systems and Formal Modeling and Analysis of Timed Systems
   link: https://www.qest-formats.org/
+  # Source: https://www.qest-formats.org/
   deadline: ["2026-04-13 23:59"]
   place: Liverpool, United Kingdom
   tags: [FV]
@@ -215,6 +269,7 @@
   date: "July 29 - 31"
   description: International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems
   link: https://blocksys.info/2026/
+  # Source: https://blocksys.info/2026/call-for-papers/
   deadline: ["2026-04-20 23:59"]
   place: Chengdu, China
   tags: [FV, ML]
@@ -224,6 +279,7 @@
   date: "October 11 - 16"
   description: International Test Conference
   link: https://www.itctestweek.org/
+  # Source: https://www.itctestweek.org/wp-content/uploads/2025/12/ITC_2026_CFP.pdf
   deadline: ["2026-03-20 23:59"]
   place: San Antonio, Texas, USA
   tags: [EDA, TES]
@@ -233,6 +289,7 @@
   date: "January 25 - 28"
   description: Asia and South Pacific Design Automation Conference
   link: https://www.aspdac.com/aspdac2027/cfp/
+  # Source: https://www.aspdac.com/aspdac2027/cfp/
   deadline: ["2026-07-11 17:00"]
   place: Hitotsubashi Hall, Tokyo, Japan
   tags: [EDA]
@@ -242,6 +299,7 @@
   date: "February 16 - 23"
   description: AAAI Conference on Artificial Intelligence
   link: https://aaai.org/conference/aaai/aaai-27/
+  # Source: https://aaai.org/conference/aaai/aaai-27/policies-for-aaai-27-authors/
   deadline: ["2026-07-21 23:59"]
   place: Montreal, Quebec, Canada
   tags: [ML]
@@ -251,6 +309,7 @@
   date: "April 26 - 30"
   description: International Conference on Learning Representations
   link: https://iclr.cc/Conferences/2027
+  # Source: https://iclr.cc/Conferences/2027/CallForPapers
   deadline: ["2026-09-18 23:59"]
   place: California, USA
   tags: [ML]
@@ -260,6 +319,7 @@
   date: "June 27 - July 2"
   description: The 37th International Conference on Automated Planning and Scheduling
   link: https://icaps27.icaps-conference.org/
+  # Source: https://icaps27.icaps-conference.org/calls/cfp/
   deadline: ["2026-12-07 23:59"]
   place: Columbia, South Carolina, USA
   tags: [PG]
@@ -269,7 +329,8 @@
   date: "July 11 - 14"
   description: Design Automation Conference
   link: https://dac.com/2027
-  deadline: ["2026-11-18 17:00"]
+  # Source: https://dac.com/2027/program/research-manuscript-submissions
+  deadline: ["2026-11-11 17:00"]
   timezone: America/Los_Angeles
   place: San Jose, California, USA
   tags: [EDA]
@@ -280,6 +341,7 @@
   description: International Symposium on Automated Technology for Verification and
     Analysis
   link: https://conf.researchr.org/track/aplas-atva-2026/atva-2026
+  # Source: https://conf.researchr.org/track/aplas-atva-2026/atva-2026
   deadline: ["2026-05-19 23:59"]
   place: Hong Kong SAR, China
   tags: [FV]
@@ -290,6 +352,7 @@
   description: Symposium on Dependable Software Engineering - Theories, Tools and
     Applications
   link: https://www.setta2026.sg/
+  # Source: https://www.setta2026.sg/home/call-for-papers
   deadline: ["2026-08-24 23:59"]
   place: Singapore
   tags: [FV]
@@ -299,6 +362,7 @@
   date: "October 6 - 9"
   description: International Conference on Runtime Verification
   link: https://rv2026.smithengineering.queensu.ca/
+  # Source: https://rv2026.smithengineering.queensu.ca/cfp/
   deadline: ["2026-06-16 23:59"]
   place: Kingston, Ontario, Canada
   tags: [FV]
@@ -308,6 +372,7 @@
   date: "November 17 - 20"
   description: International Conference on Formal Engineering Methods
   link: https://icfem2026.github.io/
+  # Source: https://icfem2026.github.io/
   deadline: ["2026-06-22 23:59"]
   place: Southampton, United Kingdom
   tags: [FV]
@@ -317,6 +382,7 @@
   date: "November 11 - 13"
   description: International Colloquium on Theoretical Aspects of Computing
   link: https://ictac2026.github.io/
+  # Source: https://ictac2026.github.io/cfp/
   deadline: ["2026-06-22 23:59"]
   place: Bariloche, Argentina
   tags: [FV]
@@ -326,6 +392,7 @@
   date: "July 4 - 6"
   description: International Symposium on Theoretical Aspects of Software Engineering
   link: https://tase2026.github.io/index.html
+  # Source: https://tase2026.github.io/c_cfp.html
   deadline: ["2026-03-01 23:59"]
   place: Shanghai, China
   tags: [FV, SE]
@@ -335,6 +402,7 @@
   date: "September 1 - 4"
   description: International Conference on Concurrency Theory
   link: https://confest-2026.github.io/concur/
+  # Source: https://confest-2026.github.io/concur/call-for-papers
   deadline: ["2026-04-20 23:59"]
   place: Liverpool, United Kingdom
   tags: [FV]
@@ -344,7 +412,8 @@
   date: "May 13 - 16"
   description: IEEE International Symposium On Field-Programmable Custom Computing
     Machines
-  link: https://www.fccm.org/
+  link: https://www.fccm.org/past/2026/
+  # Source: https://www.fccm.org/past/2026/
   deadline: ["2026-01-10 23:59"]
   place: Atlanta, GA, USA
   tags: [EDA]
@@ -354,6 +423,7 @@
   date: "May 17 - 19"
   description: International Workshop on Logic & Synthesis (IWLS 2027)
   link: https://www.iwls.org/iwls2027/
+  # Source: https://www.iwls.org/iwls2027/
   deadline: ["2027-02-08 23:59"]
   place: Shanghai, China
   tags: [EDA]
@@ -363,6 +433,7 @@
   date: "November 16 - 18"
   description: 44th IEEE International Conference on Computer Design
   link: https://www.iccd-conf.com/2026/
+  # Source: https://www.iccd-conf.com/2026/Call_for_papers.html
   deadline: ["2026-06-03 23:59"]
   place: Hong Kong SAR, China
   tags: [EDA]
@@ -372,6 +443,7 @@
   date: "March 14 - 16"
   description: International Symposium on Field-Programmable Gate Arrays
   link: https://wp.isfpga.org/call-for-papers/
+  # Source: https://wp.isfpga.org/call-for-papers/
   deadline: ["2026-10-01 23:59"]
   place: California, USA
   tags: [EDA]
@@ -382,6 +454,7 @@
   description: International Conference on Architectural Support for Programming Languages
     and Operating Systems
   link: https://www.asplos-conference.org/asplos2027/
+  # Source: https://www.asplos-conference.org/asplos2027/cfp/
   deadline: ["2026-09-09 23:59"]
   place: Heraklion, Crete, Greece
   tags: [PL]
@@ -391,6 +464,7 @@
   date: "October 10 - 15"
   description: The Object-Oriented Programming, Systems, Languages, and Applications
   link: https://conf.researchr.org/track/splash-2027/splashoopsla2027
+  # Source: https://conf.researchr.org/track/splash-2027/splashoopsla2027
   deadline: ["2026-10-14 23:59"]
   place: Prague, Czechia
   tags: [PL]
@@ -400,7 +474,8 @@
   date: "August 19 - 21"
   description: The IEEE International Test Conference in Asia
   link: https://www.castest.com.cn/itcasia_2026
-  deadline: ["2026-05-02 23:59"]
+  # Source: https://www.castest.com.cn/itcasia2026_cfp
+  deadline: ["2026-04-25 23:59"]
   place: Ningbo International Conference Center, Ningbo, China
   tags: [TES]
 
@@ -409,6 +484,7 @@
   date: "June 14 - 18"
   description: International Joint Conference on Neural Networks
   link: https://ijcnn.org/2027
+  # Source: https://ijcnn.org/2027/authors/call-for-papers
   deadline: ["2027-01-31 23:59"]
   place: Cape Town, South Africa
   tags: [ML]
@@ -418,7 +494,8 @@
   date: "May 16 - 21"
   description: IEEE International Conference on Acoustics, Speech, and Signal Processing
   link: https://2027.ieeeicassp.org/
-  deadline: ["2026-09-16 23:59"]
+  # Source: https://cmsworkshops.com/ICASSP2027/papers.php
+  deadline: ["2026-09-23 23:59"]
   place: Toronto, Canada
   tags: [SP, ML]
 
@@ -427,7 +504,9 @@
   date: "June 22 - 24"
   description: Great Lakes Symposium on VLSI
   link: https://www.glsvlsi.org/
+  # Source: https://www.glsvlsi.org/GLSVLSI2026-CFP-update-final-Mar-17-2026.pdf
   deadline: ["2026-03-23 23:59"]
+  timezone: Etc/GMT+5
   place: Finger Lakes, New York, USA
   tags: [EDA]
 
@@ -436,7 +515,9 @@
   date: "July 7 - 10"
   description: IEEE Computer Society Annual Symposium on VLSI
   link: https://ieee-isvlsi.github.io/ISVLSI_2026_Website/
+  # Source: https://ieee-isvlsi.github.io/ISVLSI_2026_Website/cfp-paper-submission/index.html
   deadline: ["2026-03-15 23:59"]
+  timezone: Asia/Kolkata
   place: Kolkata, India
   tags: [EDA]
 
@@ -445,6 +526,7 @@
   date: "May 8 - 10"
   description: International Symposium of Electronics Design Automation
   link: https://www.eda2.com/iseda/index.html
+  # Source: https://www.eda2.com/iseda/sub.html
   deadline: ["2026-02-28 23:59"]
   place: Singapore
   tags: [EDA]
@@ -454,6 +536,7 @@
   date: "August 5 - 7"
   description: ACM/IEEE International Symposium on Low Power Electronics and Design
   link: https://www.islped.org/2026/
+  # Source: https://www.islped.org/2026/
   deadline: ["2026-03-11 23:59"]
   place: Evanston, Illinois, USA
   tags: [EDA]
@@ -464,6 +547,7 @@
   description: International Conference on Verified Software - Theories, Tools, and
     Experiments
   link: https://fmcad.org/FMCAD26/vstte/
+  # Source: https://fmcad.org/FMCAD26/vstte/
   deadline: ["2026-07-17 23:59"]
   place: Graz, Austria
   tags: [PL]
@@ -473,6 +557,7 @@
   date: "November 23 - 24"
   description: International Conference on Engineering of Complex Computer Systems
   link: https://formal-analysis.com/iceccs/2026/
+  # Source: https://formal-analysis.com/iceccs/2026/
   deadline: ["2026-07-20 23:59"]
   place: Brisbane, Australia
   tags: [FV]
@@ -482,6 +567,7 @@
   date: "July 20 - 23"
   description: ACM/IEEE Symposium on Logic in Computer Science
   link: https://lics.siglog.org/lics26/
+  # Source: https://lics.siglog.org/lics26/cfp.php
   deadline: ["2026-01-15 23:59"]
   place: Lisbon, Portugal
   tags: [FV]
@@ -489,8 +575,9 @@
 - name: LAD
   year: 2026
   date: "July 30 - 31"
-  description: IEEE International Workshop on LLM-Aided Design
+  description: IEEE International Conference on LLM-Aided Design
   link: https://iclad.ai/
+  # Source: https://iclad.ai/call-for-papers
   deadline: ["2026-03-19 23:59"]
   place: Stanford, CA, USA
   tags: [EDA]
@@ -500,6 +587,7 @@
   date: "May 19 - 21"
   description: Workshop on Open-Source Hardware
   link: https://cfwosh2026.github.io/
+  # Source: https://cfwosh2026.github.io/
   deadline: ["2026-03-23 23:59"]
   place: Catania, Sicily, Italy
   tags: [EDA]
@@ -509,17 +597,21 @@
   date: "July 18 - 20"
   description: Asia-Pacific Symposium on Internetware
   link: https://conf.researchr.org/home/internetware-2026
-  deadline: ["2026-04-04 23:59"]
+  # Source: https://conf.researchr.org/track/internetware-2026/internetware-2026-research-track
+  deadline: ["2026-04-27 23:59"]
   place: Gold Coast, Australia
   tags: [FV]
 
 - name: OSDA
-  year: 2026
-  date: "April 20 - 22"
+  year: 2024
+  date: "March 25"
   description: Workshop on Open-Source Design Automation
-  link: https://osda.ws/
-  deadline: ["2025-09-07 23:59"]
-  place: Verona, Italy
+  link: https://date24.date-conference.com/workshop/w04
+  # Latest verifiable edition; the organizer announced a pause in 2025.
+  # Historical CFP: https://sedemos.blogspot.com/2024/01/?m=0
+  # Source: https://date24.date-conference.com/workshop/w04
+  deadline: ["2024-02-15 23:59"]
+  place: Valencia, Spain
   tags: [EDA]
 
 - name: ISCAS
@@ -527,7 +619,9 @@
   date: "June 6 - 9"
   description: International Symposium on Circuits and Systems
   link: https://2027.ieee-iscas.org/
+  # Source: https://epapers2.org/iscas2027/ESR/login.php
   deadline: ["2026-10-13 23:59"]
+  timezone: Etc/GMT+5
   place: Bordeaux, France
   tags: [EDA]
 
@@ -536,6 +630,7 @@
   date: "March 1 - 4"
   description: Design And Verification Conference And Exhibition
   link: https://dvcon.org/
+  # Source: https://confcats-siteplex.s3.amazonaws.com/dvconus/files/dvconus27-cfea_v4.pdf
   deadline: ["2026-09-07 23:59"]
   timezone: America/Los_Angeles
   place: Santa Clara, CA, USA
@@ -543,18 +638,21 @@
 
 - name: JUG
   year: 2026
-  date: "April 29 - 30"
+  date: "October 21 - 22"
   description: Jasper User Group
-  link: https://jpoint.ru/en/
-  deadline: ["2026-02-06 23:59"]
-  place: Moscow, Russia + Online
+  link: https://www.cvent.com/c/abstracts/1cfdcbc3-530c-40a6-8780-d47e32e752f1
+  # Source: https://www.cvent.com/c/abstracts/1cfdcbc3-530c-40a6-8780-d47e32e752f1
+  deadline: ["2026-08-31 17:00"]
+  timezone: America/Los_Angeles
+  place: San Jose, California, USA
   tags: [EDA]
 
 - name: EGRAPHS
   year: 2026
   date: "June 15"
   description: EGRAPHS workshop
-  link: https://egraphs.org/workshop/
+  link: https://pldi26.sigplan.org/home/egraphs-2026
+  # Source: https://pldi26.sigplan.org/home/egraphs-2026
   deadline: ["2026-04-17 23:59"]
   place: Boulder, Colorado, United States
   tags: [PL]
@@ -564,6 +662,7 @@
   date: "June 5 - 11"
   description: Programming Language Design and Implementation
   link: https://pldi27.sigplan.org/
+  # Source: https://pldi27.sigplan.org/track/pldi-2027-papers
   deadline: ["2026-11-12 23:59"]
   place: Atlanta, Georgia, United States
   tags: [PL]
@@ -573,6 +672,7 @@
   date: "March 30 - April 2"
   description: International Symposium on Physical Design
   link: https://ispd.cc/ispd2027/
+  # Source: https://ispd.cc/ispd2027/index.php?page=callforpapers
   deadline: ["2026-09-21 23:59"]
   place: Taipei, Taiwan
   tags: [EDA]
@@ -582,6 +682,7 @@
   date: "October 4 - 9"
   description: International Conference on Hardware/Software Codesign and System Synthesis
   link: https://esweek.org/codes-isss/
+  # Source: https://esweek.org/codes-isss/
   deadline: ["2026-03-23 23:59"]
   place: Barcelona, Spain
   tags: [EDA]
@@ -591,8 +692,9 @@
   date: "October 8 - 9"
   description: ACM-IEEE International Symposium on Formal Methods and Models for System
     Design
-  link: https://esweek.org/memocode/
-  deadline: ["2026-05-04 23:59"]
+  link: https://memocode2026.github.io/
+  # Source: https://memocode2026.github.io/callforpapers.html
+  deadline: ["2026-06-01 23:59"]
   place: Barcelona, Spain
   tags: [FV]
 
@@ -601,6 +703,7 @@
   date: "August 27 - 29"
   description: International Symposium on Logic-Based Program Synthesis and Transformation
   link: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
+  # Source: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
   deadline: ["2026-05-20 23:59"]
   place: Indianapolis, Indiana, USA
   tags: [EDA]
@@ -610,6 +713,7 @@
   date: "January 10 - 16"
   description: SIGPLAN Symposium on Principles of Programming Languages
   link: https://popl27.sigplan.org/
+  # Source: https://popl27.sigplan.org/track/POPL-2027-popl-research-papers
   deadline: ["2026-07-09 23:59"]
   place: Mexico City, Mexico
   tags: [FV]
@@ -619,6 +723,7 @@
   date: "March 15-16"
   description: The 27th Workshop on Synthesis and System Integration of Mixed Information technologies
   link: http://sasimi.jp/
+  # Source: https://sasimi.jp/new/sasimi2027/call-for-papers.html
   deadline: ["2026-10-16 23:59"]
   place: Miyazaki Kanko Hotel, Miyazaki, Japan
   tags: [EDA]
@@ -628,6 +733,7 @@
   date: "December 7 - 10"
   description: The Asia-Pacific Software Engineering Conference
   link: https://conf.researchr.org/home/apsec-2026
+  # Source: https://conf.researchr.org/track/apsec-2026/apsec-2026-technical-track
   deadline: ["2026-07-13 23:59"]
   place: Bali, Indonesia
   tags: [FV]
@@ -638,6 +744,7 @@
   description: International Conference on Foundations and Formal Methods for Software
     and Systems
   link: https://etaps.org/2027/conferences/ifs/
+  # Source: https://etaps.org/2027/cfp/
   deadline: ["2026-10-15 23:59"]
   place: Copenhagen, Denmark
   tags: [FV]
@@ -647,6 +754,7 @@
   date: "April 26 - 27"
   description: International Conference on Formal Methods in Software Engineering
   link: https://conf.researchr.org/home/Formalise-2027
+  # Source: https://conf.researchr.org/track/Formalise-2027/Formalise-2027-papers
   deadline: ["2026-10-30 23:59"]
   place: Dublin, Ireland
   tags: [FV]
@@ -655,7 +763,8 @@
   year: 2026
   date: "July 26 - 29"
   description: International Joint Conference on Automated Reasoning
-  link: https://ijcar2026.github.io/
+  link: https://www.floc26.org/ijcar
+  # Source: https://www.floc26.org/ijcar
   deadline: ["2026-02-06 23:59"]
   place: Lisbon, Portugal
   tags: [FV]
@@ -665,6 +774,7 @@
   date: "July 24 - 25"
   description: Symposium on AI Verification
   link: https://aiverification.org/2026/
+  # Source: https://aiverification.org/2026/call/
   deadline: ["2026-03-24 11:59"]
   place: Lisbon, Portugal
   tags: [FV, ML]
@@ -674,6 +784,7 @@
   date: "November 2 - 4"
   description: International Conference on Tools with Artificial Intelligence
   link: https://ictai.computer.org/2026/
+  # Source: https://ictai.computer.org/2026/
   deadline: ["2026-07-21 23:59"]
   place: Boca Raton, Florida, USA
   tags: [ML]
@@ -684,6 +795,7 @@
   description: IEEE International Conference on Computer Supported Cooperative Work
     in Design
   link: https://fyust.edu.cn/gjhyqk/cscwd2026/
+  # Source: https://fyust.edu.cn/gjhyqk/cscwd2026/
   deadline: ["2025-11-30 23:59"]
   place: Fuzhou, China
   tags: [ML]
@@ -693,6 +805,7 @@
   date: "July 5 - 9"
   description: IEEE International Conference on Multimedia and Expo
   link: https://2026.ieeeicme.org/
+  # Source: https://2026.ieeeicme.org/important-dates/
   deadline: ["2025-12-31 23:59"]
   place: Bangkok, Thailand
   tags: [SP, ML]
@@ -702,6 +815,7 @@
   date: "July 22 - 26"
   description: International Conference on Intelligent Computing
   link: http://www.ic-icc.cn/2026/
+  # Source: http://www.ic-icc.cn/2026/file/html/ICIC2026%20Important%20Dates.htm
   deadline: ["2026-04-04 12:00"]
   timezone: Asia/Shanghai
   place: Toronto, Canada
@@ -712,7 +826,8 @@
   date: "October 4 - 7"
   description: IEEE International Conference on Systems, Man, and Cybernetics
   link: https://www.ieeesmc2026.org/
-  deadline: ["2026-07-12 23:59"]
+  # Source: https://www.ieeesmc2026.org/Important-Dates
+  deadline: ["2026-05-03 23:59"]
   place: Bellevue, Washington, USA
   tags: [CS, ML]
 
@@ -721,6 +836,7 @@
   date: "November 22 - 26"
   description: IEEE International Conference on Parallel and Distributed Systems
   link: https://www.cloud-conf.net/icpads2026/
+  # Source: https://www.cloud-conf.net/icpads2026/cfp-research-paper.html
   deadline: ["2026-08-15 23:59"]
   place: Tokyo, Japan
   tags: [PL]
@@ -731,6 +847,7 @@
   description: International Conference on Algorithms and Architectures for Parallel
     Processing
   link: https://hpcn.exeter.ac.uk/ica3pp2026/
+  # Source: https://hpcn.exeter.ac.uk/ica3pp2026/
   deadline: ["2026-07-25 23:59"]
   place: Exeter, England, UK
   tags: [PL]
@@ -740,7 +857,9 @@
   date: "July 12 - 16"
   description: ACM International Conference on the Foundations of Software Engineering
   link: https://conf.researchr.org/home/fse-2027
-  deadline: ["2026-10-02 23:59"]
+  # Extended by one day following a HotCRP outage.
+  # Source: https://conf.researchr.org/track/fse-2027/fse-2027-papers
+  deadline: ["2026-10-03 23:59"]
   place: Shenzhen, China
   tags: [SE]
 
@@ -749,6 +868,7 @@
   date: "April 25 - May 1"
   description: IEEE/ACM International Conference on Software Engineering
   link: https://conf.researchr.org/home/icse-2027
+  # Source: https://conf.researchr.org/track/icse-2027/icse-2027-research-track
   deadline: ["2026-06-23 23:59"]
   place: Dublin, Ireland
   tags: [SE]
@@ -758,6 +878,7 @@
   date: "October 12 - 16"
   description: IEEE/ACM International Conference on Automated Software Engineering
   link: https://conf.researchr.org/home/ase-2026
+  # Source: https://ase26.hotcrp.com/deadlines
   deadline: ["2026-03-26 23:59"]
   place: Munich, Germany
   tags: [SE]
@@ -767,6 +888,7 @@
   date: "September 7 - 10"
   description: ACM SIGSOFT International Symposium on Software Testing and Analysis
   link: https://conf.researchr.org/home/issta-2027
+  # Source: https://conf.researchr.org/track/issta-2027/issta-2027-research-papers
   deadline: ["2027-01-08 23:59"]
   place: Singapore
   tags: [SE]
@@ -776,6 +898,7 @@
   date: "April 15 - 16"
   description: International Symposium on Model Checking of Software
   link: https://spin-web.github.io/SPIN2026/
+  # Source: https://spin-web.github.io/SPIN2026/cfp
   deadline: ["2026-01-22 23:59"]
   place: Torino, Italy
   tags: [FV, SE]
@@ -798,7 +921,7 @@
   description: International Conference on Theory and Applications of Satisfiability Testing
   link: https://satisfiability.org/SAT26/
   # Extended abstract deadline.
-  # Source: https://satisfiability.org/SAT26/pages/cfp.html
+  # Source: https://satisfiability.org/SAT26/pages/dates.html
   deadline: ["2026-03-02 23:59"]
   timezone: Etc/GMT+12
   place: Lisbon, Portugal
@@ -847,9 +970,7 @@
   # Next submission cycle as of 2026-10-10; no separate abstract deadline.
   # Source: https://ches.iacr.org/2027/
   deadline: ["2026-10-15 23:59"]
-  deadline_label: Paper deadline
   timezone: Etc/GMT+12
-  comment: "TCHES 2027/2 cycle (schedule tentative); later cycles close Jan 15 and Apr 15, 2027."
   place: Cancun, Mexico
   tags: [EDA, FV]
 
@@ -861,9 +982,7 @@
   # Next submission cycle as of 2026-10-10; no separate abstract deadline.
   # Source: https://www.ieee-security.org/TC/CSF2027/cfp.html
   deadline: ["2026-10-15 23:59"]
-  deadline_label: Paper deadline
   timezone: Etc/GMT+12
-  comment: "Fall cycle; the winter cycle closes Jan 28, 2027."
   place: Tokyo, Japan
   tags: [FV]
 
@@ -872,11 +991,9 @@
   date: "May 3 - 5"
   description: IEEE International Symposium on Design and Diagnostics of Electronic Circuits and Systems
   link: https://ddecs.rss-lab.de/
-  # Title and abstract deadline. The CFP does not specify a time or time zone.
   # Source: https://ddecs.rss-lab.de/ddecs/call-for-papers
   deadline: ["2027-01-08 23:59"]
   timezone: Etc/GMT+12
-  comment: "Deadline time and time zone unannounced; countdown assumes 23:59 AoE."
   place: Berlin, Germany
   tags: [EDA, FV, TES]
 
@@ -885,11 +1002,9 @@
   date: "August 22 - 25"
   description: International Conference on Automated Deduction
   link: https://fscd-cade.science.ru.nl/calls/papers-cade
-  # Abstract deadline. The CFP does not specify a time or time zone.
   # Source: https://fscd-cade.science.ru.nl/calls/papers-cade
   deadline: ["2027-02-15 23:59"]
   timezone: Etc/GMT+12
-  comment: "Deadline time and time zone unannounced; countdown assumes 23:59 AoE."
   place: Nijmegen, The Netherlands
   tags: [FV]
 
@@ -899,9 +1014,8 @@
   description: Static Analysis Symposium
   link: https://conf.researchr.org/home/splash-issta-2026/sas-2026
   # Paper registration deadline; full papers were due May 7.
-  # Source: https://conf.researchr.org/home/splash-issta-2026/sas-2026#Call-for-Papers
+  # Source: https://conf.researchr.org/home/splash-issta-2026/sas-2026
   deadline: ["2026-05-01 23:59"]
-  deadline_label: Paper registration deadline
   timezone: Etc/GMT+12
   place: Oakland, California, USA
   tags: [FV, PL]
@@ -927,6 +1041,5 @@
   # Source: https://2026-isola.isola-conference.org/
   deadline: ["2026-03-31 23:59"]
   timezone: Etc/GMT+12
-  comment: "On-site proceedings. Time and time zone unannounced; countdown assumes 23:59 AoE."
   place: Kos, Greece
   tags: [FV, SE]
