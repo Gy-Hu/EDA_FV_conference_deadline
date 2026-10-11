@@ -2,3 +2,5 @@ _site
 .bundle
 vendor/bundle
 .DS_Store
+/scripts/render-conference-research.py
+/tests/tag-model.test.js

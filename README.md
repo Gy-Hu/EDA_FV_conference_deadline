@@ -21,11 +21,10 @@ Edit `_data/conferences.yml` using official sources. Keep each edition’s year,
 
 Tags are maintained in `_data/tag_definitions.yml` and conference `labels`. The page footer explains their meaning.
 
-For local research updates, edit `.local-research/ledger.json` and run `python3 scripts/render-conference-research.py`. This regenerates public labels and private reports. Exact fees, submission counts and acceptance rates stay local; only colors, years and sources are published. Never commit `.local-research/`; back it up separately.
+Exact fees, submission counts and acceptance rates stay in private local records; only colors, years and sources are published. Local research tools and records are not included in this repository.
 
 ## Checks
 
 ```bash
-node --test tests/tag-model.test.js
 bundle exec jekyll build
 ```
