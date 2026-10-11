@@ -21,17 +21,16 @@
       badge.style.setProperty('--tag-ink', palette.ink);
       badge.style.setProperty('--tag-border', palette.border);
     }
-    var detail = [definition.description];
-    if (entry.category_name) detail.push('Submission category: ' + entry.category_name);
-    if (entry.note) detail.push(entry.note);
+    var note = typeof entry.note === 'string' ? entry.note.trim() : '';
     if (source) {
       badge.href = source;
       badge.target = '_blank';
       badge.rel = 'noopener noreferrer';
-      detail.push('View source');
     }
-    badge.title = detail.join('\n');
-    badge.setAttribute('aria-label', badge.textContent + '. ' + detail.join(' '));
+    if (note) {
+      badge.title = note;
+      badge.setAttribute('aria-label', badge.textContent + '. ' + note);
+    }
     return badge;
   }
   cards.forEach(function (card) {
