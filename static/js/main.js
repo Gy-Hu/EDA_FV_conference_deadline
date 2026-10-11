@@ -131,7 +131,7 @@ $(function() {
   update_conf_list();
 
   // Event handler on checkbox change
-  $('form :checkbox').change(function(e) {
+  $('#topic-filters :checkbox').change(function(e) {
     var checked = $(this).is(':checked');
     var tag = $(this).prop('id').slice(0, -9);
     toggle_status[tag] = checked;

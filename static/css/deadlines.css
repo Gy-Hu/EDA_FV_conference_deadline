@@ -91,3 +91,36 @@ a:hover, a:focus {
 footer {
   margin-bottom: 2em;
 }
+
+/* Maintainer-owned conference labels. */
+[hidden] { display: none !important; }
+.tag-chip-list { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
+.tag-chip { --tag-bg: #edf1f5; --tag-ink: #435168; --tag-border: #cbd5e1; display: inline-flex; align-items: center; border-radius: 20px; font-size: 12px; font-weight: 600; line-height: 20px; padding: 3px 11px; background: var(--tag-bg); color: var(--tag-ink); border: 1px solid var(--tag-border); overflow-wrap: anywhere; max-width: 100%; }
+.tag-color-blue { --tag-bg: #eaf2ff; --tag-ink: #2458a5; --tag-border: #bbd2f6; }
+.tag-color-purple { --tag-bg: #f1edff; --tag-ink: #6b43b2; --tag-border: #d8c9f7; }
+.tag-color-green { --tag-bg: #e7f6ef; --tag-ink: #216f51; --tag-border: #b7dfca; }
+.tag-color-amber { --tag-bg: #fff4da; --tag-ink: #8b5a09; --tag-border: #edd396; }
+a.tag-chip:hover { color: var(--tag-ink); text-decoration: underline; }
+.conference-tags { margin: 9px 0; }
+.conf.past { opacity: 1; }
+.conf.past .meta, .conf.past .timer, .conf.past .deadline-time, .conf.past h2 { opacity: .55; }
+a.tag-chip:focus-visible { outline: 2px solid #2c67b8; outline-offset: 3px; }
+
+.tag-color-lime { --tag-bg: #f3f7dd; --tag-ink: #5b681c; --tag-border: #d6e49c; }
+.tag-color-orange { --tag-bg: #fff0e4; --tag-ink: #a04c13; --tag-border: #f0c5a4; }
+.tag-color-red { --tag-bg: #ffeded; --tag-ink: #a72d35; --tag-border: #efb8bc; }
+
+/* Read-only explanations at the end of the conference list. */
+.tag-legend { margin: 24px 0 28px; padding: 24px; border: 1px solid #e2e7ed; border-radius: 12px; background: #fafbfd; }
+.tag-legend h2 { margin-bottom: 12px; font-size: 18px; }
+.tag-legend p { text-align: left; line-height: 1.6; color: #526071; }
+.tag-legend-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 28px; margin: 22px 0; }
+.tag-legend-item dt { margin-bottom: 7px; }
+.tag-legend-item dd { color: #526071; line-height: 1.6; }
+.tag-color-key { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; padding-top: 18px; border-top: 1px solid #e2e7ed; }
+.tag-color-key > span:first-child { margin-right: 5px; font-weight: 600; }
+.tag-legend .tag-legend-note { margin: 12px 0 0; font-size: 13px; }
+@media (max-width: 600px) {
+  .tag-legend { padding: 18px; }
+  .tag-legend-grid { grid-template-columns: 1fr; gap: 18px; }
+}

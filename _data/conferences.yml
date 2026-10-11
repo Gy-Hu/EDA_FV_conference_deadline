@@ -1,4 +1,6 @@
 ---
+# Optional maintainer-owned labels: see README.md (会议标签) for the eight fields.
+# Leave unknown values absent; never substitute false or 0 for missing data.
 - name: VMCAI
   year: 2027
   date: "January 11 - 12"
@@ -9,6 +11,34 @@
   deadline: ["2026-09-23 23:59"]
   place: Mexico City, Mexico
   tags: [FV]
+  labels:
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/track/VMCAI-2027/VMCAI-2027-papers
+      note: Tool papers are explicitly accepted; all accepted papers appear in Springer
+        LNCS.
+      proceedings: true
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=VMCAI&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Verification, Model Checking and Abstract
+        Interpretation'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=29
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-15700-3
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-15700-3
 
 - name: FM
   year: 2026
@@ -19,6 +49,45 @@
   deadline: ["2025-11-25 23:59"]
   place: Tokyo, Japan
   tags: [FV]
+  labels:
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/fm-2026/fm-2026-research-paper
+      note: The Research Track includes long tool papers, short papers and tool demos;
+        all conference papers appear in Springer LNCS.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/fm-2026/fm-2026-research-paper
+      note: The Research Track includes long tool papers, short papers and tool demos;
+        all conference papers appear in Springer LNCS.
+      proceedings: true
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=FM&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Symposium on Formal
+        Methods (was Formal Methods Europe FME)'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://conf.researchr.org/attending/fm-2026/registration
+    submissions:
+      tone: lime
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-26204-2
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-26204-2
 
 - name: SEFM
   year: 2026
@@ -31,6 +100,39 @@
   timezone: Etc/GMT+12
   place: Malta
   tags: [FV, SE]
+  labels:
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://sefm-conference.github.io/2026/callforpapers/
+      note: Separate tool and short paper categories are confirmed; all accepted papers
+        appear in Springer LNCS.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://sefm-conference.github.io/2026/callforpapers/
+      note: Separate tool and short paper categories are confirmed; all accepted papers
+        appear in Springer LNCS.
+      proceedings: true
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=SEFM&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Software
+        Engineering and Formal Methods'
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://sefm-conference.github.io/2026/registration/
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-10444-1
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-10444-1
 
 - name: CDC
   year: 2026
@@ -52,6 +154,37 @@
   deadline: ["2026-10-15 23:59"]
   place: Copenhagen, Denmark
   tags: [FV]
+  labels:
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://etaps.org/2027/cfp/
+      note: The current joint call includes tool and short categories. TACAS short papers
+        are tool demonstrations; iFS also has separate short paper categories. Papers
+        appear in Springer LNCS.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2027
+      source: https://etaps.org/2027/cfp/
+      note: The current joint call includes tool and short categories. TACAS short papers
+        are tool demonstrations; iFS also has separate short paper categories. Papers
+        appear in Springer LNCS.
+      proceedings: true
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=TACAS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Tools and Algorithms for Construction
+        and Analysis of Systems'
+    submissions:
+      tone: green
+      year: 2026
+      source: https://etaps.org/files/2026/tacas-ii-2026.pdf
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://etaps.org/files/2026/tacas-ii-2026.pdf
 
 - name: ICCAD
   year: 2026
@@ -62,6 +195,31 @@
   deadline: ["2026-04-07 23:59"]
   place: San Jose, California, USA
   tags: [EDA]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICCAD&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE/ACM International Conference
+        on Computer-Aided Design'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=6
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://iccad.com/2026/registration/registration-information
+    submissions:
+      tone: red
+      year: 2026
+      source: https://iccad2026.hotcrp.com/u/0/
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://iccad2026.hotcrp.com/u/0/
 
 - name: DATE
   year: 2027
@@ -72,6 +230,27 @@
   deadline: ["2026-09-13 23:59"]
   place: Dresden, Germany
   tags: [EDA]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=DATE&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Design, Automation and Test in Europe
+        Conference'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=6
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: red
+      year: 2026
+      source: https://www.linkedin.com/posts/date-conference_author-notification-for-d-a-t-and-e-tracks-activity-7391795205781499904-JE32
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://www.linkedin.com/posts/date-conference_author-notification-for-d-a-t-and-e-tracks-activity-7391795205781499904-JE32
 
 - name: MLCAD
   year: 2026
@@ -82,6 +261,11 @@
   deadline: ["2026-05-29 23:59"]
   place: Seogwipo, Jeju, South Korea
   tags: [EDA, ML]
+  labels:
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://mlcad.org/symposium/2026/registration/
 
 - name: FMCAD
   year: 2026
@@ -92,6 +276,46 @@
   deadline: ["2026-05-04 23:59"]
   place: Graz, Austria
   tags: [EDA, FV]
+  labels:
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://fmcad.org/FMCAD26/cfp/
+      note: Both Regular and Tool & Case Study categories accept long and short papers.
+        Publication is confirmed by the current TU Wien proceedings linked from the
+        conference website.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://fmcad.org/FMCAD26/cfp/
+      note: Both Regular and Tool & Case Study categories accept long and short papers.
+        Publication is confirmed by the current TU Wien proceedings linked from the
+        conference website.
+      proceedings: true
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=FMCAD&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Formal Methods in Computer-Aided Design'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=42
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://fmcad.org/FMCAD26/registration/
+    submissions:
+      tone: lime
+      year: 2026
+      source: https://fmcad.org/FMCAD26/
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://fmcad.org/FMCAD26/
 
 - name: NFM
   year: 2026
@@ -102,6 +326,26 @@
   deadline: ["2026-01-24 23:59"]
   place: University of Southern California, Los Angeles, California, USA
   tags: [FV]
+  labels:
+    short_paper:
+      value: true
+      year: 2026
+      source: https://nfm2026.github.io/cfp/
+      note: The call explicitly accepts short papers, and the 2026 proceedings confirm
+        their inclusion.
+      proceedings: true
+    registration_fee:
+      tone: green
+      year: 2026
+      source: https://nfm2026.github.io/registration/
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-28079-4
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-28079-4
 
 - name: IJCAI-ECAI
   year: 2026
@@ -113,6 +357,26 @@
   deadline: ["2026-01-12 23:59"]
   place: Bremen, Germany
   tags: [ML]
+  labels:
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-demos/
+      note: The Demonstrations Track has archival conference proceedings and requires
+        an on-site demonstration.
+      proceedings: true
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://2026.ijcai.org/registration/
+    submissions:
+      tone: red
+      year: 2026
+      source: https://2026.ijcai.org/press/
+    acceptance_rate:
+      tone: red
+      year: 2026
+      source: https://2026.ijcai.org/press/
 
 - name: PRICAI
   year: 2026
@@ -123,6 +387,38 @@
   deadline: ["2026-06-27 23:59"]
   place: South China Normal University, Guangzhou, China
   tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=PRICAI&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Pacific Rim International Conference
+        on Artificial Intelligence'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=60
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://2026.pricai.org/calls/call-for-papers
+      note: Short papers are 6–11 pages and long papers are 12–16 pages; both appear
+        in Springer LNAI.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://2026.pricai.org/registration
+    submissions:
+      tone: orange
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-7072-0
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-7072-0
 
 - name: ICONIP
   year: 2026
@@ -133,6 +429,27 @@
   deadline: ["2026-05-31 23:59"]
   place: Melbourne, Australia
   tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICONIP&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Neural
+        Information Processing'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=60
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://iconip2026.org/registration
+    submissions:
+      tone: red
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-4088-4
 
 - name: AACL-IJCNLP
   year: 2026
@@ -144,6 +461,34 @@
   deadline: ["2026-05-25 23:59"]
   place: Hengqin, China
   tags: [ML]
+  labels:
+    no_in_person:
+      value: true
+      year: 2026
+      source: https://2026.aaclnet.org/calls/main_conference_papers/
+      note: The main conference explicitly offers on-site and online presentations;
+        online author registration is also listed.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://2026.aaclnet.org/calls/main_conference_papers/
+      note: Both long and short papers are archived in the proceedings and require a
+        presentation.
+      proceedings: true
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://2026.aaclnet.org/calls/demos/
+      note: System Demonstrations explicitly provides archival publication.
+      proceedings: true
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://2026.aaclnet.org/registration/
+    submissions:
+      tone: red
+      year: 2025
+      source: https://aclanthology.org/2025.ijcnlp-short.0.pdf
 
 - name: NLPCC
   year: 2026
@@ -157,6 +502,28 @@
   timezone: Asia/Shanghai
   place: Macau, China
   tags: [ML]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=59
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: http://tcci.ccf.org.cn/conference/2026/calls/
+      note: Applications/tools is an explicit submission category. Papers use the 12-page
+        LNCS format and appear in Springer LNAI; this is not a presentation-only demo.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: http://tcci.ccf.org.cn/conference/2026/registration/
+    submissions:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-3352-7
 
 - name: COLING
   year: 2027
@@ -167,6 +534,33 @@
   deadline: ["2026-10-12 23:59"]
   place: Macau, China
   tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=COLING&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Computational
+        Linguistics'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=58
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://2027.coling-iccl.org/calls/main_conference_papers/
+      note: Online presentations are scheduled separately on May 6–7. The main conference
+        on May 9–14 is in-person only.
+    submissions:
+      tone: red
+      year: 2025
+      source: https://aclanthology.org/anthology-files/pdf/coling/2025.coling-main.0.pdf
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://aclanthology.org/anthology-files/pdf/coling/2025.coling-main.0.pdf
 
 - name: ACML
   year: 2026
@@ -178,6 +572,30 @@
   timezone: Etc/GMT+12
   place: Melbourne, Australia
   tags: [ML]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ACML&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Asian Conference on Machine Learning'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=59
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://www.acml-conf.org/2026/registration/
+    submissions:
+      tone: lime
+      year: 2024
+      source: https://proceedings.mlr.press/v260/nguyen25a.html
+    acceptance_rate:
+      tone: orange
+      year: 2024
+      source: https://proceedings.mlr.press/v260/nguyen25a.html
 
 - name: ICML
   year: 2026
@@ -188,6 +606,37 @@
   deadline: ["2026-01-23 23:59"]
   place: Seoul, South Korea
   tags: [ML]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICML&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Machine
+        Learning'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=57
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      source: https://icml.cc/Conferences/2026/CallForPapers
+      year: 2026
+      note: A proceedings-only option allows authors to skip attendance and presentation;
+        at least one author must obtain a Virtual Pass.
+    registration_fee:
+      tone: lime
+      year: 2026
+      source: https://icml.cc/Conferences/2026/Pricing
+    submissions:
+      tone: red
+      year: 2026
+      source: https://www.linkedin.com/posts/icmlconf_decision-notifications-are-being-released-activity-7455685189479055361-PXq3
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://www.linkedin.com/posts/icmlconf_decision-notifications-are-being-released-activity-7455685189479055361-PXq3
 
 - name: EMNLP
   year: 2026
@@ -200,6 +649,52 @@
   timezone: Etc/GMT+12
   place: Budapest, Hungary
   tags: [ML]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=EMNLP&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Empirical Methods in Natural Language
+        Processing'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=58
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      source: https://2026.emnlp.org/calls/main_conference_papers/
+      year: 2026
+      note: Main-track long and short papers allow online presentation. The demo track
+        requires on-site demonstrations, so remote participation does not apply to every
+        track.
+    short_paper:
+      value: true
+      source: https://2026.emnlp.org/calls/main_conference_papers/
+      year: 2026
+      note: Short papers are explicitly accepted and distinguished from long papers
+        in the proceedings.
+      proceedings: true
+    tool_paper:
+      value: true
+      source: https://2026.emnlp.org/calls/demos/
+      year: 2026
+      note: System Demonstrations has separate archival proceedings and requires a live
+        on-site demo.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://2026.emnlp.org/registration/
+    submissions:
+      tone: red
+      year: 2025
+      source: https://aclanthology.org/2025.emnlp-main.0.pdf
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://aclanthology.org/2025.emnlp-main.0.pdf
 
 - name: UAI
   year: 2026
@@ -212,6 +707,28 @@
   timezone: Etc/GMT+12
   place: Amsterdam, Netherlands
   tags: [ML]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=UAI&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Conference in Uncertainty in Artificial
+        Intelligence'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=58
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2026
+      source: https://www.auai.org/uai2026/registration
+      note: The official policy permits online-only registration, including for authors.
+    registration_fee:
+      tone: lime
+      year: 2026
+      source: https://www.auai.org/uai2026/registration
 
 - name: ESANN
   year: 2027
@@ -222,6 +739,23 @@
   deadline: ["2026-11-18 23:59"]
   place: Bruges, Belgium
   tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ESANN&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: European Symposium on Artificial Neural
+        Networks'
+    no_in_person:
+      value: true
+      source: https://www.esann.org/format
+      year: 2027
+      note: Authors may give online talks and online poster presentations; this is not
+        merely access to a livestream.
+    registration_fee:
+      tone: amber
+      year: 2027
+      source: https://www.esann.org/register
 
 - name: ACL
   year: 2027
@@ -232,6 +766,38 @@
   deadline: ["2027-01-04 23:59"]
   place: Kyoto, Japan
   tags: [ML]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ACL&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Association for Computational Linguistics'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=57
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://2027.aclweb.org/calls/main/
+      note: The main conference offers both online and on-site presentations; at least
+        one author must register.
+    short_paper:
+      value: true
+      year: 2027
+      source: https://2027.aclweb.org/calls/main/
+      note: Short papers are explicitly included in the proceedings.
+      proceedings: true
+    submissions:
+      tone: red
+      year: 2026
+      source: https://aclanthology.org/2026.acl-long.0.pdf
+    acceptance_rate:
+      tone: red
+      year: 2026
+      source: https://aclanthology.org/2026.acl-long.0.pdf
 
 - name: NAACL
   year: 2027
@@ -243,6 +809,47 @@
   deadline: ["2026-10-12 23:59"]
   place: San Francisco, California, USA
   tags: [ML]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=NAACL&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: North American Association for Computational
+        Linguistics'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=58
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://2027.naacl.org/calls/main_conference_papers/
+      note: The main conference offers both online and on-site presentations; at least
+        one author must register.
+    short_paper:
+      value: true
+      year: 2027
+      source: https://2027.naacl.org/calls/main_conference_papers/
+      note: Short papers are explicitly included in the proceedings.
+      proceedings: true
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://2027.naacl.org/calls/system_demonstration/
+      note: System Demonstrations appears in the companion proceedings and requires
+        a live on-site demo. The main-track remote option does not automatically apply
+        to demos.
+      proceedings: true
+    submissions:
+      tone: red
+      year: 2025
+      source: https://aclanthology.org/2025.findings-naacl.0.pdf
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://aclanthology.org/2025.findings-naacl.0.pdf
 
 - name: CAV
   year: 2027
@@ -253,6 +860,33 @@
   deadline: ["2027-01-20 23:59"]
   place: Amsterdam, The Netherlands
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CAV&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Computer Aided Verification'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=41
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://conferences.i-cav.org/2027/cfp/
+      note: Tool papers appear in Springer LNCS and require artifact evaluation. Older
+        tool-paper page limits are not assumed to apply.
+      proceedings: true
+    submissions:
+      tone: lime
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-32519-8
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-32519-8
 
 - name: QEST+FORMATS
   year: 2026
@@ -263,6 +897,33 @@
   deadline: ["2026-04-13 23:59"]
   place: Liverpool, United Kingdom
   tags: [FV]
+  labels:
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://www.qest-formats.org/cfp.html
+      note: Research, case-study and tool papers may be regular or short; all are archived
+        in LNCS.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://www.qest-formats.org/cfp.html
+      note: Research, case-study and tool papers may be regular or short; all are archived
+        in LNCS.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://confest-2026.github.io/registration/
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-35298-9
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-35298-9
 
 - name: BlockSys
   year: 2026
@@ -273,6 +934,21 @@
   deadline: ["2026-04-20 23:59"]
   place: Chengdu, China
   tags: [FV, ML]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=23
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: lime
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-3477-7
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-3477-7
 
 - name: ITC
   year: 2026
@@ -283,6 +959,25 @@
   deadline: ["2026-03-20 23:59"]
   place: San Antonio, Texas, USA
   tags: [EDA, TES]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ITC&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE International Test Conference'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=7
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://www.itctestweek.org/itc-authors-page-2/
+      note: 2026 Short Industrial Practices Papers are 3–5 pages and follow the IEEE
+        Xplore publication process after acceptance.
+      proceedings: true
 
 - name: ASP-DAC
   year: 2027
@@ -293,6 +988,27 @@
   deadline: ["2026-07-11 17:00"]
   place: Hitotsubashi Hall, Tokyo, Japan
   tags: [EDA]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ASPDAC&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Asia and South Pacific Design Automation
+        Conference'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=8
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: orange
+      year: 2026
+      source: https://www.aspdac.com/aspdac2026/pdf/ASP-DAC_2026_Full_Program.pdf
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://www.aspdac.com/aspdac2026/pdf/ASP-DAC_2026_Full_Program.pdf
 
 - name: AAAI
   year: 2027
@@ -303,6 +1019,47 @@
   deadline: ["2026-07-21 23:59"]
   place: Montreal, Quebec, Canada
   tags: [ML]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=AAAI&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: National Conference of the American
+        Association for Artificial Intelligence'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=57
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://aaai.org/conference/aaai/aaai-27/demonstration-call/
+      note: The demo category explicitly includes a two-page short paper in the proceedings.
+        The short-paper tag applies to demos, not to a general main-track short-paper
+        category.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2027
+      source: https://aaai.org/conference/aaai/aaai-27/demonstration-call/
+      note: The demo category explicitly includes a two-page short paper in the proceedings.
+        The short-paper tag applies to demos, not to a general main-track short-paper
+        category.
+      proceedings: true
+    registration_fee:
+      tone: red
+      year: 2027
+      source: https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
+    submissions:
+      tone: red
+      year: 2026
+      source: https://aaai.org/wp-content/uploads/2026/01/AAAI-26-Opening-Ceremony.pdf
+    acceptance_rate:
+      tone: red
+      year: 2026
+      source: https://aaai.org/wp-content/uploads/2026/01/AAAI-26-Opening-Ceremony.pdf
 
 - name: ICLR
   year: 2027
@@ -313,6 +1070,27 @@
   deadline: ["2026-09-18 23:59"]
   place: California, USA
   tags: [ML]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICLR&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Learning
+        Representations'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=57
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: red
+      year: 2026
+      source: https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/
 
 - name: ICAPS
   year: 2027
@@ -323,6 +1101,41 @@
   deadline: ["2026-12-07 23:59"]
   place: Columbia, South Carolina, USA
   tags: [PG]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICAPS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Automated
+        Planning and Scheduling'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=58
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://icaps27.icaps-conference.org/calls/cfp/
+      note: Tool papers are an explicit contribution type and may be long or short.
+        All accepted papers appear in the proceedings.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2027
+      source: https://icaps27.icaps-conference.org/calls/cfp/
+      note: Tool papers are an explicit contribution type and may be long or short.
+        All accepted papers appear in the proceedings.
+      proceedings: true
+    submissions:
+      tone: lime
+      year: 2024
+      source: https://www.icaps-conference.org/wp-content/uploads/2025/12/MinutesICAPS2024CouncilMeeting_v2.pdf
+    acceptance_rate:
+      tone: orange
+      year: 2024
+      source: https://www.icaps-conference.org/wp-content/uploads/2025/12/MinutesICAPS2024CouncilMeeting_v2.pdf
 
 - name: DAC
   year: 2027
@@ -334,6 +1147,18 @@
   timezone: America/Los_Angeles
   place: San Jose, California, USA
   tags: [EDA]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=DAC&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Design Automation Conf'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=5
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
 
 - name: ATVA
   year: 2026
@@ -345,6 +1170,27 @@
   deadline: ["2026-05-19 23:59"]
   place: Hong Kong SAR, China
   tags: [FV]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ATVA&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Symposium on Automated
+        Technology for Verification and Analysis'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-08707-2
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-08707-2
 
 - name: SETTA Round 1
   year: 2026
@@ -356,6 +1202,25 @@
   deadline: ["2026-05-24 23:59"]
   place: Singapore
   tags: [FV]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=43
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-7826-9
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-7826-9
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://www.setta2026.sg/home/registration
 
 - name: SETTA Round 2
   year: 2026
@@ -367,6 +1232,25 @@
   deadline: ["2026-08-24 23:59"]
   place: Singapore
   tags: [FV]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=43
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-7826-9
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-7826-9
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://www.setta2026.sg/home/registration
 
 - name: RV
   year: 2026
@@ -377,6 +1261,41 @@
   deadline: ["2026-06-16 23:59"]
   place: Kingston, Ontario, Canada
   tags: [FV]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=RV&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Runtime
+        Verification (was workshop pre 2010)'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://rv2026.smithengineering.queensu.ca/cfp/
+      note: Separate categories are stated in the call and confirmed in the 2026 LNCS
+        proceedings.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://rv2026.smithengineering.queensu.ca/cfp/
+      note: Separate categories are stated in the call and confirmed in the 2026 LNCS
+        proceedings.
+      proceedings: true
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://rv2026.smithengineering.queensu.ca/registration/
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-41160-0
 
 - name: ICFEM
   year: 2026
@@ -387,6 +1306,31 @@
   deadline: ["2026-06-22 23:59"]
   place: Southampton, United Kingdom
   tags: [FV]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICFEM&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Formal
+        Engineering Methods'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=30
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://store.southampton.ac.uk/conferences-and-events/conference-events/conference-events/icfem2026
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-4213-0
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-4213-0
 
 - name: ICTAC
   year: 2026
@@ -397,6 +1341,45 @@
   deadline: ["2026-06-22 23:59"]
   place: Bariloche, Argentina
   tags: [FV]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICTAC&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Colloquium on Theoretical
+        Aspects of Computing'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=43
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://ictac2026.github.io/cfp/
+      note: The current call explicitly lists category B (short) and category C (tool);
+        categories A–C appear in LNCS proceedings.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://ictac2026.github.io/cfp/
+      note: The current call explicitly lists category B (short) and category C (tool);
+        categories A–C appear in LNCS proceedings.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://ictac2026.github.io/registration/
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-11176-0
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-11176-0
 
 - name: TASE
   year: 2026
@@ -407,6 +1390,31 @@
   deadline: ["2026-03-01 23:59"]
   place: Shanghai, China
   tags: [FV, SE]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://tase2026.github.io/c_cfp.html
+      note: Six-page short papers are explicitly accepted and appear in Springer LNCS.
+      proceedings: true
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://tase2026.github.io/c_reg.html
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-30693-7
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-30693-7
 
 - name: CONCUR
   year: 2026
@@ -417,6 +1425,31 @@
   deadline: ["2026-04-20 23:59"]
   place: Liverpool, United Kingdom
   tags: [FV]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CONCUR&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Concurrency
+        Theory'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=42
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://confest-2026.github.io/registration/
+    submissions:
+      tone: green
+      year: 2026
+      source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2026.0
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2026.0
 
 - name: FCCM
   year: 2026
@@ -428,6 +1461,24 @@
   deadline: ["2026-01-10 23:59"]
   place: Atlanta, GA, USA
   tags: [EDA]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=8
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://www.fccm.org/past/2026/call-for-papers-2026/
+      note: Four-page short papers, excluding references, appear in IEEE Xplore after
+        acceptance and an in-person presentation.
+      proceedings: true
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://www.fccm.org/registration-2026/
 
 - name: IWLS
   year: 2027
@@ -448,6 +1499,30 @@
   deadline: ["2026-06-03 23:59"]
   place: Hong Kong SAR, China
   tags: [EDA]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICCD&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE International Conference on Computer
+        Design'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=6
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://www.iccd-conf.com/2026/Call_for_papers.html
+      note: The program committee may accept a full-paper submission as a four-page
+        short paper in the proceedings. Direct short-paper submissions are not accepted.
+      proceedings: true
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://www.iccd-conf.com/2026/Conference_Registration.html
 
 - name: FPGA
   year: 2027
@@ -458,6 +1533,34 @@
   deadline: ["2026-10-01 23:59"]
   place: California, USA
   tags: [EDA]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=FPGA&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: ACM Int''l Symposium on Field Programmable
+        Gate Arrays'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=6
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2027
+      source: https://wp.isfpga.org/call-for-papers/
+      note: The 2027 call explicitly includes short papers. All accepted papers appear
+        in the conference proceedings and ACM Digital Library.
+      proceedings: true
+    submissions:
+      tone: green
+      year: 2026
+      source: https://fpga26.hotcrp.com/
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://fpga26.hotcrp.com/
 
 - name: ASPLOS April
   year: 2027
@@ -469,6 +1572,27 @@
   deadline: ["2026-04-15 23:59"]
   place: Heraklion, Crete, Greece
   tags: [PL]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ASPLOS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Architectural Support for Programming
+        Languages and Operating Systems'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=5
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: red
+      year: 2026
+      source: https://doi.org/10.1145/237090
+    acceptance_rate:
+      tone: red
+      year: 2026
+      source: https://doi.org/10.1145/237090
 
 - name: ASPLOS September
   year: 2027
@@ -480,6 +1604,27 @@
   deadline: ["2026-09-09 23:59"]
   place: Heraklion, Crete, Greece
   tags: [PL]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ASPLOS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Architectural Support for Programming
+        Languages and Operating Systems'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=5
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: red
+      year: 2026
+      source: https://doi.org/10.1145/237090
+    acceptance_rate:
+      tone: red
+      year: 2026
+      source: https://doi.org/10.1145/237090
 
 - name: OOPSLA Round 1
   year: 2027
@@ -490,6 +1635,19 @@
   deadline: ["2026-10-14 23:59"]
   place: Prague, Czechia
   tags: [PL]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=OOPSLA&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: ACM Conference on Object Oriented
+        Programming Systems Languages and Applications'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
 
 - name: OOPSLA Round 2
   year: 2027
@@ -500,6 +1658,19 @@
   deadline: ["2027-04-07 23:59"]
   place: Prague, Czechia
   tags: [PL]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=OOPSLA&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: ACM Conference on Object Oriented
+        Programming Systems Languages and Applications'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
 
 - name: ITC-Asia
   year: 2026
@@ -510,6 +1681,17 @@
   deadline: ["2026-04-25 23:59"]
   place: Ningbo International Conference Center, Ningbo, China
   tags: [TES]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=9
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: http://www.castest.com.cn/itcasia2026_reg
 
 - name: IJCNN
   year: 2027
@@ -520,6 +1702,27 @@
   deadline: ["2027-01-31 23:59"]
   place: Cape Town, South Africa
   tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=IJCNN&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE International Joint Conference
+        on Neural Networks'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=60
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: red
+      year: 2025
+      source: https://arxiv.org/abs/2603.19244
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://arxiv.org/abs/2603.19244
 
 - name: ICASSP
   year: 2027
@@ -530,6 +1733,21 @@
   deadline: ["2026-09-23 23:59"]
   place: Toronto, Canada
   tags: [SP, ML]
+  labels:
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=48
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2027
+      source: https://2027.ieeeicassp.org/registration/
+    submissions:
+      tone: red
+      year: 2026
+      source: https://signalprocessingsociety.org/our-story/news-updates/2026/06/meet-icassp-2026-organizers-ana-isabel-perez-neira-and-xavier-mestre
 
 - name: GLSVLSI
   year: 2026
@@ -541,6 +1759,17 @@
   timezone: Etc/GMT+5
   place: Finger Lakes, New York, USA
   tags: [EDA]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=8
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://glsvlsi.org/registration.html
 
 - name: ISVLSI
   year: 2026
@@ -552,6 +1781,11 @@
   timezone: Asia/Kolkata
   place: Kolkata, India
   tags: [EDA]
+  labels:
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://ieee-isvlsi.github.io/ISVLSI_2026_Website/registration/index.html
 
 - name: ISEDA
   year: 2026
@@ -562,6 +1796,11 @@
   deadline: ["2026-02-28 23:59"]
   place: Singapore
   tags: [EDA]
+  labels:
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://www.eda2.com/iseda/reg.html
 
 - name: ISLPED
   year: 2026
@@ -572,6 +1811,23 @@
   deadline: ["2026-03-11 23:59"]
   place: Evanston, Illinois, USA
   tags: [EDA]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ISLPED&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE/ACM International Symposium on
+        Low Power Electronics and Design'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=9
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://www.islped.org/2026/registration/
 
 - name: VSTTE
   year: 2026
@@ -583,6 +1839,35 @@
   deadline: ["2026-07-17 23:59"]
   place: Graz, Austria
   tags: [PL]
+  labels:
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://fmcad.org/FMCAD26/vstte/
+      note: System descriptions and short submissions are accepted. Accepted regular-track
+        papers appear in post-conference Springer LNCS proceedings; WIP presentations
+        are excluded.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://fmcad.org/FMCAD26/vstte/
+      note: System descriptions and short submissions are accepted. Accepted regular-track
+        papers appear in post-conference Springer LNCS proceedings; WIP presentations
+        are excluded.
+      proceedings: true
+    registration_fee:
+      tone: green
+      year: 2026
+      source: https://fmcad.org/FMCAD26/registration/
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-27340-6
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-27340-6
 
 - name: ICECCS
   year: 2026
@@ -593,6 +1878,37 @@
   deadline: ["2026-07-20 23:59"]
   place: Brisbane, Australia
   tags: [FV]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICECCS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE International Conference on Engineering
+        of Complex Computer Systems'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=30
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://formal-analysis.com/iceccs/2026/
+      note: Short papers explicitly appear in the LNCS conference proceedings.
+      proceedings: true
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://formal-analysis.com/iceccs/2026/
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-00828-2
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-032-00828-2
 
 - name: LICS
   year: 2026
@@ -603,6 +1919,37 @@
   deadline: ["2026-01-15 23:59"]
   place: Lisbon, Portugal
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=LICS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE Symposium on Logic in Computer
+        Science'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=41
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2026
+      source: https://lics.siglog.org/lics26/cfp.php
+      note: Remote presentation can be arranged for authors unable to attend. Authors
+        must coordinate with the organizers; this does not waive registration.
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://www.floc26.org/registration
+    submissions:
+      tone: lime
+      year: 2026
+      source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.0
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.0
 
 - name: LAD
   year: 2026
@@ -613,6 +1960,11 @@
   deadline: ["2026-03-19 23:59"]
   place: Stanford, CA, USA
   tags: [EDA]
+  labels:
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://web.cvent.com/event/c2f52333-3107-4308-a464-83dd72cd1491/websitePage:fccdd446-cd58-4b0d-ac59-10c376231453
 
 - name: CF-OSHW
   year: 2026
@@ -623,6 +1975,11 @@
   deadline: ["2026-03-23 23:59"]
   place: Catania, Sicily, Italy
   tags: [EDA]
+  labels:
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://computingfrontiers.org/2026/registration.html
 
 - name: Internetware Cycle 1
   year: 2026
@@ -633,6 +1990,33 @@
   deadline: ["2026-03-28 23:59"]
   place: Gold Coast, Australia
   tags: [FV]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/internetware-2026/internetware-2026-tool-demonstration
+      note: The current edition has a separate Tool Demonstration paper category. The
+        registration policy confirms publication of registered accepted papers in the
+        proceedings.
+      proceedings: true
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://conf.researchr.org/attending/internetware-2026/registration
+    submissions:
+      tone: green
+      year: 2025
+      source: https://internetware2025.hotcrp.com/
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://internetware2025.hotcrp.com/
 
 - name: Internetware Cycle 2
   year: 2026
@@ -643,6 +2027,33 @@
   deadline: ["2026-04-27 23:59"]
   place: Gold Coast, Australia
   tags: [FV]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/internetware-2026/internetware-2026-tool-demonstration
+      note: The current edition has a separate Tool Demonstration paper category. The
+        registration policy confirms publication of registered accepted papers in the
+        proceedings.
+      proceedings: true
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://conf.researchr.org/attending/internetware-2026/registration
+    submissions:
+      tone: green
+      year: 2025
+      source: https://internetware2025.hotcrp.com/
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://internetware2025.hotcrp.com/
 
 - name: OSDA
   year: 2024
@@ -655,6 +2066,13 @@
   deadline: ["2024-02-15 23:59"]
   place: Valencia, Spain
   tags: [EDA]
+  labels:
+    no_in_person:
+      value: true
+      year: 2024
+      source: https://osda.ws/events/2024/virtual-extension/program
+      note: The 2024 Virtual Extension took place on May 15 via Jitsi, allowing tool
+        and workflow authors to present online. This tag refers to the virtual extension.
 
 - name: ISCAS
   year: 2027
@@ -666,6 +2084,27 @@
   timezone: Etc/GMT+5
   place: Bordeaux, France
   tags: [EDA]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ISCAS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE International Symposium on Circuits
+        and Systems'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=7
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: red
+      year: 2026
+      source: https://2026.ieee-iscas.org/assets/ISCAS_2026_Program.pdf#page=5
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://2026.ieee-iscas.org/assets/ISCAS_2026_Program.pdf#page=5
 
 - name: DVCon
   year: 2027
@@ -677,6 +2116,11 @@
   timezone: America/Los_Angeles
   place: Santa Clara, CA, USA
   tags: [EDA]
+  labels:
+    registration_fee:
+      tone: orange
+      year: 2027
+      source: https://dvcon.org/registration
 
 - name: JUG
   year: 2026
@@ -698,6 +2142,25 @@
   deadline: ["2026-04-17 23:59"]
   place: Boulder, Colorado, United States
   tags: [PL]
+  labels:
+    no_in_person:
+      value: true
+      year: 2026
+      source: https://pldi26.sigplan.org/home/egraphs-2026
+      note: The 2026 call removes the in-person requirement and explicitly permits virtual
+        presentations.
+    registration_fee:
+      tone: lime
+      year: 2026
+      source: https://pldi26.sigplan.org/attending/registration
+    submissions:
+      tone: green
+      year: 2026
+      source: https://egraphs2026.hotcrp.com/
+    acceptance_rate:
+      tone: lime
+      year: 2026
+      source: https://egraphs2026.hotcrp.com/
 
 - name: PLDI
   year: 2027
@@ -708,6 +2171,19 @@
   deadline: ["2026-11-12 23:59"]
   place: Atlanta, Georgia, United States
   tags: [PL]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=PLDI&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: ACM-SIGPLAN Conference on Programming
+        Language Design and Implementation'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
 
 - name: ISPD
   year: 2027
@@ -718,6 +2194,21 @@
   deadline: ["2026-09-21 23:59"]
   place: Taipei, Taiwan
   tags: [EDA]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=9
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: green
+      year: 2026
+      source: https://doi.org/10.1145/3764386.3779590
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://doi.org/10.1145/3764386.3779590
 
 - name: CODES+ISSS
   year: 2026
@@ -728,6 +2219,17 @@
   deadline: ["2026-03-23 23:59"]
   place: Barcelona, Spain
   tags: [EDA]
+  labels:
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=6
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://esweek.org/registration-draft/
 
 - name: MEMOCODE
   year: 2026
@@ -739,6 +2241,29 @@
   deadline: ["2026-06-01 23:59"]
   place: Barcelona, Spain
   tags: [FV]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=MEMOCODE&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Formal
+        Methods and Models for Co-Design'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://memocode2026.github.io/callforpapers.html
+      note: Separate tool papers are accepted and archived in IEEE proceedings.
+      proceedings: true
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://esweek.org/registration-draft/
 
 - name: LOPSTR
   year: 2026
@@ -749,7 +2274,53 @@
   deadline: ["2026-05-20 23:59"]
   place: Indianapolis, Indiana, USA
   tags: [EDA]
-  
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=LOPSTR&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Symposium on Logic-based
+        Program Synthesis and Transformation'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
+      note: The 2026 event is the joint LOPSTR+PPDP symposium. System descriptions and
+        short papers are explicitly accepted into Springer LNCS.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
+      note: The 2026 event is the joint LOPSTR+PPDP symposium. System descriptions and
+        short papers are explicitly accepted into Springer LNCS.
+      proceedings: true
+    no_in_person:
+      value: true
+      year: 2026
+      source: https://icfp26.sigplan.org/home/lopstr-ppdp-2026
+      note: The official 2026 final program lists multiple Remote or Remote Recorded
+        paper presentations, including research papers and the best paper, confirming
+        remote participation in practice.
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/content/pdf/bfm:978-3-032-04848-6/1#page=5
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/content/pdf/bfm:978-3-032-04848-6/1#page=5
+    registration_fee:
+      tone: green
+      year: 2026
+      source: https://web.cvent.com/event/4945cfb4-cf63-42d8-9dca-677dc109b480/websitePage:f5f1940b-980e-4398-96f6-3b681ef5e4a3
+
 - name: POPL
   year: 2027
   date: "January 10 - 16"
@@ -759,6 +2330,33 @@
   deadline: ["2026-07-09 23:59"]
   place: Mexico City, Mexico
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=POPL&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: ACM-SIGACT Symposium on Principles
+        of Programming Languages'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://popl27.sigplan.org/track/POPL-2027-popl-research-papers
+      note: PACMPL authors are invited, but not required, to present. Authors who wish
+        to present but cannot attend in person are offered a remote option.
+    submissions:
+      tone: lime
+      year: 2026
+      source: https://popl26.hotcrp.com/
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://popl26.hotcrp.com/
 
 - name: SASIMI
   year: 2027
@@ -769,6 +2367,14 @@
   deadline: ["2026-10-16 23:59"]
   place: Miyazaki Kanko Hotel, Miyazaki, Japan
   tags: [EDA]
+  labels:
+    short_paper:
+      value: true
+      year: 2027
+      source: https://sasimi.jp/new/sasimi2027/submission.html
+      note: Two-page short papers are accepted in 2027. All accepted papers enter the
+        electronic proceedings, with an optional official website archive.
+      proceedings: true
 
 - name: APSEC
   year: 2026
@@ -779,6 +2385,37 @@
   deadline: ["2026-07-13 23:59"]
   place: Bali, Indonesia
   tags: [FV]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=APSEC&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Asia-Pacific Software Engineering
+        Conference'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=30
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/apsec-2026/apsec-2026-tool-demonstration
+      note: Accepted Tool Demonstration papers enter the APSEC 2026 proceedings and
+        IEEE Digital Library, subject to registration and presentation.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/apsec-2026/apsec-2026-papers
+      note: The ERA track accepts two-page short papers presented as posters and included
+        in the conference proceedings in the IEEE CS Digital Library.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://conf.researchr.org/attending/apsec-2026/registration
 
 - name: iFS
   year: 2027
@@ -790,6 +2427,23 @@
   deadline: ["2026-10-15 23:59"]
   place: Copenhagen, Denmark
   tags: [FV]
+  labels:
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://etaps.org/2027/cfp/
+      note: The current joint call includes tool and short categories. TACAS short papers
+        are tool demonstrations; iFS also has separate short paper categories. Papers
+        appear in Springer LNCS.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2027
+      source: https://etaps.org/2027/cfp/
+      note: The current joint call includes tool and short categories. TACAS short papers
+        are tool demonstrations; iFS also has separate short paper categories. Papers
+        appear in Springer LNCS.
+      proceedings: true
 
 - name: FormaliSE
   year: 2027
@@ -800,6 +2454,22 @@
   deadline: ["2026-10-30 23:59"]
   place: Dublin, Ireland
   tags: [FV]
+  labels:
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/track/Formalise-2027/Formalise-2027-papers#call-Call-for-Papers
+      note: Tool demo papers are explicitly archived; posters are explicitly excluded
+        from the proceedings.
+      proceedings: true
+    submissions:
+      tone: green
+      year: 2026
+      source: https://www.fmeurope.org/2026/05/13/formalise-2026-report/
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://www.fmeurope.org/2026/05/13/formalise-2026-report/
 
 - name: IJCAR
   year: 2026
@@ -810,6 +2480,39 @@
   deadline: ["2026-02-06 23:59"]
   place: Lisbon, Portugal
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=IJCAR&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Joint Conference on
+        Automated Reasoning'
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://www.floc26.org/ijcar
+      note: Short papers may describe implemented systems. The official site links the
+        LNCS proceedings; the tool tag refers to this system-description category.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://www.floc26.org/ijcar
+      note: Short papers may describe implemented systems. The official site links the
+        LNCS proceedings; the tool tag refers to this system-description category.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://www.floc26.org/registration
+    submissions:
+      tone: green
+      year: 2026
+      source: https://ijcar.org/conferences
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://ijcar.org/conferences
 
 - name: SAIV
   year: 2026
@@ -820,6 +2523,29 @@
   deadline: ["2026-03-24 11:59"]
   place: Lisbon, Portugal
   tags: [FV, ML]
+  labels:
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://aiverification.org/2026/call/
+      note: Original papers may be short. The tool category is limited to VNN-COMP competition
+        contributions. Both appear in SAIV LNCS; presentation-only submissions are excluded.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://aiverification.org/2026/call/
+      note: Original papers may be short. The tool category is limited to VNN-COMP competition
+        contributions. Both appear in SAIV LNCS; presentation-only submissions are excluded.
+      proceedings: true
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-32357-6
+    registration_fee:
+      tone: lime
+      year: 2026
+      source: https://www.floc26.org/registration
 
 - name: ICTAI
   year: 2026
@@ -830,6 +2556,27 @@
   deadline: ["2026-07-21 23:59"]
   place: Boca Raton, Florida, USA
   tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICTAI&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Tools
+        with Artificial Intelligence'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=59
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://ictai.computer.org/2026/registration/
+    submissions:
+      tone: orange
+      year: 2025
+      source: https://www.linkedin.com/posts/arnaud-lallouet-59944011_home-activity-7371989611742674944-CkkW
 
 - name: CSCWD
   year: 2026
@@ -841,6 +2588,31 @@
   deadline: ["2025-11-30 23:59"]
   place: Fuzhou, China
   tags: [ML]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CSCWD&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Computer
+        Supported Cooperative Work in Design'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=66
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://fyust.edu.cn/gjhyqk/cscwd2026/registration.html
+    submissions:
+      tone: red
+      year: 2026
+      source: https://fyust.edu.cn/gjhyqk/cscwd2026/program.pdf
+    acceptance_rate:
+      tone: lime
+      year: 2026
+      source: https://fyust.edu.cn/gjhyqk/cscwd2026/program.pdf
 
 - name: ICME
   year: 2026
@@ -851,6 +2623,30 @@
   deadline: ["2025-12-31 23:59"]
   place: Bangkok, Thailand
   tags: [SP, ML]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICME&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE International Conference on Multimedia
+        and Expo'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=48
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://2026.ieeeicme.org/call-for-demonstrations/
+      note: Standalone two-page demonstration papers enter the conference proceedings
+        and IEEE Xplore after acceptance, registration and presentation.
+      proceedings: true
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://2026.ieeeicme.org/registration/
 
 - name: ICIC
   year: 2026
@@ -862,6 +2658,21 @@
   timezone: Asia/Shanghai
   place: Toronto, Canada
   tags: [ML]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=72
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: red
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-981-92-3397-7
+    registration_fee:
+      tone: red
+      year: 2026
+      source: http://www.ic-icc.cn/2026/registration2.php
 
 - name: SMC
   year: 2026
@@ -872,6 +2683,27 @@
   deadline: ["2026-05-03 23:59"]
   place: Bellevue, Washington, USA
   tags: [CS, ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=SMC&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE Conference on Systems, Man and
+        Cybernetics'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=72
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://enotice.vtools.ieee.org/public/188131
+      note: The official IEEE call includes four-page short papers for WIP/industrial
+        contributions. Accepted, registered and presented papers enter the IEEE Xplore
+        proceedings.
+      proceedings: true
 
 - name: ICPADS
   year: 2026
@@ -882,6 +2714,23 @@
   deadline: ["2026-08-15 23:59"]
   place: Tokyo, Japan
   tags: [PL]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICPADS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Parallel
+        and Distributed Systems'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=9
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://www.cloud-conf.net/icpads2026/registration.html
 
 - name: ICA3PP
   year: 2026
@@ -893,6 +2742,38 @@
   deadline: ["2026-07-25 23:59"]
   place: Exeter, England, UK
   tags: [PL]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICA3PP&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Algorithms
+        and Architectures for Parallel Processing'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=9
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2026
+      source: https://hpcn.exeter.ac.uk/ica3pp2026/Camera-Ready-Paper-Instructions.html
+      note: The official camera-ready instructions list regular and short/workshop papers
+        for the confirmed LNCS post-proceedings.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://hpcn.exeter.ac.uk/ica3pp2026/reg.php
+    submissions:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-8408-6
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-8408-6
 
 - name: FSE
   year: 2027
@@ -904,6 +2785,35 @@
   deadline: ["2026-10-03 23:59"]
   place: Shenzhen, China
   tags: [SE]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=FSE&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: ACM International Conference on the
+        Foundations of Software Engineering (was ESEC/FSE, changed 2024; duplicate previously
+        listed as ESEC, removed from DB)'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/track/fse-2027/fse-2027-industry-papers
+      note: The Industry Track accepts 5+1-page short papers in the conference companion
+        proceedings.
+      proceedings: true
+    submissions:
+      tone: red
+      year: 2026
+      source: https://www.shinhwei.com/FSE-Sponsorship-Information.pdf#page=3
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://www.shinhwei.com/FSE-Sponsorship-Information.pdf#page=3
 
 - name: ICSE
   year: 2027
@@ -914,6 +2824,34 @@
   deadline: ["2026-06-23 23:59"]
   place: Dublin, Ireland
   tags: [SE]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICSE&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Software
+        Engineering'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/track/icse-2027/icse-2027-demonstrations
+      note: Tool Demonstration and Data Showcase papers are four pages, follow ACM publication
+        and ORCID procedures, and use the IEEE proceedings format.
+      proceedings: true
+    submissions:
+      tone: red
+      year: 2026
+      source: https://icse2026.hotcrp.com/
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://icse2026.hotcrp.com/
 
 - name: ASE
   year: 2026
@@ -924,6 +2862,43 @@
   deadline: ["2026-03-26 23:59"]
   place: Munich, Germany
   tags: [SE]
+  labels:
+    core_ranking:
+      value: A*
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ASE&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Automated Software Engineering Conference'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/ase-2026/ase-2026-submission-instructions-and-policies
+      note: Tools and Datasets papers are five pages; accepted papers appear in the
+        ACM proceedings.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/ase-2026/ase-2026-submission-instructions-and-policies
+      note: The Industry Showcase explicitly accepts 6+1-page short papers in the ACM
+        proceedings.
+      proceedings: true
+    no_in_person:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/track/ase-2026/ase-2026-not-in-person-presentations
+      note: The official Not-in-Person Presentations option permits videos, single-slide
+        presentations or organizer-printed posters for authors unable to attend. Paper
+        registration requirements still apply.
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://conf.researchr.org/attending/ase-2026/registration
 
 - name: ISSTA
   year: 2027
@@ -934,6 +2909,27 @@
   deadline: ["2027-01-08 23:59"]
   place: Singapore
   tags: [SE]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ISSTA&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Symposium on Software
+        Testing and Analysis'
+    ccf_ranking:
+      value: A
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=27
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: red
+      year: 2026
+      source: https://www.linkedin.com/posts/marcelboehme1_issta-issta-issta-activity-7477276219525386240-Tt3s
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://www.linkedin.com/posts/marcelboehme1_issta-issta-issta-activity-7477276219525386240-Tt3s
 
 - name: SPIN
   year: 2026
@@ -944,6 +2940,37 @@
   deadline: ["2026-01-22 23:59"]
   place: Torino, Italy
   tags: [FV, SE]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://spin-web.github.io/SPIN2026/cfp
+      note: Full tool papers and short papers are accepted and archived in LNCS.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://spin-web.github.io/SPIN2026/cfp
+      note: Full tool papers and short papers are accepted and archived in LNCS.
+      proceedings: true
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/9783032356376
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://link.springer.com/book/9783032356376
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://etaps.org/2026/registration/
 
 - name: FDL
   year: 2026
@@ -956,6 +2983,20 @@
   timezone: Etc/GMT+12
   place: Rome, Italy
   tags: [EDA, FV]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=FDL&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Forum on Specification and Design
+        Languages'
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://www.fdl-conference.com/submission.html
+      note: 2026 Tool Papers are 6+1 pages and belong to the IEEE Xplore proceedings
+        category, separate from non-archival WIP contributions.
+      proceedings: true
 
 - name: SAT
   year: 2026
@@ -968,6 +3009,45 @@
   timezone: Etc/GMT+12
   place: Lisbon, Portugal
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=SAT&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Theory
+        and Applications of Satisfiability Testing'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=42
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://satisfiability.org/SAT26/pages/cfp.html
+      note: Long, short and tool papers are explicit categories; all accepted papers
+        appear in LIPIcs.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://satisfiability.org/SAT26/pages/cfp.html
+      note: Long, short and tool papers are explicit categories; all accepted papers
+        appear in LIPIcs.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://www.floc26.org/registration
+    submissions:
+      tone: green
+      year: 2026
+      source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2026.0
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2026.0
 
 - name: ITP
   year: 2026
@@ -979,6 +3059,31 @@
   timezone: Etc/GMT+12
   place: Lisbon, Portugal
   tags: [FV, PL]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ITP&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Conference on Interactive Theorem
+        Proving (previously TPHOLs, changed in 2009)'
+    short_paper:
+      value: true
+      year: 2026
+      source: https://itp-conference-2026.github.io/cfp.html
+      note: Short papers explicitly appear in the main LIPIcs proceedings.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://www.floc26.org/registration
+    submissions:
+      tone: green
+      year: 2026
+      source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2026.0
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2026.0
 
 - name: DSD
   year: 2026
@@ -991,6 +3096,25 @@
   timezone: Etc/GMT+12
   place: Krakow, Poland
   tags: [EDA, FV]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=DSD&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Euromicro Conference Series on Digital
+        System Design'
+    short_paper:
+      value: true
+      year: 2026
+      source: https://dsd-seaa.com/wip/
+      note: The joint WiP special session accepts short papers in separate WiP DSD-SEAA
+        proceedings. These do not enter IEEE Xplore and are distinct from the main conference
+        proceedings.
+      proceedings: true
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://dsd-seaa.com/dsd-registration/
 
 - name: FMICS
   year: 2026
@@ -1003,6 +3127,25 @@
   timezone: Etc/GMT+12
   place: Liverpool, United Kingdom
   tags: [FV, SE]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=FMICS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Int. Workshop on Formal Methods for
+        Industrial Critical Systems'
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://confest-2026.github.io/registration/
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-36849-2
+    acceptance_rate:
+      tone: orange
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-36849-2
 
 - name: CHES Issue 1
   year: 2027
@@ -1014,6 +3157,27 @@
   timezone: Etc/GMT+12
   place: Cancun, Mexico
   tags: [EDA, FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CHES&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Workshop on Cryptographic Hardware
+        and Embedded Systems'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=21
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: lime
+      year: 2025
+      source: https://ches.iacr.org/statistics.php
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://ches.iacr.org/statistics.php
 
 - name: CHES Issue 2
   year: 2027
@@ -1025,6 +3189,27 @@
   timezone: Etc/GMT+12
   place: Cancun, Mexico
   tags: [EDA, FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CHES&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Workshop on Cryptographic Hardware
+        and Embedded Systems'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=21
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: lime
+      year: 2025
+      source: https://ches.iacr.org/statistics.php
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://ches.iacr.org/statistics.php
 
 - name: CHES Issue 3
   year: 2027
@@ -1036,6 +3221,27 @@
   timezone: Etc/GMT+12
   place: Cancun, Mexico
   tags: [EDA, FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CHES&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Workshop on Cryptographic Hardware
+        and Embedded Systems'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=21
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: lime
+      year: 2025
+      source: https://ches.iacr.org/statistics.php
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://ches.iacr.org/statistics.php
 
 - name: CHES Issue 4
   year: 2027
@@ -1047,6 +3253,27 @@
   timezone: Etc/GMT+12
   place: Cancun, Mexico
   tags: [EDA, FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CHES&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Workshop on Cryptographic Hardware
+        and Embedded Systems'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=21
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    submissions:
+      tone: lime
+      year: 2025
+      source: https://ches.iacr.org/statistics.php
+    acceptance_rate:
+      tone: orange
+      year: 2025
+      source: https://ches.iacr.org/statistics.php
 
 - name: CSF Summer
   year: 2027
@@ -1058,6 +3285,28 @@
   timezone: Etc/GMT+12
   place: Tokyo, Japan
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CSF&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE Computer Security Foundations
+        Symposium (was CSFW)'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=21
+      note: The CCF directory uses the former name CSFW. The official CSF history confirms
+        that the workshop founded in 1988 became a symposium in 2007, establishing continuity
+        of the series.
+    submissions:
+      tone: lime
+      year: 2024
+      source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
+    acceptance_rate:
+      tone: orange
+      year: 2024
+      source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
 
 - name: CSF Fall
   year: 2027
@@ -1069,6 +3318,28 @@
   timezone: Etc/GMT+12
   place: Tokyo, Japan
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CSF&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE Computer Security Foundations
+        Symposium (was CSFW)'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=21
+      note: The CCF directory uses the former name CSFW. The official CSF history confirms
+        that the workshop founded in 1988 became a symposium in 2007, establishing continuity
+        of the series.
+    submissions:
+      tone: lime
+      year: 2024
+      source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
+    acceptance_rate:
+      tone: orange
+      year: 2024
+      source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
 
 - name: CSF Winter
   year: 2027
@@ -1080,6 +3351,28 @@
   timezone: Etc/GMT+12
   place: Tokyo, Japan
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CSF&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE Computer Security Foundations
+        Symposium (was CSFW)'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=21
+      note: The CCF directory uses the former name CSFW. The official CSF history confirms
+        that the workshop founded in 1988 became a symposium in 2007, establishing continuity
+        of the series.
+    submissions:
+      tone: lime
+      year: 2024
+      source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
+    acceptance_rate:
+      tone: orange
+      year: 2024
+      source: https://www.ieee-security.org/TC/Reports/2025/ieee-sp-tc-business-2025.pdf#page=9
 
 - name: DDECS
   year: 2027
@@ -1091,6 +3384,13 @@
   timezone: Etc/GMT+12
   place: Berlin, Germany
   tags: [EDA, FV, TES]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=DDECS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Symposium on Design
+        and Diagnostics of Electronic Circuits and Systems'
 
 - name: CADE
   year: 2027
@@ -1102,6 +3402,41 @@
   timezone: Etc/GMT+12
   place: Nijmegen, The Netherlands
   tags: [FV]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=CADE&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Automated
+        Deduction'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=42
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://fscd-cade.science.ru.nl/calls/papers-cade
+      note: The short-paper category includes system descriptions; all papers appear
+        in LIPIcs.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2027
+      source: https://fscd-cade.science.ru.nl/calls/papers-cade
+      note: The short-paper category includes system descriptions; all papers appear
+        in LIPIcs.
+      proceedings: true
+    submissions:
+      tone: green
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-031-99984-0
+    acceptance_rate:
+      tone: amber
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-3-031-99984-0
 
 - name: SAS
   year: 2026
@@ -1114,6 +3449,37 @@
   timezone: Etc/GMT+12
   place: Oakland, California, USA
   tags: [FV, PL]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=SAS&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Static Analysis Symposium'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=29
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://conf.researchr.org/home/splash-issta-2026/sas-2026
+      note: The NEAT category explicitly includes tool papers, following the same page
+        limits as regular papers and published in LNCS.
+      proceedings: true
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://conf.researchr.org/attending/splash-issta-2026/registration
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/9783032403735
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://link.springer.com/book/9783032403735
 
 - name: FORTE
   year: 2026
@@ -1126,6 +3492,45 @@
   timezone: Etc/GMT+12
   place: Urbino, Italy
   tags: [FV]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=FORTE&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IFIP Joint International Conference
+        on Formal Description Techniques and Protocol Specification, Testing, And Verification'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=15
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular
+        papers and does not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2026
+      source: https://www.discotec.org/2026/forte
+      note: The current call has separate tool and short categories, confirmed in the
+        2026 LNCS proceedings.
+      proceedings: true
+    short_paper:
+      value: true
+      year: 2026
+      source: https://www.discotec.org/2026/forte
+      note: The current call has separate tool and short categories, confirmed in the
+        2026 LNCS proceedings.
+      proceedings: true
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://www.discotec.org/2026/registration
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-28187-6
+    acceptance_rate:
+      tone: amber
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-28187-6
 
 - name: ISoLA
   year: 2026
@@ -1138,3 +3543,14 @@
   timezone: Etc/GMT+12
   place: Kos, Greece
   tags: [FV, SE]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ISoLA&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Symposium on Leveraging
+        Applications of Formal Methods, Verification and Validation'
+    registration_fee:
+      tone: orange
+      year: 2026
+      source: https://2026-isola.isola-conference.org/registration/

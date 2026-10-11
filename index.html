@@ -44,7 +44,7 @@
         <div class="row">
           <div class="col-xs-12">
             <!-- <div class="well"> -->
-              <form class="form-inline">
+              <form class="form-inline" id="topic-filters">
                 <div class="form-group">
                   {% for type in site.data.types %}
                   <div class="checkbox">
@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-      <div class="conf-container">
+      <div class="conf-container" data-tag-definitions="{{ site.data.tag_definitions | jsonify | escape }}">
         {% for conf in site.data.conferences %}
         {% assign num_deadlines = conf.deadline.size %}
         {% assign range_end = conf.deadline.size | minus: 1 %}
@@ -68,10 +68,11 @@
         {% assign prevyear = conf.year | minus: 1 %}
         {% assign deadline = conf.deadline[i] | replace: '%y', year | replace: '%Y', prevyear %}
         {% assign conf_id = conf.name | append: conf.year | append: '-' | append: i | slugify %}
-        <div id="{{ conf_id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
+        <div id="{{ conf_id }}" data-conference-labels="{{ conf.labels | jsonify | escape }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+                <div class="conference-tags tag-chip-list" hidden aria-label="{{ conf.name | escape }} {{ conf.year }} conference tags"></div>
                 <div class="meta">
                   {{ conf.description }}<br>
                   {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
@@ -97,6 +98,27 @@
         {% endfor %}
         {% endfor %}
       </div>
+      <section class="tag-legend" id="tag-legend" aria-labelledby="tag-legend-title">
+        <h2 id="tag-legend-title">About the tags</h2>
+        <p>Tags are maintained by the site owner and shown only when supported by a source. A missing tag means the information is unconfirmed, not that the feature is absent. Click a conference tag to view its source.</p>
+        <dl class="tag-legend-grid">
+          {% for tag in site.data.tag_definitions %}
+          <div class="tag-legend-item">
+            <dt><span class="tag-chip{% if tag.color %} tag-color-{{ tag.color }}{% endif %}">{{ tag.label }}</span></dt>
+            <dd>{{ tag.description }}</dd>
+          </div>
+          {% endfor %}
+        </dl>
+        <div class="tag-color-key" aria-label="Five color bands, from green to red">
+          <span>Color bands</span>
+          <span class="tag-chip tag-color-green">Green</span>
+          <span class="tag-chip tag-color-lime">Yellow-green</span>
+          <span class="tag-chip tag-color-amber">Amber</span>
+          <span class="tag-chip tag-color-orange">Orange</span>
+          <span class="tag-chip tag-color-red">Red</span>
+        </div>
+        <p class="tag-legend-note">Red indicates higher fees, more submissions, a lower acceptance rate, or a higher CORE/CCF rank. Colors represent bands, not exact values; fees use separate ranges for each currency. The year on a metric tag identifies its data year, which may differ from the upcoming conference year. Ranking years identify the directory edition. Paper-type and attendance conditions may vary by track; hover over a conference tag for details.</p>
+      </section>
       <footer>
         Maintained by <a href="https://guangyuhu.me/">Gary HU</a>.
       </footer>
@@ -107,7 +129,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data-10-year-range.min.js" integrity="sha512-d11VXfxQMn+sZuIgzHITdIuInr4cVRGV/uLiSI643WH/J+p4gPFYSHXRMR2v+w4Rn2TSyzJjsZjc0M7+Qd+UXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/store.js/2.0.12/store.legacy.min.js" integrity="sha512-3yZTInL4yLU1ajnca35KTk6YE4RPHJU2y+jbhHAykE9OzMHpc2BIJghNsbkBNacIJWLLUmUkLEGPDDWrFY2zzw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Conference data is compiled into main.js; refresh it with each site build. -->
-    <script src="{{ site.baseurl}}/static/js/main.js?v={{ site.time | date: '%s' }}" async></script>
+    <script src="{{ site.baseurl}}/static/js/tag-model.js?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ site.baseurl}}/static/js/tags.js?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ site.baseurl}}/static/js/main.js?v={{ site.time | date: '%s' }}"></script>
     {% if site.ga_id %}
     {% include analytics.html %}
     {% endif %}

@@ -1,0 +1,61 @@
+# Maintainer-owned labels. Values live in each conference's `labels` field.
+# Color endpoints are display conventions, not researched facts.
+- key: no_in_person
+  label: Remote / Optional Attendance
+  kind: boolean
+  color: blue
+  description: Authors may present remotely or are not required to attend. Track-specific conditions may apply.
+- key: registration_fee
+  label: Registration Fee
+  kind: fee
+  description: Registration fees applicable to regular authors. Lower fees are greener; higher fees are redder. Student-only discounts are excluded.
+  # Independent display ranges, NOT exchange rates or a claim of affordability.
+  # Unsupported currencies display in neutral gray until a range is configured.
+  scales:
+    USD: {min: 0, max: 1000}
+    CAD: {min: 0, max: 1500}
+    AUD: {min: 0, max: 1500}
+    SGD: {min: 0, max: 1500}
+    EUR: {min: 0, max: 1000}
+    GBP: {min: 0, max: 1000}
+    CNY: {min: 0, max: 7000}
+    HKD: {min: 0, max: 8000}
+    JPY: {min: 0, max: 150000}
+- key: submissions
+  label: Submissions
+  kind: number
+  unit: papers
+  description: Submission volume for the indicated year and scope. Lower counts are greener; higher counts are redder.
+  scale: {min: 0, max: 1000}
+- key: acceptance_rate
+  label: Acceptance Rate
+  kind: number
+  unit: '%'
+  description: Acceptance rate for the indicated year and scope. Lower rates are redder (more selective); higher rates are greener.
+  scale: {min: 0, max: 100, reverse: true}
+- key: tool_paper
+  label: Tool paper · Proceedings
+  kind: boolean
+  color: purple
+  requires_proceedings: true
+  description: Tool papers with archival proceedings. Demonstrations without an archival paper do not qualify.
+- key: short_paper
+  label: Short paper · Proceedings
+  kind: boolean
+  color: amber
+  requires_proceedings: true
+  description: Short papers with archival proceedings. Non-archival abstracts do not qualify.
+- key: core_ranking
+  label: CORE
+  kind: ranking
+  color: slate
+  options: ['A*', 'A', 'B', 'C', 'Unranked']
+  colors: {'A*': red, A: orange, B: amber, C: green, Unranked: slate}
+  description: CORE conference ranking, from A* (highest) through A, B and C. Higher ranks are redder; lower ranks are greener. Confirmed Unranked entries are gray.
+- key: ccf_ranking
+  label: CCF
+  kind: ranking
+  color: slate
+  options: ['A', 'B', 'C', 'Unranked']
+  colors: {A: red, B: amber, C: green, Unranked: slate}
+  description: CCF conference ranking, from A (highest) through B and C. Higher ranks are redder; lower ranks are greener. Confirmed Unranked entries are gray. Rankings apply to full/regular papers and do not automatically cover tool, short or demo papers.

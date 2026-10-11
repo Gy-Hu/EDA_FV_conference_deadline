@@ -12,3 +12,13 @@ github_repo: FV_conference_deadline
 #ga_id: UA-104921371-1
 
 markdown: kramdown
+
+# Private research notes must never be copied into the public site.
+exclude:
+  - _site
+  - .local-research
+  - scripts
+  - tests
+  - vendor
+  - Gemfile
+  - Gemfile.lock
