@@ -47,7 +47,7 @@ Descriptions of the fields:
 
 | Field name    | Description                                                 |
 |---------------|-------------------------------------------------------------|
-| `name`\*      | Short conference name, without year                         |
+| `name`\*      | Short conference name, including the cycle label when applicable, without year                         |
 | `year`\*      | Year the conference is happening                            |
 | `description` | Description, or long name                                   |
 | `link`\*      | URL to the conference home page                             |
@@ -62,8 +62,9 @@ Fields marked with asterisk (\*) are required.
 
 ### Deadline format
 
-The *deadline* field contains exactly one deadline. Use the abstract deadline when
-the conference has one; otherwise use its single paper submission deadline.
+Each conference or submission-cycle entry contains exactly one *deadline*. Use
+that cycle's abstract deadline when one exists; otherwise use its paper submission
+deadline.
 Always display this date as `Abstract deadline`, including when the underlying
 date is a paper submission, ARR submission, or mandatory paper registration
 deadline. Do not add per-conference display labels.
@@ -84,8 +85,19 @@ On the page, all deadlines are displayed in the viewer's local time.
 When the next edition has no published submission deadline, retain the previous
 edition's complete record (year, dates, location, URL, and deadline) instead of
 using `TBA` or projecting its deadline into the next year.
-For conferences with multiple submission cycles, use the next confirmed open
-cycle; if all cycles have closed, retain the latest cycle as a reference.
+For conferences with multiple main research-paper submission cycles, create a
+separate YAML entry for every officially dated cycle of the retained edition,
+including past cycles. Include the official cycle label in `name` (for example,
+`ASPLOS April`, `ASPLOS September`, `OOPSLA Round 1`, or `CHES Issue 2`). Keep the
+conference year, event dates, location, URL, and tags consistent across cycles;
+verify the deadline and time zone separately for each cycle. Each entry gets its
+own card and is sorted by its own deadline. Do not collapse cycles into the next
+open cycle or the last closed one.
+Only split independent opportunities for new submissions. Abstract/full-paper
+stages, extensions, rebuttals, revisions, and artifact evaluation are not separate
+submission cycles. For ARR-based conferences, retain the conference's specified
+latest eligible ARR submission deadline; generic earlier ARR cycles and later
+commitment rounds are not additional main-paper submission cycles.
 If the latest edition has no published submission date, retain the previous
 edition as a reference; do not invent a date or project last year's date forward.
 A published calendar date is sufficient to keep the current edition. Missing

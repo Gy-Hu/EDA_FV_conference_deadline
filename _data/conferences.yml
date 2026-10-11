@@ -346,7 +346,18 @@
   place: Hong Kong SAR, China
   tags: [FV]
 
-- name: SETTA
+- name: SETTA Round 1
+  year: 2026
+  date: "December 2 - 4"
+  description: Symposium on Dependable Software Engineering - Theories, Tools and
+    Applications
+  link: https://www.setta2026.sg/
+  # Source: https://www.setta2026.sg/home/call-for-papers
+  deadline: ["2026-05-24 23:59"]
+  place: Singapore
+  tags: [FV]
+
+- name: SETTA Round 2
   year: 2026
   date: "December 2 - 4"
   description: Symposium on Dependable Software Engineering - Theories, Tools and
@@ -448,7 +459,18 @@
   place: California, USA
   tags: [EDA]
 
-- name: ASPLOS
+- name: ASPLOS April
+  year: 2027
+  date: "April 11 - 15"
+  description: International Conference on Architectural Support for Programming Languages
+    and Operating Systems
+  link: https://www.asplos-conference.org/asplos2027/
+  # Source: https://www.asplos-conference.org/asplos2027/cfp/
+  deadline: ["2026-04-15 23:59"]
+  place: Heraklion, Crete, Greece
+  tags: [PL]
+
+- name: ASPLOS September
   year: 2027
   date: "April 11 - 15"
   description: International Conference on Architectural Support for Programming Languages
@@ -459,13 +481,23 @@
   place: Heraklion, Crete, Greece
   tags: [PL]
 
-- name: OOPSLA
+- name: OOPSLA Round 1
   year: 2027
   date: "October 10 - 15"
   description: The Object-Oriented Programming, Systems, Languages, and Applications
   link: https://conf.researchr.org/track/splash-2027/splashoopsla2027
   # Source: https://conf.researchr.org/track/splash-2027/splashoopsla2027
   deadline: ["2026-10-14 23:59"]
+  place: Prague, Czechia
+  tags: [PL]
+
+- name: OOPSLA Round 2
+  year: 2027
+  date: "October 10 - 15"
+  description: The Object-Oriented Programming, Systems, Languages, and Applications
+  link: https://conf.researchr.org/track/splash-2027/splashoopsla2027
+  # Source: https://conf.researchr.org/track/splash-2027/splashoopsla2027
+  deadline: ["2027-04-07 23:59"]
   place: Prague, Czechia
   tags: [PL]
 
@@ -592,7 +624,17 @@
   place: Catania, Sicily, Italy
   tags: [EDA]
 
-- name: Internetware
+- name: Internetware Cycle 1
+  year: 2026
+  date: "July 18 - 20"
+  description: Asia-Pacific Symposium on Internetware
+  link: https://conf.researchr.org/home/internetware-2026
+  # Source: https://conf.researchr.org/track/internetware-2026/internetware-2026-research-track
+  deadline: ["2026-03-28 23:59"]
+  place: Gold Coast, Australia
+  tags: [FV]
+
+- name: Internetware Cycle 2
   year: 2026
   date: "July 18 - 20"
   description: Asia-Pacific Symposium on Internetware
@@ -962,26 +1004,79 @@
   place: Liverpool, United Kingdom
   tags: [FV, SE]
 
-- name: CHES
+- name: CHES Issue 1
   year: 2027
   date: "September 6 - 9"
   description: Conference on Cryptographic Hardware and Embedded Systems
   link: https://ches.iacr.org/2027/
-  # Next submission cycle as of 2026-10-10; no separate abstract deadline.
+  # Source: https://ches.iacr.org/2027/
+  deadline: ["2026-07-15 23:59"]
+  timezone: Etc/GMT+12
+  place: Cancun, Mexico
+  tags: [EDA, FV]
+
+- name: CHES Issue 2
+  year: 2027
+  date: "September 6 - 9"
+  description: Conference on Cryptographic Hardware and Embedded Systems
+  link: https://ches.iacr.org/2027/
   # Source: https://ches.iacr.org/2027/
   deadline: ["2026-10-15 23:59"]
   timezone: Etc/GMT+12
   place: Cancun, Mexico
   tags: [EDA, FV]
 
-- name: CSF
+- name: CHES Issue 3
+  year: 2027
+  date: "September 6 - 9"
+  description: Conference on Cryptographic Hardware and Embedded Systems
+  link: https://ches.iacr.org/2027/
+  # Source: https://ches.iacr.org/2027/
+  deadline: ["2027-01-15 23:59"]
+  timezone: Etc/GMT+12
+  place: Cancun, Mexico
+  tags: [EDA, FV]
+
+- name: CHES Issue 4
+  year: 2027
+  date: "September 6 - 9"
+  description: Conference on Cryptographic Hardware and Embedded Systems
+  link: https://ches.iacr.org/2027/
+  # Source: https://ches.iacr.org/2027/
+  deadline: ["2027-04-15 23:59"]
+  timezone: Etc/GMT+12
+  place: Cancun, Mexico
+  tags: [EDA, FV]
+
+- name: CSF Summer
   year: 2027
   date: "September 13 - 17"
   description: IEEE Computer Security Foundations Symposium
   link: https://www.ieee-security.org/TC/CSF2027/
-  # Next submission cycle as of 2026-10-10; no separate abstract deadline.
+  # Source: https://www.ieee-security.org/TC/CSF2027/cfp.html
+  deadline: ["2026-08-03 23:59"]
+  timezone: Etc/GMT+12
+  place: Tokyo, Japan
+  tags: [FV]
+
+- name: CSF Fall
+  year: 2027
+  date: "September 13 - 17"
+  description: IEEE Computer Security Foundations Symposium
+  link: https://www.ieee-security.org/TC/CSF2027/
   # Source: https://www.ieee-security.org/TC/CSF2027/cfp.html
   deadline: ["2026-10-15 23:59"]
+  timezone: Etc/GMT+12
+  place: Tokyo, Japan
+  tags: [FV]
+
+- name: CSF Winter
+  year: 2027
+  date: "September 13 - 17"
+  description: IEEE Computer Security Foundations Symposium
+  link: https://www.ieee-security.org/TC/CSF2027/
+  # Source: https://www.ieee-security.org/TC/CSF2027/cfp.html
+  deadline: ["2027-01-28 23:59"]
   timezone: Etc/GMT+12
   place: Tokyo, Japan
   tags: [FV]
