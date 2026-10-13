@@ -341,28 +341,40 @@
       source: https://fmcad.org/FMCAD26/
 
 - name: NFM
-  year: 2026
-  date: "May 5 - 7"
+  year: 2027
+  date: "May 11 - 13"
   description: NASA Formal Methods Symposium
-  link: https://nfm2026.github.io/
-  # Source: https://nfm2026.github.io/
-  deadline: ["2026-01-24 23:59"]
-  place: University of Southern California, Los Angeles, California, USA
+  link: https://conf.researchr.org/home/nfm-2027
+  # Abstract deadline; full papers are due January 11, 2027, AoE.
+  # Source: https://conf.researchr.org/home/nfm-2027
+  deadline: ["2027-01-04 23:59"]
+  timezone: Etc/GMT+12
+  place: University of Houston Clear Lake, Houston, Texas, USA
   tags: [FV]
   labels:
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/home/nfm-2027
+      note: Short tool papers describe publicly available tools and have an eight-page
+        limit excluding references. Accepted papers appear in Springer LNCS.
+      proceedings: true
+      proceedings_scope: main
+      submission_type: tool_paper
+      category_name: Short Tool Papers
     short_paper:
       value: true
-      year: 2026
-      source: https://nfm2026.github.io/cfp/
-      note: The call explicitly accepts short papers, and the 2026 proceedings confirm
-        their inclusion.
+      year: 2027
+      source: https://conf.researchr.org/home/nfm-2027
+      note: Short submissions cover tools and case studies with publicly available
+        artifacts; the limit is eight pages excluding references, with LNCS publication.
       proceedings: true
       proceedings_scope: main
       direct_submission: true
     registration_fee:
       tone: green
-      year: 2026
-      source: https://nfm2026.github.io/registration/
+      year: 2027
+      source: https://conf.researchr.org/home/nfm-2027
     submissions:
       tone: green
       year: 2026
@@ -372,44 +384,19 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-28079-4
 
-- name: IJCAI-ECAI
-  year: 2026
-  date: "August 15 - 21"
-  description: International Joint Conference on Artificial Intelligence and European
-    Conference on Artificial Intelligence
-  link: https://2026.ijcai.org/
-  # Source: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
-  deadline: ["2026-01-12 23:59"]
-  place: Bremen, Germany
+- name: IJCAI
+  year: 2027
+  date: "August 7 - 13"
+  description: International Joint Conference on Artificial Intelligence
+  link: https://2027.ijcai.org/
+  # Abstract deadline; full papers are due January 11, 2027, AoE.
+  # The separate Hengqin satellite event is August 15 - 17, 2027.
+  # Source: https://2027.ijcai.org/
+  deadline: ["2027-01-04 23:59"]
+  timezone: Etc/GMT+12
+  place: Kyoto, Japan
   tags: [ML]
   labels:
-    tool_paper:
-      value: true
-      year: 2026
-      source: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-demos/
-      note: The Demonstrations Track has archival conference proceedings and requires
-        an on-site demonstration.
-      proceedings: true
-      proceedings_scope: main
-      submission_type: demo_paper
-      category_name: Demonstrations Track
-    short_paper:
-      value: true
-      year: 2026
-      source: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-demos/
-      note: Direct demonstration papers have three pages of main text plus references
-        and are published in the IJCAI-ECAI conference proceedings.
-      proceedings: true
-      proceedings_scope: main
-      direct_submission: true
-    no_in_person:
-      value: true
-      year: 2026
-      source: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-demos/
-      note: The demo CFP permits an exception to in-person presentation when exceptional
-        circumstances are notified and approved in advance. The registration page otherwise
-        states no virtual/hybrid option; approval is essential, not guaranteed online
-        participation.
     registration_fee:
       tone: red
       year: 2026
@@ -2806,14 +2793,16 @@
       source: https://www.linkedin.com/posts/arnaud-lallouet-59944011_home-activity-7371989611742674944-CkkW
 
 - name: CSCWD
-  year: 2026
-  date: "May 13 - 15"
-  description: IEEE International Conference on Computer Supported Cooperative Work
-    in Design
-  link: https://fyust.edu.cn/gjhyqk/cscwd2026/
-  # Source: https://fyust.edu.cn/gjhyqk/cscwd2026/
-  deadline: ["2025-11-30 23:59"]
-  place: Fuzhou, China
+  year: 2027
+  date: "May 26 - 28"
+  description: International Conference on Computer Supported Cooperative Work in Design
+  link: https://cscwd2027.dailyeliteevents.com.au/
+  # Paper deadline; no separate abstract deadline is listed.
+  # The official site specifies no cutoff time or timezone; use the repository's AoE default.
+  # Source: https://cscwd2027.dailyeliteevents.com.au/
+  deadline: ["2026-10-31 23:59"]
+  timezone: Etc/GMT+12
+  place: Brisbane, Australia (Hybrid)
   tags: [ML]
   labels:
     core_ranking:
@@ -2828,6 +2817,12 @@
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=66
       note: Official CCF seventh-edition directory. The ranking applies to full/regular
         papers and does not automatically cover tool, short or demo papers.
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://cscwd2027.dailyeliteevents.com.au/
+      note: The conference explicitly offers onsite and online participation in hybrid
+        mode; an author of each accepted paper must attend and present.
     registration_fee:
       tone: red
       year: 2026
