@@ -965,22 +965,53 @@
       year: 2026
       source: https://link.springer.com/book/10.1007/978-3-032-35298-9
 
-- name: BlockSys
-  year: 2026
-  date: "July 29 - 31"
+- name: BlockSys Round 1
+  year: 2027
+  date: "April 9 - 11"
   description: International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems
-  link: https://blocksys.info/2026/
-  # Source: https://blocksys.info/2026/call-for-papers/
-  deadline: ["2026-04-20 23:59"]
-  place: Chengdu, China
+  link: https://blocksys.info/2027/
+  # Round 1 paper deadline; no separate abstract deadline.
+  # The official CFP gives dates only; use the repository default of 23:59 AoE.
+  # Source: https://blocksys.info/2027/call-for-papers/
+  deadline: ["2026-11-30 23:59"]
+  timezone: Etc/GMT+12
+  place: Foshan, China
   tags: [FV, ML]
   labels:
     ccf_ranking:
       value: C
       year: 2026
       source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=23
-      note: Official CCF seventh-edition directory. The ranking applies to full/regular
-        papers and does not automatically cover tool, short or demo papers.
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular papers and does
+        not automatically cover tool, short or demo papers.
+    submissions:
+      tone: lime
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-3477-7
+    acceptance_rate:
+      tone: heat-11
+      year: 2025
+      source: https://link.springer.com/book/10.1007/978-981-95-3477-7
+
+- name: BlockSys Round 2
+  year: 2027
+  date: "April 9 - 11"
+  description: International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems
+  link: https://blocksys.info/2027/
+  # Round 2 paper deadline; no separate abstract deadline.
+  # The official CFP gives dates only; use the repository default of 23:59 AoE.
+  # Source: https://blocksys.info/2027/call-for-papers/
+  deadline: ["2027-01-31 23:59"]
+  timezone: Etc/GMT+12
+  place: Foshan, China
+  tags: [FV, ML]
+  labels:
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=23
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular papers and does
+        not automatically cover tool, short or demo papers.
     submissions:
       tone: lime
       year: 2025
@@ -3831,3 +3862,288 @@
       tone: orange
       year: 2026
       source: https://2026-isola.isola-conference.org/registration/
+
+- name: ICPC
+  year: 2027
+  date: "April 25 - 26"
+  description: IEEE/ACM International Conference on Program Comprehension
+  link: https://conf.researchr.org/home/icpc-2027
+  # Research Track abstract deadline; full paper deadline is November 5, 2026 (AoE).
+  # Source: https://conf.researchr.org/track/icpc-2027/icpc-2027-research-track
+  deadline: ["2026-10-29 23:59"]
+  timezone: Etc/GMT+12
+  place: Dublin, Ireland
+  tags: [SE, PL, ML]
+  labels:
+    core_ranking:
+      value: A
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ICPC&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: IEEE International Conference on Program Comprehension
+        (previously IWPC, changed in 2006)'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=28
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular papers and does
+        not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/track/icpc-2027/icpc-2027-tool-demonstration
+      note: The Tool Demonstration Track publishes archival papers in the conference proceedings. Tool papers
+        are due November 19, 2026 (AoE).
+      proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Tool Demonstration (4 content pages plus 1 reference page)
+    short_paper:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/track/icpc-2027/icpc-2027-early-research-achievements--era-
+      note: ERA accepts direct submissions of four content pages plus one reference page, published in the
+        conference electronic proceedings. Optional abstracts are due November 19 and papers November 26,
+        2026 (AoE).
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+      short_basis: compact_format
+      page_layout: two_column
+      content_page_limit: 4
+    no_in_person:
+      value: true
+      year: 2027
+      source: https://conf.researchr.org/track/icpc-2027/icpc-2027-research-track
+      note: Research Track presentations are normally in person, with an exception when travel is impossible
+        due to health, visa or other stated travel limitations. Registration remains required; authors must
+        arrange the exception with the organizers.
+    submissions:
+      tone: green
+      year: 2025
+      source: https://icpc2025-technical.hotcrp.com/
+    acceptance_rate:
+      tone: heat-12
+      year: 2025
+      source: https://icpc2025-technical.hotcrp.com/
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://conf.researchr.org/attending/icse-2026/registration
+
+- name: REFSQ
+  year: 2027
+  date: "April 12 - 15"
+  description: 'International Working Conference on Requirements Engineering: Foundation for Software Quality'
+  link: https://2027.refsq.org/
+  # Research abstract deadline; full paper deadline is November 12, 2026 (AoE).
+  # Source: https://2027.refsq.org/track/refsq-2027-research-papers
+  deadline: ["2026-11-05 23:59"]
+  timezone: Etc/GMT+12
+  place: Basel, Switzerland
+  tags: [SE]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=REFSQ&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Workshop on Requirements Engineering: Foundation
+        for Software Quality'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=31
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular papers and does
+        not automatically cover tool, short or demo papers.
+    short_paper:
+      value: true
+      year: 2027
+      source: https://2027.refsq.org/track/refsq-2027-research-papers
+      note: Vision papers and Research previews are direct eight-page LNCS submissions including references,
+        published in the main conference proceedings.
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+      short_basis: compact_format
+      page_layout: one_column
+      content_page_limit: 8
+    submissions:
+      tone: green
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-21423-2
+    acceptance_rate:
+      tone: heat-13
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-21423-2
+    registration_fee:
+      tone: slate
+      year: 2026
+      source: https://2026.refsq.org/attending/Registration
+
+- name: DASFAA
+  year: 2027
+  date: "May 27 - 30"
+  description: International Conference on Database Systems for Advanced Applications
+  link: https://dasfaa2027.github.io/
+  # Research and Industry paper deadline; no separate abstract deadline is listed (AoE).
+  # Source: https://dasfaa2027.github.io/CallforResearchTrack/list.htm
+  deadline: ["2026-11-25 23:59"]
+  timezone: Etc/GMT+12
+  place: Shenyang, China
+  tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=DASFAA&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: International Conference on Database Systems for Advanced
+        Applications'
+    ccf_ranking:
+      value: B
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=36
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular papers and does
+        not automatically cover tool, short or demo papers.
+    tool_paper:
+      value: true
+      year: 2027
+      source: https://dasfaa2027.github.io/CallforDemos/list.htm
+      note: Demo papers are an explicit submission category included in the conference proceedings. Demo
+        submissions are due December 10, 2026 (AoE).
+      proceedings: true
+      proceedings_scope: main
+      submission_type: demo_paper
+      category_name: Demonstration Track (4 LNCS pages including references)
+    short_paper:
+      value: true
+      year: 2027
+      source: https://dasfaa2027.github.io/CallforDemos/list.htm
+      note: Direct four-page LNCS demo submissions, including references, are published in the conference
+        proceedings. Demo submissions are due December 10, 2026 (AoE).
+      proceedings: true
+      proceedings_scope: main
+      direct_submission: true
+      short_basis: compact_format
+      page_layout: one_column
+      content_page_limit: 4
+    submissions:
+      tone: red
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-981-92-0363-5
+    acceptance_rate:
+      tone: heat-15
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-981-92-0363-5
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://dasfaa2026.github.io/participate/registration.html
+
+- name: PAKDD
+  year: 2027
+  date: "June 29 - July 2"
+  description: Pacific-Asia Conference on Knowledge Discovery and Data Mining
+  link: https://www.pakdd2027.org/
+  # Paper deadline shared by the four main tracks; no separate abstract deadline is listed (AoE).
+  # Source: https://www.pakdd2027.org/pages/dates
+  deadline: ["2026-11-20 23:59"]
+  timezone: Etc/GMT+12
+  place: Wellington, New Zealand
+  tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=PAKDD&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Pacific-Asia Conference on Knowledge Discovery and Data
+        Mining'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=37
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular papers and does
+        not automatically cover tool, short or demo papers.
+    submissions:
+      tone: orange
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-981-92-1300-9
+    acceptance_rate:
+      tone: heat-15
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-981-92-1300-9
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://pakdd2026.scimeeting.cn/en/web/index/34322_3060632
+
+- name: ESWC
+  year: 2027
+  date: "May 23 - 27"
+  description: European Semantic Web Conference
+  link: https://2027.eswc-conferences.org/
+  # Research Track abstract deadline; full paper deadline is December 17, 2026 (AoE).
+  # Source: https://2027.eswc-conferences.org/calls/papers-research-track/
+  deadline: ["2026-12-10 23:59"]
+  timezone: Etc/GMT+12
+  place: Limassol, Cyprus
+  tags: [ML]
+  labels:
+    core_ranking:
+      value: B
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=ESWC&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Extended Semantic Web Conference (was European Semantic
+        Web Conference)'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=37
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular papers and does
+        not automatically cover tool, short or demo papers.
+    submissions:
+      tone: lime
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-25159-6
+    acceptance_rate:
+      tone: heat-15
+      year: 2026
+      source: https://link.springer.com/book/10.1007/978-3-032-25159-6
+    registration_fee:
+      tone: red
+      year: 2026
+      source: https://2026.eswc-conferences.org/attending/registration/
+
+- name: GMP
+  year: 2027
+  date: "June 21 - 25"
+  description: International Conference on Geometric Modeling and Processing
+  link: https://gmp-conference-2027.github.io/gmp2027/
+  # Abstract deadline is 23:59:59 UTC; full papers are due December 21, 2026 (UTC).
+  # Source: https://gmp-conference-2027.github.io/gmp2027/
+  deadline: ["2026-12-14 23:59"]
+  timezone: Etc/UTC
+  place: Suntec City, Singapore
+  tags: [SP, ML]
+  labels:
+    core_ranking:
+      value: C
+      year: 2026
+      source: https://portal.core.edu.au/conf-ranks/?search=GMP&by=all&source=ICORE2026&sort=atitle&page=1
+      note: 'ICORE 2026. Official directory name: Geometry Modeling and Processing'
+    ccf_ranking:
+      value: C
+      year: 2026
+      source: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F#page=49
+      note: Official CCF seventh-edition directory. The ranking applies to full/regular papers and does
+        not automatically cover tool, short or demo papers.
+    submissions:
+      tone: green
+      year: 2026
+      source: https://asiagraphics.org/GMPConferences
+    acceptance_rate:
+      tone: heat-13
+      year: 2026
+      source: https://asiagraphics.org/GMPConferences
+    registration_fee:
+      tone: amber
+      year: 2026
+      source: https://gmp2026.kma.zcu.cz/index.php?clanek=registration
